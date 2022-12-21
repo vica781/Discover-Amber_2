@@ -72,10 +72,28 @@ a:hover {
 
 /* Media queries */
 
-/* For smaller screen sizes 800px and down */
-@media (max-width: 800px) {
+/* For small screen sizes from 480px wide and down*/
+
+@media (max-width: 480px) {
+    label.logo {
+        font-size: 10px;
+        line-height: 65px;
+		padding: 0;
+		margin-left: -2rem;
+    }
+
+    .checkbtn {
+        font-size: 15px;
+		margin-top: -.3rem;
+		  
+    }
+}
+    
+/* For medium screen sizes 768px and down */
+@media (max-width: 768px) {
     .checkbtn {
         display: block;
+        font-size: 25px;
     }
 
     ul {
@@ -106,6 +124,11 @@ a:hover {
     #check:checked ~ ul {
         left: 0;
     }
+
+    label.logo {
+        font-size: 30px;
+        line-height: 75px;
+    }
 }
 
 /* For medium screen sizes from 950px wide and down */
@@ -118,9 +141,14 @@ a:hover {
     nav ul li a {
         font-size: 20px;
     }
+
+    .checkbtn {
+        font-size: 30px;
+    }
 }
 
-/*About_Page*/
+
+/* Home page _ responsivness code using flex */
 
 .container {
     display: flex;
@@ -172,20 +200,20 @@ a:hover {
 
   /*Gallery*/
 
-  /* html,
+/* html,
 body {
 	background: linear-gradient(45deg, #190f2c, #200b30);
 	padding: 15px;
-} */
+}
 img {
 	max-width: 100%;
 	height: auto;
 	vertical-align: middle;
 	display: inline-block;
-}
+} */
 
 /* Main CSS */
-.grid-wrapper > div {
+/* .grid-wrapper > div {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -213,4 +241,4 @@ img {
 .grid-wrapper .big {
 	grid-column: span 2;
 	grid-row: span 2;
-}
+}  */
