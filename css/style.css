@@ -275,52 +275,51 @@ body {
 }
 
 body {
-    background-color: aqua;
+    background-color: #fff;
 }
 
-#icons {
-    list-style: none;
+.mediaicons {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.icons {
+    list-style-type: none;
+    display: flex;
     justify-content: center;
     flex-wrap: wrap;
     padding-left: 0;
     margin: 0;
 }
 
-.mediaicons {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    height: 100%;
+.icons>li {
+    margin: 0 15px;
 }
 
-#icons>li {
-    margin: 0 20px;
-}
-
-#icons>li>a {
-    width: 80px;
-    height: 80px;
+.icons>li>a {
+    width: 60px;
+    height: 60px;
     display: block;
-    background: linear-gradient(45deg, #FFE117, #222E5C, #336301);
-    background-size: 250% 250%;
+    background: linear-gradient(45deg, #F7FA04, #ee9454, #633f1e);
+    background-size: 200% 200%;
     text-align: center;
     font-size: 30px;
-    line-height: 3px;
-    color: rgb(181, 49, 207);
+    line-height: 2.4px;
+    color: #fff;
     border-radius: 100%;
-    transition: all .5s ease;
+    transition: all .3s ease;
 }
 
-#icons>li>a:hover {
-    transform: scale(1.2);
+.icons>li>a:hover {
+    transform: scale(1.15);
     animation: gradient 5s ease infinite;
 }
 
 @keyframes gradient {
-    50% {
+    70% {
         background-position: 100% 0;
     }
 }
