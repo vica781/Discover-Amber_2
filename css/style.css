@@ -78,17 +78,26 @@ a:hover {
     label.logo {
         font-size: 10px;
         line-height: 65px;
-		padding: 0;
-		margin-left: -2rem;
+        padding: 0;
+        margin-left: -2rem;
     }
 
     .checkbtn {
         font-size: 15px;
-		margin-top: -.3rem;
-		  
+        margin-top: -.3rem;
+    }
+
+    #icons>li {
+        flex: 0 0 30%;
+        max-width: 30%;
+        margin: 0 0 10px 0;
+    }
+
+    list>li>a {
+        margin: 0 auto;
     }
 }
-    
+
 /* For medium screen sizes 768px and down */
 @media (max-width: 768px) {
     .checkbtn {
@@ -112,22 +121,35 @@ a:hover {
         margin: 45px 0;
         line-height: 30px;
     }
+
     nav ul li a {
         font-size: 20px;
     }
 
-    a.active,a:hover {
+    a.active,
+    a:hover {
         background: none;
         background: #ee9454;
     }
 
-    #check:checked ~ ul {
+    #check:checked~ul {
         left: 0;
     }
 
     label.logo {
         font-size: 30px;
         line-height: 75px;
+    }
+
+    #icons.li {
+        margin: 0 10px;
+    }
+
+    #icons>li>a {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        line-height: 2px;
     }
 }
 
@@ -156,49 +178,52 @@ a:hover {
     padding: 1% 2%;
     box-sizing: border-box;
     height: 75vh;
-  }
-  
-  .box {
+}
+
+.box {
     flex: 1;
     overflow: hidden;
     transition: .5s;
     margin: 0 2%;
-    box-shadow: 0 20px 30px rgba(0,0,0,.1);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, .1);
     line-height: 0;
-  }
-  
-  .box > img {
+}
+
+.box>img {
     width: 200%;
     height: calc(100% - 10vh);
-    object-fit: cover; 
+    object-fit: cover;
     transition: .5s;
-  }
-  
-  .box > span {
+}
+
+.box>span {
     font-size: 3.8vh;
     display: block;
     text-align: center;
     height: 10vh;
     line-height: 2.6;
-  }
-  
-  .box:hover { flex: 2 2 50%; }
-  .box:hover > img {
+}
+
+.box:hover {
+    flex: 2 2 50%;
+}
+
+.box:hover>img {
     width: 100%;
     height: 100%;
-  }
-  
-  @media only screen and (max-width: 600px) {
-    .container {
-      flex-wrap: wrap;
-    }
-  
-    .box {
-      flex: 1 1 50%;
-    }
-  }
+}
 
-  /*Gallery*/
+@media only screen and (max-width: 600px) {
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .box {
+        flex: 1 1 50%;
+    }
+}
+
+/*Gallery*/
 
 /* html,
 body {
@@ -242,3 +267,60 @@ img {
 	grid-column: span 2;
 	grid-row: span 2;
 }  */
+
+/* Footer */
+html,
+body {
+    height: 100vh;
+}
+
+body {
+    background-color: aqua;
+}
+
+#icons {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin: 0;
+}
+
+.mediaicons {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+}
+
+#icons>li {
+    margin: 0 20px;
+}
+
+#icons>li>a {
+    width: 80px;
+    height: 80px;
+    display: block;
+    background: linear-gradient(45deg, #FFE117, #222E5C, #336301);
+    background-size: 250% 250%;
+    text-align: center;
+    font-size: 30px;
+    line-height: 3px;
+    color: rgb(181, 49, 207);
+    border-radius: 100%;
+    transition: all .5s ease;
+}
+
+#icons>li>a:hover {
+    transform: scale(1.2);
+    animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+    50% {
+        background-position: 100% 0;
+    }
+}
