@@ -229,7 +229,7 @@ a.active {
     }
 
     .box {
-        flex: 1 1 50%;
+        flex: 1 1 30%;
     }
 }
 
@@ -263,6 +263,7 @@ footer {
     flex-direction: column;
     align-items: center;
     height: 100%;
+    flex-wrap: wrap;
 }
 
 .icons {
@@ -282,11 +283,12 @@ footer {
     width: 55px;
     height: 55px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     margin-top: 3px;
-    margin: auto;
-    padding-left: .10em;
+    /* margin: auto; */
+    padding-left: .15px;
     background: linear-gradient(45deg, #FFF600, #ee9454, #50341a);
     background-size: 200% 200%;
     text-align: center;
