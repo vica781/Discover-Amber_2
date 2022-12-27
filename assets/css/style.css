@@ -191,17 +191,18 @@ a.active {
 .box {
     flex: 1;
     overflow: hidden;
-    transition: 5s;
+    transition: 2.5s;
     margin: 0 2%;
     box-shadow: 0 20px 30px rgba(0, 0, 0, .1);
     line-height: 0;
 }
 
 .box>img {
-    width: 200%;
+    /* width: 50%; */
     height: calc(100% - 10vh);
-    object-fit: cover;
-    transition: 5s;
+    /* object-fit: cover; */
+    /* flex-wrap: wrap; */
+    transition: 2.5s;
 }
 
 .box>span {
