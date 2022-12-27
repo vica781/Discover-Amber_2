@@ -24,7 +24,7 @@ label.logo {
     color: #252525;
     font-size: 40px;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     line-height: 85px;
     padding: 0 100px;
     font-weight: bolder;
@@ -50,9 +50,13 @@ nav ul li a {
     text-transform: uppercase;
 }
 
-a.active,
-a:hover {
-    background: #f19946;
+nav a:hover {
+    background: #80a33ff5;
+    transition: .5s;
+}
+
+a.active {
+    background: #e77e1b;
     transition: .5s;
 }
 
@@ -179,10 +183,15 @@ a:hover {
     height: 75vh;
 }
 
+.container img {
+    height: 600px;
+    width: 61vw;
+}
+
 .box {
     flex: 1;
     overflow: hidden;
-    transition: .5s;
+    transition: 5s;
     margin: 0 2%;
     box-shadow: 0 20px 30px rgba(0, 0, 0, .1);
     line-height: 0;
@@ -192,7 +201,7 @@ a:hover {
     width: 200%;
     height: calc(100% - 10vh);
     object-fit: cover;
-    transition: .5s;
+    transition: 5s;
 }
 
 .box>span {
