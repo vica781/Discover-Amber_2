@@ -356,3 +356,16 @@ img {
     left: 0;
     z-index: -1;
 }
+
+/* Contact Me page */
+
+form {
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+    grid-template-rows: repeat(2, 3fr);
+    /* grid-gap: 20px; */
+}
+
+/* keep_in_touch {
+    width: 600px;
+} */
