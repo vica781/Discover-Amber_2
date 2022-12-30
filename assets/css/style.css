@@ -362,6 +362,7 @@ img {
 form {
     overflow: hidden;
 }
+
 /* label {
     float: left;
     width: 200px;
@@ -371,17 +372,11 @@ input {
     float: left;
     width: calc(100% - 200px);
 }
+
 button {
     float: right;
     width: calc(100% - 200px);
 }
-
-/* form {
-    display: grid;
-    grid-template-columns: repeat(4, 4fr);
-    grid-template-rows: repeat(2, 3fr);
-    grid-gap: 20px;
-} */
 
 .form_wrapper {
     display: grid;
@@ -392,4 +387,40 @@ form {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
+}
+
+/* #firstname,
+#lastname,
+#email,
+#whatsapp {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+} */
+
+#message {
+    height: 8rem;
+    margin-bottom: 20px;
+}
+
+#send {
+    height: 2rem;
+    background-color: #ee9454;
+
+}
+#pen {
+    display: flex;
+    height: 300px;
+    width: 300px;
+}
+
+#retro_phone {
+    display: flex;
+    height: 350px;
+    width: 350px;
+    grid: 1;
+}
+
+form input {
+    border-radius: 5px;
 }
