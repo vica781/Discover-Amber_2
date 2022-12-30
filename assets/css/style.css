@@ -360,12 +360,36 @@ img {
 /* Contact Me page */
 
 form {
+    overflow: hidden;
+}
+/* label {
+    float: left;
+    width: 200px;
+    padding-right: 24px;
+} */
+input {
+    float: left;
+    width: calc(100% - 200px);
+}
+button {
+    float: right;
+    width: calc(100% - 200px);
+}
+
+/* form {
     display: grid;
     grid-template-columns: repeat(4, 4fr);
     grid-template-rows: repeat(2, 3fr);
-    /* grid-gap: 20px; */
+    grid-gap: 20px;
+} */
+
+.form_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
 
-/* keep_in_touch {
-    width: 600px;
-} */
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
