@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Oswald', sans-serif;
 }
 
@@ -250,20 +250,21 @@ body {
 }
 
 footer {
-
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 2rem;
     margin-bottom: 1rem;
-
 }
 
 .footer {
     position: absolute;
-    flex: 0 0 auto;
+    /* flex: 0 0 auto; */
     bottom: 0;
     left: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .mediaicons {
@@ -379,7 +380,7 @@ form {
 } */
 input {
     float: left;
-    width: calc(100% - 200px);
+    width: calc(100% - 100px);
 }
 
 button {
@@ -396,7 +397,14 @@ form {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
+}
 
+#keep_in_touch {
+    margin: 4rem 0 0 4rem;
+}
+
+#send_message {
+    margin: 4rem 0 0 4rem;
 }
 
 /* #firstname,
@@ -415,24 +423,27 @@ form {
 }
 
 #send {
-    height: 2rem;
+    height: 3rem;
     background-color: #ee9454;
+    font-weight: bold;
 
 }
 
 #pen {
     display: flex;
-    height: 300px;
-    width: 300px;
+    height: 7rem;
+    width: 7rem;
     align-items: end;
-    margin-left: 16.5rem;
+    margin-left: 18rem;
+    margin-top: 20rem;
 
 }
 
 #retro_phone {
     display: flex;
-    height: 350px;
-    width: 350px;
+    height: 35rem;
+    width: 35rem;
+    margin-top: 3rem;
     grid: 1;
 }
 
