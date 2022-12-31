@@ -444,25 +444,22 @@ img {
 
 } */
 
-#retro_phone {
+/* #retro_phone {
     display: flex;
     height: 40rem;
-    /* width: 35rem; */
-    /* margin-top: 3rem; */
-    /* grid: 1; */
-}
+} */
 
-form input {
+/* form input {
     border-radius: 5px;
-}
+} */
 
-form {
+/* form {
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
     grid-template-rows: repeat(3 1fr);
     margin-left: 6rem;
     margin-top: 3rem;
-}
+} */
 
 /* 
 #retro-phone {
@@ -479,7 +476,6 @@ h3 {
     font-size: .9rem;
     font-weight: bolder;
     line-height: 1rem;
-    /* letter-spacing: .1rem; */
 }
 
 h3~p {
@@ -489,15 +485,29 @@ h3~p {
     line-height: 1rem;
 }
 
-#pen {
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-}
-
-#send_message {
+/* #send_message {
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-items: flex-start;
+} */
+
+.contact-box {
+    display: flex;
+}
+
+#retro-phone {
+    flex-basis: 70%;
+}
+
+#send_message {
+    flex-basis: 30%;
+    margin-top: 8rem;
+    margin-left: 3rem;
+    width: 30rem;
+}
+
+#form_right_side {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
 }
