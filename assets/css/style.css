@@ -404,10 +404,10 @@ img {
     width: calc(100% - 200px);
 } */
 
-.form_wrapper {
+/* .form_wrapper {
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
-}
+} */
 
 /* form {
     display: grid;
@@ -494,20 +494,28 @@ h3~p {
 
 .contact-box {
     display: flex;
+    width: 80%;
+    height: 48rem;
+    background-color: #e77e1b;
+    align-content: center;
 }
 
 #retro-phone {
-    flex-basis: 70%;
+    flex-basis: 40%;
+    background-color: #fff;
+    margin-left: 9rem;
+    margin-top: 3rem;
 }
 
 #send_message {
-    flex-basis: 30%;
+    /* flex-basis: 60%; */
     margin-top: 8rem;
     margin-left: 3rem;
     width: 30rem;
 }
 
 #form_right_side {
+    flex-basis: 70%;
     margin-bottom: 2rem;
     font-size: 1.2rem;
 }
