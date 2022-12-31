@@ -468,7 +468,9 @@ form {
 }
 
 #keep-in-touch {
-    display: flex;
+    /* display: flex; */
+    display: grid;
+    
     justify-content: center;
     line-height: 2rem;
     background-color: #ee9454;
