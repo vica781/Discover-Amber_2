@@ -369,16 +369,16 @@ img {
 
 /* Contact Me page */
 
-form {
+/* form {
     overflow: hidden;
-}
+} */
 
 /* label {
     float: left;
     width: 200px;
     padding-right: 24px;
 } */
-input {
+/* input {
     float: left;
     width: calc(100% - 100px);
 }
@@ -405,7 +405,7 @@ form {
 
 #send_message {
     margin: 4rem 0 0 4rem;
-}
+} */
 
 /* #firstname,
 #lastname,
@@ -415,7 +415,7 @@ form {
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
 } */
-
+/* 
 #message {
     height: 8rem;
     margin-bottom: 20px;
@@ -449,4 +449,14 @@ form {
 
 form input {
     border-radius: 5px;
+} */
+
+body form {
+    display: flex;
+    margin-left: 10rem;
+    margin-bottom: 5rem;
+    align-items: flex-end;
+    justify-items: center;
+    height: 45rem;
 }
+
