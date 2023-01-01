@@ -496,8 +496,9 @@ h3~p {
     display: flex;
     width: 80%;
     height: 48rem;
-    background-color: #e77e1b;
+    /* background-color: #e77e1b; */
     align-content: center;
+    margin-left: 5rem;
 }
 
 #retro-phone {
@@ -518,4 +519,21 @@ h3~p {
     flex-basis: 70%;
     margin-bottom: 2rem;
     font-size: 1.2rem;
+}
+
+.input-row {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+
+input {
+    height: 2rem;
+    width: 13rem;
+    border-radius: 5px;
+}
+
+#name,
+#telephone {
+    margin-right: 3rem;
 }
