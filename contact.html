@@ -72,11 +72,11 @@
                         <label for="topic" class="topic" name="topic">Topic</label><br />
                         <input id="topic" type="text"><br />
                     </div>
-                    <div>
-                        <label for="message" class="message" name="message">Write your Message</label><br />
-                        <textarea name="message" id="message" cols="61" rows="10"></textarea><br />
+                    <div class="message">
+                        <label for="message" name="message">Write your Message</label><br />
+                        <textarea name="message" id="message" cols="61" rows="10" style="resize: none;"></textarea><br />
                     </div>
-                    <div>
+                    <div class="btn">
                         <button id="send" type="submit" value="submit">Send</button>
                     </div>
                 </div>
@@ -84,7 +84,7 @@
         </div>
     </form>
 
-    <footer class="bottom">
+    <footer>
         <div class="footer-grid">
             <div class="mediaicons">
                 <ul class="icons">
@@ -98,13 +98,18 @@
                                 class="fab fa-odnoklassniki"></i></a></li>
                 </ul>
             </div>
-            <div id="keep_in_touch">
+            <div id="keep_in_touch" class="center">
                 <h3>If you would like to contact me:</h3>
                 <p>Sea Way</p>
                 <p>+44-781781-781</p>
                 <p>mail@mail.co.uk</p>
+                
+                <div id="disclaimer">
+                    <p>All materials used for an educational purpose only.</p>
+                </div>
             </div>
         </div>
+
     </footer>
 </body>
 
