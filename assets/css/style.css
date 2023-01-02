@@ -189,11 +189,11 @@ a.active {
     width: 100%;
     padding: 1% 2%;
     box-sizing: border-box;
-    height: 75vh;
+    /* height: 75vh; */
 }
 
 .container img {
-    height: 600px;
+    height: 45rem;
     width: 61vw;
 }
 
@@ -398,7 +398,7 @@ img {
 .contact-box {
     display: flex;
     width: 80%;
-    height: 52rem;
+    height: 55rem;
     align-content: center;
     margin-left: 5rem;
 }
