@@ -495,7 +495,7 @@ h3~p {
 .contact-box {
     display: flex;
     width: 80%;
-    height: 48rem;
+    height: 52rem;
     /* background-color: #e77e1b; */
     align-content: center;
     margin-left: 5rem;
@@ -504,14 +504,14 @@ h3~p {
 #retro-phone {
     flex-basis: 40%;
     background-color: #fff;
-    margin-left: 9rem;
+    margin-left: 3rem;
     margin-top: 3rem;
 }
 
 #send_message {
     /* flex-basis: 60%; */
     margin-top: 8rem;
-    margin-left: 3rem;
+    margin-left: 18rem;
     width: 30rem;
 }
 
@@ -548,6 +548,8 @@ input {
 #send {
     width: 29.25rem;
     height: 2.5rem;
+    font-size: 1.2rem;
+    /* font-weight: bold; */
 }
 
 button {
