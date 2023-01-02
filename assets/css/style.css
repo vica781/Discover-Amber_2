@@ -473,12 +473,12 @@ img {
 h3 {
     /* font-family: 'Oswald', sans-serif; */
     font-family: 'Montserrat', sans-serif;
-    font-size: .9rem;
+    font-size: .8rem;
     font-weight: bolder;
     line-height: 1rem;
 }
 
-h3~p {
+h3 ~ p {
     /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Oswald', sans-serif;
     font-size: .8rem;
@@ -536,4 +536,12 @@ input {
 #name,
 #telephone {
     margin-right: 3rem;
+}
+
+#message {
+    border-radius: .3rem .3rem 0 .3rem;
+}
+
+#send {
+    width: 29.25rem;
 }
