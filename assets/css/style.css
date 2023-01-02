@@ -58,11 +58,13 @@ nav ul li a {
 nav a:hover {
     background: #80a33ff5;
     transition: .5s;
+    box-shadow: 0 3px 9px;
 }
 
 a.active {
     background: #e77e1b;
     transition: .5s;
+    box-shadow: 0 3px 9px;
 }
 
 .checkbtn {
@@ -460,9 +462,10 @@ input {
 
 button {
     border-radius: 5px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    border: none;
     background: #ee9454;
-    box-shadow: 0px 3px 10px;
+    box-shadow: 0px 3px 9px;
 }
 
 .btn {
