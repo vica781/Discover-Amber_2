@@ -384,92 +384,6 @@ img {
 }
 
 /* Contact Me page */
-
-/* form {
-    overflow: hidden;
-} */
-
-/* label {
-    float: left;
-    width: 200px;
-    padding-right: 24px;
-} */
-/* input {
-    float: left;
-    width: calc(100% - 100px);
-} */
-
-/* button {
-    float: right;
-    width: calc(100% - 200px);
-} */
-
-/* .form_wrapper {
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-} */
-
-/* form {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    grid-gap: 20px;
-} */
-
-/* #keep_in_touch {
-    margin: 4rem 0 0 4rem;
-} */
-
-/* #send_message {
-    margin: 4rem 0 0 4rem;
-} */
-
-/* #message {
-    height: 8rem;
-    margin-bottom: 20px;
-} */
-
-/* #send {
-    height: 3rem;
-    background-color: #ee9454;
-    font-weight: bold;
-} */
-
-/* #pen {
-    display: flex;
-    height: 7rem;
-    width: 7rem;
-    align-items: end;
-    margin-left: 18rem;
-    margin-top: 20rem;
-
-} */
-
-/* #retro_phone {
-    display: flex;
-    height: 40rem;
-} */
-
-/* form input {
-    border-radius: 5px;
-} */
-
-/* form {
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-    grid-template-rows: repeat(3 1fr);
-    margin-left: 6rem;
-    margin-top: 3rem;
-} */
-
-/* 
-#retro-phone {
-    display: grid;
-    grid-row: 2 / span 3;
-    margin-left: 10rem;
-    margin-bottom: 8rem;
-    height: 65rem;
-} */
-
 h3 {
     /* font-family: 'Oswald', sans-serif; */
     font-family: 'Montserrat', sans-serif;
@@ -485,13 +399,6 @@ h3~p {
     line-height: 1rem;
 }
 
-/* #send_message {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-items: flex-start;
-} */
-
 .contact-box {
     display: flex;
     width: 80%;
@@ -503,7 +410,7 @@ h3~p {
 
 #retro-phone {
     flex-basis: 40%;
-    background-color: #fff;
+    /* background-color: #fff; */
     margin-left: 3rem;
     margin-top: 3rem;
 }
@@ -556,6 +463,7 @@ button {
     border-radius: 5px;
     border: 1px solid black;
     background-color: #ee9454;
+    box-shadow: 0px 3px 10px;
 }
 
 button:hover {
