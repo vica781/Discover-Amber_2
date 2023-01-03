@@ -22,7 +22,6 @@ nav {
     background: white;
     height: 100px;
     width: 100%;
-
 }
 
 label.logo {
@@ -206,6 +205,8 @@ a.active {
     margin: 0 2%;
     box-shadow: 0 20px 30px rgba(0, 0, 0, .1);
     line-height: 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgb(59, 59, 59);
 }
 
 .box>img {
@@ -213,12 +214,20 @@ a.active {
     transition: 2.5s;
 }
 
+
 .box>span {
     font-size: 3.8vh;
     display: block;
     text-align: center;
     height: 10vh;
     line-height: 2.6;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Oswald', sans-serif;
+}
+
+span {
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Oswald', sans-serif;
 }
 
 .box:hover {
