@@ -266,7 +266,7 @@ footer {
     justify-content: center;
     margin-top: 1.5rem;
     background-color: #d8d4d2;
-    border-top: 1px solid black;
+    /* border-top: 1px solid black; */
 }
 
 .center {
@@ -480,13 +480,10 @@ button:hover {
 }
 
 /* Gifts Page */
-/* html, #gallery > .grid-wrapper {
-    background-color: #a8a19d;
-    z-index: -1;
-} */
 
-img {
-    background: #bdb9b7;
+section#gallery {
+    background-color: #ccc;
+    position: relative;
     z-index: -1;
 }
 
@@ -502,13 +499,15 @@ img {
     object-fit: cover;
     border-radius: 5px;
     background: rgba(6, 135, 145, 0.925);
+    margin-top: 1.5rem;
+    /* margin-bottom: 3rem; */
 }
 
 .grid-wrapper {
     display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    grid-auto-rows: 200px;
+    grid-gap: .8rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 250px;
     grid-auto-flow: dense;
 }
 
@@ -524,3 +523,6 @@ img {
     grid-column: span 2;
     grid-row: span 2;
 }
+
+/* Gallery Images Coments */
+
