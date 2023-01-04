@@ -264,17 +264,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 2rem;
-}
-
-.footer {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    /* align-items: center;
-    justify-content: center;
-    width: 100%; */
+    margin-top: 1.5rem;
+    background-color: #bdb9b7;
 }
 
 .center {
@@ -287,6 +278,7 @@ footer {
     color: #e75704;
     font-weight: 400;
     padding-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 h3 {
@@ -313,6 +305,7 @@ h3~p {
     height: 100%;
     flex-wrap: wrap;
     margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 .icons {
@@ -486,16 +479,20 @@ button:hover {
 }
 
 /* Gifts Page */
-/* #gallery {
-    background-color: #50341a;
+/* html, #gallery > .grid-wrapper {
+    background-color: #a8a19d;
+    z-index: -1;
 } */
+
+img {
+    background: #bdb9b7;
+    z-index: -1;
+}
 
 .grid-wrapper>div {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #ee9454;
-    z-index: -1;
 }
 
 .grid-wrapper>div>img {
