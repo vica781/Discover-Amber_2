@@ -266,7 +266,7 @@ footer {
     justify-content: center;
     margin-top: 1.5rem;
     background-color: #d8d4d2;
-    /* border-top: 1px solid black; */
+    border-top: 0.5px solid rgb(179, 176, 174);
 }
 
 .center {
