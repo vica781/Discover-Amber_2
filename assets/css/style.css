@@ -584,12 +584,101 @@ button:hover {
     border-radius: 10px;
 }
 
+#card-oak {
+    /* margin: 40px; */
+    position: relative;
+    max-width: 15rem;
+    max-height: 15rem;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px #252525;
+    border-radius: 10px;
+}
+
 #card-ring {
     /* margin: 40px; */
     position: relative;
     max-width: 15rem;
     max-height: 15rem;
-    /* box-shadow: 0 40px 60px -6px black; */
+    cursor: pointer;
+    box-shadow: 0px 5px 10px #252525;
+    border-radius: 10px;
+}
+
+#card-butterfly {
+    /* margin: 40px; */
+    position: relative;
+    max-width: 15rem;
+    max-height: 15rem;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px #252525;
+    border-radius: 10px;
+}
+
+#card-kingfisher {
+    /* margin: 40px; */
+    position: relative;
+    max-width: 15rem;
+    max-height: 15rem;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px #252525;
+    border-radius: 10px;
+}
+
+#card-pendant {
+    /* margin: 40px; */
+    position: relative;
+    max-width: 15rem;
+    max-height: 15rem;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px #252525;
+    border-radius: 10px;
+}
+
+#card-redcurrant {
+    /* margin: 40px; */
+    position: relative;
+    max-width: 15rem;
+    max-height: 15rem;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px #252525;
+    border-radius: 10px;
+}
+
+#card-earrings_2 {
+    /* margin: 40px; */
+    position: relative;
+    max-width: 15rem;
+    max-height: 15rem;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px #252525;
+    border-radius: 10px;
+}
+
+#card-chestnut {
+    /* margin: 40px; */
+    position: relative;
+    max-width: 15rem;
+    max-height: 15rem;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px #252525;
+    border-radius: 10px;
+}
+
+#card-maple {
+    /* margin: 40px; */
+    position: relative;
+    max-width: 15rem;
+    max-height: 15rem;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px #252525;
+    border-radius: 10px;
+}
+
+#card-ring_1 {
+    /* margin: 40px; */
+    position: relative;
+    max-width: 15rem;
+    max-height: 15rem;
     cursor: pointer;
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
@@ -796,8 +885,8 @@ button:hover {
 #card-table {
     /* margin: 40px; */
     position: relative;
-    max-width: 25rem;
-    max-height: 25rem;
+    max-width: 30rem;
+    max-height: 30rem;
     /* box-shadow: 0 40px 60px -6px black; */
     cursor: pointer;
     box-shadow: 0px 5px 10px #252525;
@@ -807,8 +896,8 @@ button:hover {
 #card-suntrap {
     /* margin: 40px; */
     position: relative;
-    max-width: 25rem;
-    max-height: 25rem;
+    max-width: 30rem;
+    max-height: 30rem;
     /* box-shadow: 0 40px 60px -6px black; */
     cursor: pointer;
     box-shadow: 0px 5px 10px #252525;
