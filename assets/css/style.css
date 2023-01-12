@@ -532,8 +532,8 @@ button:hover {
 #card-pike {
     /* margin: 40px; */
     position: relative;
-    max-width: 35rem;
-    max-height: 15rem;
+    max-width: 36rem;
+    max-height: 16rem;
     /* box-shadow: 0 40px 60px -6px black; */
     cursor: pointer;
     box-shadow: 0px 5px 10px #252525;
@@ -565,7 +565,7 @@ button:hover {
 #card-piglets {
     /* margin: 40px; */
     position: relative;
-    max-width: 21rem;
+    max-width: 30rem;
     max-height: 25rem;
     /* box-shadow: 0 40px 60px -6px black; */
     cursor: pointer;
@@ -684,6 +684,26 @@ button:hover {
     border-radius: 10px;
 }
 
+#card-brooch {
+    /* margin: 40px; */
+    position: relative;
+    max-width: 15rem;
+    max-height: 15rem;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px #252525;
+    border-radius: 10px;
+}
+
+#card-violin {
+    /* margin: 40px; */
+    position: relative;
+    max-width: 15rem;
+    max-height: 15rem;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px #252525;
+    border-radius: 10px;
+}
+
 #card-perch {
     /* margin: 40px; */
     position: relative;
@@ -775,8 +795,8 @@ button:hover {
 #card-iron {
     /* margin: 40px; */
     position: relative;
-    max-width: 15rem;
-    max-height: 15rem;
+    max-width: 30rem;
+    max-height: 20rem;
     /* box-shadow: 0 40px 60px -6px black; */
     cursor: pointer;
     box-shadow: 0px 5px 10px #252525;
