@@ -542,7 +542,6 @@ button:hover {
     /* margin-left: 10rem;
     margin-right: 10rem; */
 }
-
 /* Individual cards sizing */
 #card-necklace {
     position: relative;
@@ -576,71 +575,6 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
-#card-pike {
-    position: relative;
-    max-width: 36rem;
-    max-height: 16rem;
-    cursor: pointer;
-    box-shadow: 0px 5px 10px #252525;
-    border-radius: 10px;
-}
-
-#card-tea {
-    position: relative;
-    max-width: 60rem;
-    max-height: 9rem;
-    cursor: pointer;
-    box-shadow: 0px 5px 10px #252525;
-    border-radius: 10px;
-}
-
-#card-chess {
-    position: relative;
-    max-width: 30rem;
-    max-height: 30rem;
-    cursor: pointer;
-    box-shadow: 0px 5px 10px #252525;
-    border-radius: 10px;
-}
-
-#card-piglets {
-    position: relative;
-    max-width: 30rem;
-    max-height: 25rem;
-    cursor: pointer;
-    box-shadow: 0px 5px 10px #252525;
-    border-radius: 10px;
-}
-
-#card-rose {
-    position: relative;
-    max-width: 23rem;
-    max-height: 45rem;
-    cursor: pointer;
-    box-shadow: 0px 5px 10px #252525;
-    border-radius: 10px;
-}
-
-
-
-#card-ring {
-    position: relative;
-    max-width: 15rem;
-    max-height: 15rem;
-    cursor: pointer;
-    box-shadow: 0px 5px 10px #252525;
-    border-radius: 10px;
-}
-
-#card-butterfly {
-    position: relative;
-    max-width: 15rem;
-    max-height: 15rem;
-    cursor: pointer;
-    box-shadow: 0px 5px 10px #252525;
-    border-radius: 10px;
-}
-
 #card-kingfisher {
     position: relative;
     max-width: 15rem;
@@ -649,7 +583,22 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
-
+#card-ring {
+    position: relative;
+    max-width: 15rem;
+    max-height: 15rem;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px #252525;
+    border-radius: 10px;
+}
+#card-butterfly {
+    position: relative;
+    max-width: 15rem;
+    max-height: 15rem;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px #252525;
+    border-radius: 10px;
+}
 #card-pendant {
     position: relative;
     max-width: 15rem;
@@ -658,7 +607,6 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
-
 #card-redcurrant {
     position: relative;
     max-width: 15rem;
@@ -667,8 +615,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
-
-#card-earrings_2 {
+#card-earrings_blue {
     position: relative;
     max-width: 15rem;
     max-height: 15rem;
@@ -676,9 +623,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
-
 #card-chestnut {
-
     position: relative;
     max-width: 15rem;
     max-height: 15rem;
@@ -686,7 +631,6 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
-
 #card-maple {
     position: relative;
     max-width: 15rem;
@@ -695,7 +639,6 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
-
 #card-ring_1 {
     position: relative;
     max-width: 15rem;
@@ -704,7 +647,6 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
-
 #card-brooch {
     position: relative;
     max-width: 15rem;
@@ -713,7 +655,6 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
-
 #card-violin {
     position: relative;
     max-width: 15rem;
@@ -722,52 +663,22 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
-
-#card-perch {
+#card-rose {
     position: relative;
-    max-width: 28rem;
-    max-height: 28rem;
+    max-width: 23rem;
+    max-height: 45rem;
     cursor: pointer;
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
-
-#card-tree {
+#card-rose-1 {
     position: relative;
-    max-width: 28rem;
-    max-height: 28rem;
+    max-width: 35rem;
+    max-height: 45rem;
     cursor: pointer;
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
-
-#card-bee {
-    position: relative;
-    max-width: 28rem;
-    max-height: 28rem;
-    cursor: pointer;
-    box-shadow: 0px 5px 10px #252525;
-    border-radius: 10px;
-}
-
-#card-cup {
-    position: relative;
-    max-width: 30rem;
-    max-height: 25rem;
-    cursor: pointer;
-    box-shadow: 0px 5px 10px #252525;
-    border-radius: 10px;
-}
-
-#card-ship {
-    position: relative;
-    max-width: 20rem;
-    max-height: 35rem;
-    cursor: pointer;
-    box-shadow: 0px 5px 10px #252525;
-    border-radius: 10px;
-}
-
 #card-doll {
     position: relative;
     max-width: 20rem;
@@ -776,25 +687,6 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
-
-#card-angel {
-    position: relative;
-    max-width: 30rem;
-    max-height: 30rem;
-    cursor: pointer;
-    box-shadow: 0px 5px 10px #252525;
-    border-radius: 10px;
-}
-
-#card-glob {
-    position: relative;
-    max-width: 25rem;
-    max-height: 27rem;
-    cursor: pointer;
-    box-shadow: 0px 5px 10px #252525;
-    border-radius: 10px;
-}
-
 #card-lamp {
     position: relative;
     max-width: 20rem;
@@ -803,16 +695,118 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
-
-#card-trinity {
+#card-ship {
     position: relative;
-    max-width: 35rem;
-    max-height: 12rem;
+    max-width: 20rem;
+    max-height: 35rem;
     cursor: pointer;
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
-
+#card-bee {
+    position: relative;
+    max-width: 28rem;
+    max-height: 28rem;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px #252525;
+    border-radius: 10px;
+}
+#card-perch {
+    position: relative;
+    max-width: 28rem;
+    max-height: 28rem;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px #252525;
+    border-radius: 10px;
+}
+#card-tree {
+    position: relative;
+    max-width: 28rem;
+    max-height: 28rem;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px #252525;
+    border-radius: 10px;
+}
+#card-pike {
+    position: relative;
+    max-width: 36rem;
+    max-height: 16rem;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px #252525;
+    border-radius: 10px;
+}
+#card-tea {
+    position: relative;
+    max-width: 60rem;
+    max-height: 9rem;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px #252525;
+    border-radius: 10px;
+}
+#card-piglets {
+    position: relative;
+    max-width: 30rem;
+    max-height: 25rem;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px #252525;
+    border-radius: 10px;
+}
+#card-chess {
+    position: relative;
+    max-width: 30rem;
+    max-height: 30rem;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px #252525;
+    border-radius: 10px;
+}
+#card-table {
+    position: relative;
+    max-width: 50rem;
+    max-height: 50rem;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px #252525;
+    border-radius: 10px;
+}
+#card-suntrap {
+    position: relative;
+    max-width: 30rem;
+    max-height: 30rem;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px #252525;
+    border-radius: 10px;
+}
+#card-cup {
+    position: relative;
+    max-width: 30rem;
+    max-height: 25rem;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px #252525;
+    border-radius: 10px;
+}
+#card-vineglass {
+    position: relative;
+    max-width: 15rem;
+    max-height: 30rem;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px #252525;
+    border-radius: 10px;
+}
+#card-glob {
+    position: relative;
+    max-width: 25rem;
+    max-height: 27rem;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px #252525;
+    border-radius: 10px;
+}
+#card-candlestick {
+    position: relative;
+    max-width: 25rem;
+    max-height: 25rem;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px #252525;
+    border-radius: 10px;
+}
 #card-trinity-1 {
     position: relative;
     max-width: 30rem;
@@ -821,6 +815,51 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+#card-trinity {
+    position: relative;
+    max-width: 35rem;
+    max-height: 12rem;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px #252525;
+    border-radius: 10px;
+}
+#card-angel {
+    position: relative;
+    max-width: 30rem;
+    max-height: 30rem;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px #252525;
+    border-radius: 10px;
+}
+#card-christmas-decoration {
+    position: relative;
+    max-width: 32rem;
+    max-height: 35rem;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px #252525;
+    border-radius: 10px;
+}
+#card-christmas-tree {
+    position: relative;
+    max-width: 25rem;
+    max-height: 35rem;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px #252525;
+    border-radius: 10px;
+}
+#card-rabit {
+    position: relative;
+    max-width: 25rem;
+    max-height: 35rem;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px #252525;
+    border-radius: 10px;
+}
+
+
+
+
+
 #card-earrings-1 {
     position: relative;
     max-width: 30rem;
@@ -830,50 +869,16 @@ button:hover {
     border-radius: 10px;
 }
 
-#card-candlestick {
-    position: relative;
-    max-width: 25rem;
-    max-height: 25rem;
-    cursor: pointer;
-    box-shadow: 0px 5px 10px #252525;
-    border-radius: 10px;
-}
 
-#card-table {
-    position: relative;
-    max-width: 50rem;
-    max-height: 50rem;
-    cursor: pointer;
-    box-shadow: 0px 5px 10px #252525;
-    border-radius: 10px;
-}
 
-#card-suntrap {
-    position: relative;
-    max-width: 30rem;
-    max-height: 30rem;
-    cursor: pointer;
-    box-shadow: 0px 5px 10px #252525;
-    border-radius: 10px;
-}
 
-#card-christmas-decoration {
-    position: relative;
-    max-width: 32rem;
-    max-height: 35rem;
-    cursor: pointer;
-    box-shadow: 0px 5px 10px #252525;
-    border-radius: 10px;
-}
 
-#card-christmas-tree {
-    position: relative;
-    max-width: 25rem;
-    max-height: 35rem;
-    cursor: pointer;
-    box-shadow: 0px 5px 10px #252525;
-    border-radius: 10px;
-}
+
+
+
+
+
+
 
 #card-photoframe {
     position: relative;
@@ -884,23 +889,8 @@ button:hover {
     border-radius: 10px;
 }
 
-#card-rose-1 {
-    position: relative;
-    max-width: 30rem;
-    max-height: 30rem;
-    cursor: pointer;
-    box-shadow: 0px 5px 10px #252525;
-    border-radius: 10px;
-}
 
-#card-vineglass {
-    position: relative;
-    max-width: 15rem;
-    max-height: 30rem;
-    cursor: pointer;
-    box-shadow: 0px 5px 10px #252525;
-    border-radius: 10px;
-}
+
 
 /* Gifts Page */
 
