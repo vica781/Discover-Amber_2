@@ -542,7 +542,20 @@ button:hover {
     /* margin-left: 10rem;
     margin-right: 10rem; */
 }
+
 /* Individual cards sizing */
+/* #card-intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-start: span 3;
+    position: relative;
+    max-width: 300rem;
+    max-height: 20rem;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px #252525;
+    border-radius: 10px;
+} */
+
 #card-necklace {
     position: relative;
     max-width: 34rem;
@@ -551,6 +564,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-earrings {
     position: relative;
     max-width: 28rem;
@@ -559,6 +573,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-necklace-1 {
     position: relative;
     max-width: 38rem;
@@ -567,6 +582,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-oak {
     position: relative;
     max-width: 16rem;
@@ -575,6 +591,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-kingfisher {
     position: relative;
     max-width: 15rem;
@@ -583,6 +600,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-ring {
     position: relative;
     max-width: 15rem;
@@ -591,6 +609,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-butterfly {
     position: relative;
     max-width: 15rem;
@@ -599,6 +618,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-pendant {
     position: relative;
     max-width: 15rem;
@@ -607,6 +627,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-redcurrant {
     position: relative;
     max-width: 15rem;
@@ -615,6 +636,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-earrings_blue {
     position: relative;
     max-width: 15rem;
@@ -623,6 +645,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-chestnut {
     position: relative;
     max-width: 15rem;
@@ -631,6 +654,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-maple {
     position: relative;
     max-width: 15rem;
@@ -639,6 +663,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-ring_1 {
     position: relative;
     max-width: 15rem;
@@ -647,6 +672,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-brooch {
     position: relative;
     max-width: 15rem;
@@ -655,6 +681,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-violin {
     position: relative;
     max-width: 15rem;
@@ -663,6 +690,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-rose {
     position: relative;
     max-width: 23rem;
@@ -671,6 +699,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-rose-1 {
     position: relative;
     max-width: 35rem;
@@ -679,6 +708,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-doll {
     position: relative;
     max-width: 20rem;
@@ -687,6 +717,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-lamp {
     position: relative;
     max-width: 20rem;
@@ -695,6 +726,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-ship {
     position: relative;
     max-width: 20rem;
@@ -703,6 +735,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-bee {
     position: relative;
     max-width: 28rem;
@@ -711,6 +744,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-perch {
     position: relative;
     max-width: 28rem;
@@ -719,6 +753,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-tree {
     position: relative;
     max-width: 28rem;
@@ -727,6 +762,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-pike {
     position: relative;
     max-width: 36rem;
@@ -735,6 +771,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-tea {
     position: relative;
     max-width: 60rem;
@@ -743,6 +780,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-piglets {
     position: relative;
     max-width: 30rem;
@@ -751,6 +789,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-chess {
     position: relative;
     max-width: 30rem;
@@ -759,6 +798,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-table {
     position: relative;
     max-width: 50rem;
@@ -767,6 +807,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-suntrap {
     position: relative;
     max-width: 30rem;
@@ -775,6 +816,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-cup {
     position: relative;
     max-width: 30rem;
@@ -783,6 +825,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-vineglass {
     position: relative;
     max-width: 15rem;
@@ -791,6 +834,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-glob {
     position: relative;
     max-width: 25rem;
@@ -799,6 +843,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-candlestick {
     position: relative;
     max-width: 25rem;
@@ -807,6 +852,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-trinity-1 {
     position: relative;
     max-width: 30rem;
@@ -815,6 +861,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-trinity {
     position: relative;
     max-width: 35rem;
@@ -823,6 +870,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-angel {
     position: relative;
     max-width: 30rem;
@@ -831,6 +879,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-christmas-decoration {
     position: relative;
     max-width: 32rem;
@@ -839,6 +888,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-christmas-tree {
     position: relative;
     max-width: 25rem;
@@ -847,6 +897,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-rabit {
     position: relative;
     max-width: 25rem;
@@ -855,6 +906,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-photoframe {
     position: relative;
     max-width: 25rem;
@@ -863,24 +915,3 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
