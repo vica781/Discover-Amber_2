@@ -529,33 +529,16 @@ button:hover {
 
 #gifts-intro {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     /* font-family: 'Oswald', sans-serif; */
     width: 80rem;
     font-size: 1.2rem;
     font-weight: 600;
-    margin: 1.5rem 25rem 0 20rem;
-    /* margin-left: 10rem;
-    margin-right: 10rem; */
+    margin: auto;
 }
 
 /* Individual cards sizing */
-/* #card-intro {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-start: span 3;
-    position: relative;
-    max-width: 300rem;
-    max-height: 20rem;
-    cursor: pointer;
-    box-shadow: 0px 5px 10px #252525;
-    border-radius: 10px;
-} */
-
 #card-necklace {
     position: relative;
     max-width: 34rem;
@@ -726,6 +709,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-dragonfly {
     position: relative;
     max-width: 25rem;
@@ -734,6 +718,7 @@ button:hover {
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
 }
+
 #card-rose {
     position: relative;
     max-width: 23rem;
