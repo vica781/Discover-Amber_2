@@ -82,14 +82,20 @@ a.active {
 
 /* Media queries */
 
-/* For small screen sizes from 480px wide and down*/
+/* For small screen sizes from 400px wide and down*/
 
-@media (max-width: 480px) {
+@media (max-width: 400px) {
         label.logo {
         font-size: 10px;
         line-height: 65px;
         padding: 0;
         margin-left: -2rem;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 25px 0;
+        line-height: 30px;
     }
 
     .checkbtn {
@@ -108,8 +114,8 @@ a.active {
     }
 }
 
-/* For medium screen sizes 768px and down */
-@media (max-width: 768px) {
+/* For medium screen sizes 700px and down */
+@media (max-width: 700px) {
     .checkbtn {
         display: block;
         font-size: 25px;
@@ -129,7 +135,7 @@ a.active {
 
     nav ul li {
         display: block;
-        margin: 45px 0;
+        margin: 25px 0;
         line-height: 30px;
     }
 
@@ -168,10 +174,16 @@ a.active {
     }
 }
 
-/* For medium screen sizes from 1295px wide and down */
+/* For large screen sizes from 1295px wide and down */
 @media (max-width: 1295px) {
     #check:checked~ul {
         left: 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 25px 0;
+        line-height: 30px;
     }
 
     .checkbtn {
