@@ -532,10 +532,11 @@ button:hover {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     /* font-family: 'Oswald', sans-serif; */
-    width: 80rem;
+    width: 90%;
     font-size: 1.2rem;
     font-weight: 600;
-    margin: auto;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 /* Individual cards sizing */
