@@ -85,7 +85,7 @@ a.active {
 /* For small screen sizes from 400px wide and down*/
 
 @media (max-width: 400px) {
-        label.logo {
+    label.logo {
         font-size: 10px;
         line-height: 65px;
         padding: 0;
@@ -226,8 +226,8 @@ a.active {
 }
 
 .container img {
-    height: 45rem;
-    width: 50rem;
+    height: 43rem;
+    width: 100%;
 }
 
 .box {
