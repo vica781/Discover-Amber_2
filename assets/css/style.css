@@ -82,9 +82,9 @@ a.active {
 
 /* Media queries */
 
-/* For small screen sizes from 400px wide and down*/
+/* For small screen sizes from 300px wide and down*/
 
-@media (max-width: 400px) {
+@media (max-width: 300px) {
     label.logo {
         font-size: 10px;
         line-height: 65px;
@@ -124,10 +124,19 @@ a.active {
         left: -100%;
         transition: all .5s;
     }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box {
+        flex: 1 1 30%;
+    }
 }
 
-/* For medium screen sizes 700px and down */
-@media (max-width: 700px) {
+/* For medium screen sizes 600px and down */
+@media (max-width: 600px) {
     .checkbtn {
         display: block;
         font-size: 25px;
@@ -186,10 +195,18 @@ a.active {
     .mediaicons {
         width: 100%;
     }
+
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .box {
+        flex: 1 1 30%;
+    }
 }
 
-/* For large screen sizes from 1295px wide and down */
-@media (max-width: 1295px) {
+/* For large screen sizes from 1350px wide and down */
+@media (max-width: 1350px) {
     #check:checked~ul {
         left: 0;
     }
@@ -233,6 +250,7 @@ a.active {
 
 .container {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     padding: 1% 2%;
     box-sizing: border-box;
@@ -286,7 +304,7 @@ span {
     /* cursor: pointer; */
 }
 
-/* @media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
     .container {
         flex-wrap: wrap;
     }
@@ -294,7 +312,7 @@ span {
     .box {
         flex: 1 1 30%;
     }
-} */
+}
 
 /* Footer */
 html,
