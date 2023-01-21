@@ -630,7 +630,6 @@ button:hover {
     position: fixed;
     bottom: 183px;
     right: 10px;
-
     color: #252525;
     font-family: 'Montserrat', sans-serif;
     /* font-family: 'Oswald', sans-serif; */
@@ -639,16 +638,16 @@ button:hover {
     font-size: 1.1rem;
     font-weight: bold;
     transition: 0.5s ease-in-out;
-    /* margin-left: 1rem;
+    margin-left: 1rem;
     width: 40px;
     height: 40px;
     background: rgb(156, 152, 152);
-    border-radius: 50%; */
+    border-radius: 50%;
 }
 
 /* Add an upward-facing arrow as the button's content */
 .back-to-top::before {
-    content: "\2191 Back";
+    content: "\2191";
 }
 
 /* Change the background color on hover */
