@@ -120,6 +120,7 @@ a.active {
         /* top: 7rem; */
         left: -100%;
         transition: all .5s;
+        z-index: +1;
     }
 }
 
@@ -150,6 +151,7 @@ a.active {
         top: 7rem;
         left: -100%;
         transition: all .5s;
+        z-index: +1;
     }
 
     nav ul li {
