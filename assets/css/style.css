@@ -161,7 +161,10 @@ img {
 /* USAGE PAGE */
 
 /* RARE AMBER PAGE */
-
+img {
+    width: 40rem;
+    height: 40rem;
+}
 /* GIFTS PAGE - GALLERY */
 .cards {
     width: 100%;
