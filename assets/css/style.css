@@ -259,13 +259,6 @@ a.active {
         flex-wrap: wrap;
     }
 
-    /* .container img {
-        display: flex;
-        flex-wrap: wrap;
-        width: 1rem;
-        height: 1.5rem;
-    } */
-
     .box {
         flex: 1 1 30%;
     }
@@ -279,7 +272,6 @@ a.active {
     width: 100%;
     padding: 1% 2%;
     box-sizing: border-box;
-    /* height: 75vh; */
 }
 
 .container img {
@@ -302,7 +294,6 @@ a.active {
     height: calc(100% - 10vh);
     transition: 2.5s;
 }
-
 
 .box>span {
     font-size: 3.8vh;
