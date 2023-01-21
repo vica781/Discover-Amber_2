@@ -161,18 +161,49 @@ img {
 /* USAGE PAGE */
 
 /* RARE AMBER PAGE */
-img {
-    width: 40rem;
-    height: 40rem;
+.rareamber-grid img{
+    width: 35rem;
+    height: 35rem;
 }
+
 .rareamber-grid {
     display: grid;
-    grid-template-columns: 3fr, 2fr;
-    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: 1fr, 1fr;
+    grid-template-rows: repeat(10, auto);
     grid-auto-flow: row;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Oswald', sans-serif; */
+    font-size: max(1.2rem, 15%, 20px);
+    font-weight: 500;
 }
+
 #expensive {
+    display: flex;
+    flex-wrap: wrap;
     grid-column-start: span 3;
+    justify-content: center;
+    /* text-align: center; */
+    width: 85%;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Oswald', sans-serif; */
+    font-size: max(1.2rem, 15%, 20px);
+    font-weight: 500;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+#rare_h2 {
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Oswald', sans-serif;   */
+
+}
+
+#image-first-blue {
+    grid-row: 2 / 2;
+}
+
+#image-second-red {
+    grid-row: 3 / 3;
 }
 
 /* GIFTS PAGE - GALLERY */
