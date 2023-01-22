@@ -232,6 +232,14 @@ img {
     grid-column: 8 / span 2;
 }
 
+#rare_h1 {
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    padding: .5rem 0 .5rem 0;
+}
+
 
 /* GIFTS PAGE - GALLERY */
 .cards {
