@@ -97,7 +97,7 @@ a.active {
 }
 
 .container img {
-    height: 33rem;
+    height: 36.5rem;
     width: 100%;
 }
 
@@ -119,11 +119,11 @@ a.active {
 }
 
 .box>span {
-    font-size: 3.8vh;
+    font-size: 2.8rem;
     display: block;
     text-align: center;
-    height: 10vh;
-    line-height: 2.6;
+    height: 7.8rem;
+    line-height: 2.5;
     /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Oswald', sans-serif;
 }
@@ -1076,4 +1076,27 @@ h3~p {
     list>li>a {
         margin: 0 auto;
     }
+    
+    .box>span {
+        font-size: 1.5rem;
+        display: block;
+        text-align: center;
+        height: 5rem;
+        line-height: 2.5;
+        /* font-family: 'Montserrat', sans-serif; */
+        font-family: 'Oswald', sans-serif;
+    }
+}
+
+/* For medium screen sizes 600px and up */
+@media (mix-width: 600px) {
+    .box>span {
+        font-size: 2rem;
+        display: block;
+        text-align: center;
+        height: 7rem;
+        line-height: 2.5;
+        /* font-family: 'Montserrat', sans-serif; */
+        font-family: 'Oswald', sans-serif;
+    } 
 }
