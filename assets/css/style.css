@@ -167,36 +167,65 @@ img {
 /* USAGE PAGE */
 
 /* RARE AMBER PAGE */
-img {
-    width: 35rem;
-    height: 35rem;
-}
-
 .rareamber-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* divide the page into two equal columns */
-    grid-template-rows: auto; /* create a single row */
-    grid-auto-flow: row; /* automatically add rows as needed */
-    align-items: center; /* center items vertically within the grid */
-    text-align: center; /* center text within the grid */
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: auto;
+    grid-auto-flow: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+    /* text-align: center;  */
+}
+
+img {
+    width: 35rem;
+    height: 25rem;
 }
 
 #expensive {
-    grid-column: 1 / 3; /* span the entire width of the grid */
-    justify-content: center; /* center content within the grid */
+    grid-column: 1 / 3;
+    /* span the entire width of the grid */
+    justify-content: center;
+    /* center content within the grid */
 }
 
-#image-first-blue {
-    grid-column: 1 / 2; /* take up the left half of the grid */
-}
+/* #image-first-blue {
+    grid-column: 1 / 2; 
+} */
 
-#rarest {
-    grid-column: 2 / 3; /* take up the right half of the grid */
-}
+/* #rarest {
+    grid-column: 2 / 3; 
+} */
 
 #image-first-white {
     grid-column: 1 / 2;
 }
+
+#par_text,
+#par_text_1,
+#par_text_2,
+#par_text_3,
+#par_text_4,
+#par_text_5,
+#par_text_6,
+#par_text_7,
+#par_text_8 {
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Oswald', sans-serif; */
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+#par_text_1,
+#par_text_8 {
+    line-height: 1.5rem;
+}
+
+#par_text_8 {
+    grid-column: 8 / span 2;
+}
+
 
 /* GIFTS PAGE - GALLERY */
 .cards {
