@@ -175,9 +175,7 @@ img {
     align-items: center;
     justify-items: center;
     justify-content: space-around;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    /* text-align: center;  */
+    margin: 3rem;
 }
 
 img {
@@ -189,23 +187,13 @@ img {
     height: 35rem;
 }
 
-#expensive {
+#expensive,
+#valuable {
     grid-column: 1 / 3;
-    /* span the entire width of the grid */
     justify-content: center;
-    /* center content within the grid */
-}
+    width: 80%;
+    text-align: center;
 
-/* #image-first-blue {
-    grid-column: 1 / 2; 
-} */
-
-/* #rarest {
-    grid-column: 2 / 3; 
-} */
-
-#image-first-white {
-    grid-column: 1 / 2;
 }
 
 #par_text,
@@ -216,11 +204,16 @@ img {
 #par_text_5,
 #par_text_6,
 #par_text_7,
-#par_text_8 {
+#par_text_8,
+#par_text_9 {
     font-family: 'Montserrat', sans-serif;
     /* font-family: 'Oswald', sans-serif; */
     font-size: 1.2rem;
     font-weight: 400;
+}
+
+#par_text_9 {
+    text-align: left;
 }
 
 #par_text_1,
@@ -228,18 +221,21 @@ img {
     line-height: 1.5rem;
 }
 
-#par_text_8 {
-    grid-column: 8 / span 2;
+#rare_h1 {
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    padding: .5rem 0 .5rem 0;
 }
 
-#rare_h1 {
+#rare_h2 {
     /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Oswald', sans-serif;
     font-size: 2rem;
     font-weight: 400;
     padding: .5rem 0 .5rem 0;
 }
-
 
 /* GIFTS PAGE - GALLERY */
 .cards {
