@@ -149,7 +149,6 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* height: calc(100vh - 80px); */
     height: 100%;
     width: 100%;
     overflow: hidden;
@@ -953,7 +952,6 @@ h3~p {
         height: 100%;
         background: #ce5e0abd;
         text-align: center;
-        /* top: 7rem; */
         left: -100%;
         transition: all .5s;
         z-index: +1;
@@ -997,7 +995,6 @@ h3~p {
         height: 100rem;
         background: #ce5e0abd;
         text-align: center;
-        top: 7rem;
         left: -100%;
         transition: all .5s;
         z-index: +1;
@@ -1076,7 +1073,7 @@ h3~p {
     list>li>a {
         margin: 0 auto;
     }
-    
+
     .box>span {
         font-size: 1.5rem;
         display: block;
@@ -1098,5 +1095,5 @@ h3~p {
         line-height: 2.5;
         /* font-family: 'Montserrat', sans-serif; */
         font-family: 'Oswald', sans-serif;
-    } 
+    }
 }
