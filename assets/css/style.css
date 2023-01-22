@@ -178,8 +178,8 @@ img {
     margin: 3rem;
 }
 
-img {
-    width: 35rem;
+.wide {
+    width: 40rem;
     height: 25rem;
 }
 
