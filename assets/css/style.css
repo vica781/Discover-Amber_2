@@ -74,7 +74,7 @@ nav ul li a {
     text-transform: uppercase;
 }
 
-a:hover {
+.menu_bar a:hover {
     background: #80a33ff5;
     transition: .5s;
     box-shadow: 0 3px 9px;
@@ -335,7 +335,8 @@ img {
 
 /* Change the background color on hover */
 .back-to-top:hover {
-    color: #ee9d40;
+    color: #fff;
+    background: #e77e1b;
 }
 
 
