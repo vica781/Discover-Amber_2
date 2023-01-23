@@ -27,28 +27,21 @@ nav {
 
 .logo {
     cursor: pointer;
-    background-color: #fff;
-    box-shadow: none;
 }
 
-.logo a:hover {
+a #logo-link {
     background: none;
-    background-color: #fff;
+}
+
+#logo-link:hover {
+    background: none;
     box-shadow: none;
 }
-
-/* .logo {
-    pointer-events: none;
-}
-
-a.logo-link {
-    display: inline-block;
-} */
 
 .logo-img {
     width: 200px;
     height: auto;
-    /* background-image: url(/assets/image/favicon/DragonFly6.svg); */
+    background: url(/assets/image/favicon/DragonFly6.svg);
 }
 
 label.logo {
@@ -81,7 +74,7 @@ nav ul li a {
     text-transform: uppercase;
 }
 
-nav a:hover {
+a:hover {
     background: #80a33ff5;
     transition: .5s;
     box-shadow: 0 3px 9px;
@@ -134,7 +127,7 @@ a.active {
 }
 
 .box>img {
-    height: calc(100% - 10vh);
+    height: calc(100% - 50rem);
     transition: 2.5s;
 }
 
@@ -955,11 +948,6 @@ h3~p {
         margin-top: -.3rem;
     }
 
-    /* label.logo {
-        font-size: clamp(2rem, 60px, 90%);
-        padding-left: 50px;
-    } */
-
     nav ul li a {
         font-size: 20px;
     }
@@ -1180,6 +1168,7 @@ h3~p {
         /* font-family: 'Montserrat', sans-serif; */
         font-family: 'Oswald', sans-serif;
     }
+
     label.logo {
         font-size: 2.3em;
         line-height: 75px;
