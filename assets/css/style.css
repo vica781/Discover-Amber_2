@@ -177,6 +177,41 @@ img {
 }
 
 /* USAGE PAGE */
+.using_amber {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 3rem;
+    /* max-width: fit-content; */
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Oswald', sans-serif; */
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+#usage_h1,
+#usage_h2 {
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    padding: .5rem 0 .5rem 0;
+
+}
+
+#top_img {
+    width: 80rem;
+    height: 15rem;
+    flex-wrap: wrap;
+}
+
+.using_amber img {
+    width: 20rem;
+    height: 15rem;
+    margin-right: 1.5rem;
+    margin-top: 1rem;
+}
+
 
 /* RARE AMBER PAGE */
 .rareamber-grid {
