@@ -1113,9 +1113,14 @@ h3~p {
     }
 
     #clear_beads {
-        width: 82%;
+        width: 85%;
         height: 22rem;
     }
+
+    #black_beads {
+        margin-left: 3rem;
+    }
+
     #expensive,
     #valuable {
         width: 90%;
