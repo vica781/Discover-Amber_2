@@ -1243,8 +1243,6 @@ h3~p {
     .container {
         flex-wrap: wrap;
         flex-direction: column;
-        align-content: center;
-        justify-content: center;
     }
 
     .contact-box {
