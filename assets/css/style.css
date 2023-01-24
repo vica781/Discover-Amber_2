@@ -1083,6 +1083,12 @@ h3~p {
         background: #ee9454;
     }
 
+    #box a.active {
+        background: #e77e1b;
+        transition: .5s;
+        box-shadow: none;
+    }
+
     #check:checked~ul {
         left: 0;
     }
