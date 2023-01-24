@@ -821,7 +821,6 @@ input {
 
 button {
     border-radius: 5px;
-    /* border: 1px solid black; */
     border: none;
     background: #ee9454;
     box-shadow: 0px 3px 9px;
@@ -974,6 +973,17 @@ h3~p {
         transition: all .5s;
         z-index: +1;
     }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    #retro-phone {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 @media (max-width:800px) {
@@ -986,6 +996,16 @@ h3~p {
         height: 40px;
         font-size: 20px;
         line-height: 2.1;
+    }
+
+    .container {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    #retro-phone {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
@@ -1055,6 +1075,7 @@ h3~p {
 
     .container {
         flex-wrap: wrap;
+        flex-direction: column;
     }
 
     .box {
@@ -1168,12 +1189,19 @@ h3~p {
         font-weight: 400;
     }
 
+    .container {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
     .contact-box {
+        flex-wrap: wrap;
         display: block;
         margin: 0;
     }
 
     #retro-phone {
+        flex-wrap: wrap;
         width: 100%;
     }
 
@@ -1182,8 +1210,14 @@ h3~p {
     }
 
     #send_message {
+        flex-wrap: wrap;
         width: 100%;
-        margin-left: 0;
+        /* margin-left: 0; */
+    }
+
+    #message,
+    #send {
+        width: 20rem;
     }
 
     /* For medium screen sizes 600px and up */
@@ -1209,6 +1243,30 @@ h3~p {
     .container {
         flex-wrap: wrap;
         flex-direction: column;
+        align-content: center;
+        justify-content: center;
     }
+
+    .contact-box {
+        flex-wrap: wrap;
+        display: block;
+        margin: 0;
+    }
+
+    #retro-phone {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    #retro-phone>img {
+        max-width: 100%;
+    }
+
+    #send_message {
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 0;
+    }
+
 
 }
