@@ -749,29 +749,30 @@ img {
 /* CONTACT ME PAGE */
 .contact-box {
     display: flex;
-    width: 80%;
-    height: 55rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
     align-content: center;
-    margin-left: 5rem;
+    /* margin-left: 5rem; */
 }
 
 #retro-phone {
     flex-basis: 40%;
-    /* background-color: #fff; */
-    margin-left: 3rem;
-    margin-top: 3rem;
+    /* margin-left: 3rem;
+    margin-top: 3rem; */
+    width: 40%;
 }
 
 #send_message {
     /* flex-basis: 60%; */
     margin-top: 8rem;
-    margin-left: 18rem;
-    width: 30rem;
+    /* margin-left: 18rem; */
+    width: 40%;
 }
 
 #form_right_side {
     flex-basis: 70%;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
     font-size: 1.2rem;
 }
 
@@ -785,14 +786,14 @@ input {
     height: 2.5rem;
     width: 13rem;
     border-radius: 5px;
-    margin-top: .5rem;
+    /* margin-top: .5rem; */
     border: 1px solid black;
 }
 
-#name,
+/* #name,
 #telephone {
     margin-right: 3rem;
-}
+} */
 
 #message {
     border-radius: 5px;
@@ -1162,6 +1163,23 @@ h3~p {
         font-size: 1rem;
         font-weight: 400;
     }
+
+    .contact-box {
+        display: block;
+        margin: 0;
+    }
+
+    #retro-phone {
+        width: 100%;
+    }
+
+    #retro-phone > img {
+        max-width: 100%;
+    }
+    
+    #send_message {
+        width: 100%;
+        margin-left: 0;
 }
 
 /* For medium screen sizes 600px and up */
@@ -1182,4 +1200,5 @@ h3~p {
         padding: 0;
         margin-left: 2rem;
     }
+}
 }
