@@ -779,7 +779,15 @@ img {
 .input-row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+}
+
+#name {
+    margin-right: 1rem;
+}
+
+#email {
+    margin-right: 1rem;
 }
 
 input {
@@ -805,7 +813,7 @@ input {
 }
 
 #send {
-    width: 29.25rem;
+    width: 41rem;
     height: 2.5rem;
     font-size: 1.2rem;
     /* font-weight: bold; */
@@ -1080,10 +1088,6 @@ h3~p {
         margin: 0 0 10px 0;
     }
 
-    list>li>a {
-        margin: 0 auto;
-    }
-
     .box>span {
         font-size: 1.5rem;
         display: block;
@@ -1173,32 +1177,38 @@ h3~p {
         width: 100%;
     }
 
-    #retro-phone > img {
+    #retro-phone>img {
         max-width: 100%;
     }
-    
+
     #send_message {
         width: 100%;
         margin-left: 0;
-}
-
-/* For medium screen sizes 600px and up */
-@media (min-width: 600px) and (max-width: 800px) {
-    .box>span {
-        font-size: 1.8rem;
-        display: block;
-        text-align: center;
-        height: 5rem;
-        line-height: 2.3;
-        /* font-family: 'Montserrat', sans-serif; */
-        font-family: 'Oswald', sans-serif;
     }
 
-    label.logo {
-        font-size: 2.3em;
-        line-height: 75px;
-        padding: 0;
-        margin-left: 2rem;
+    /* For medium screen sizes 600px and up */
+    @media (min-width: 600px) and (max-width: 800px) {
+        .box>span {
+            font-size: 1.8rem;
+            display: block;
+            text-align: center;
+            height: 5rem;
+            line-height: 2.3;
+            /* font-family: 'Montserrat', sans-serif; */
+            font-family: 'Oswald', sans-serif;
+        }
+
+        label.logo {
+            font-size: 2.3em;
+            line-height: 75px;
+            padding: 0;
+            margin-left: 2rem;
+        }
     }
-}
+
+    .container {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
 }
