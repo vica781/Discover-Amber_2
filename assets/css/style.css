@@ -38,12 +38,6 @@ a #logo-link {
     box-shadow: none;
 }
 
-.logo-img {
-    width: 200px;
-    height: auto;
-    background: url(/assets/image/favicon/DragonFly6.svg);
-}
-
 label.logo {
     color: #252525;
     font-size: 3rem;
