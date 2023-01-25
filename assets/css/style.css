@@ -17,6 +17,8 @@ body {
     /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Oswald', sans-serif;
     max-width: 1800px;
+    display: flex;
+    flex-direction: column;
 }
 
 /* NAVIGATION BAR and LOGO */
