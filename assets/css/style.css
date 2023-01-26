@@ -193,7 +193,7 @@ img {
 #usage_h1 {
     /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Oswald', sans-serif;
-    font-size: 2.8rem;
+    font-size: 3rem;
     font-weight: 400;
     padding: .5rem 0 .5rem 0;
 }
@@ -213,8 +213,8 @@ img {
 }
 
 #microscop {
-    width: 15rem;
-    height: 15rem;
+    width: 20rem;
+    height: 20rem;
     margin-right: 1.5rem;
     margin-top: 1rem;
 }
