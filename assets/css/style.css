@@ -182,7 +182,6 @@ img {
     flex-wrap: wrap;
     flex-direction: column;
     padding: 3rem;
-    /* max-width: fit-content; */
     font-family: 'Montserrat', sans-serif;
     /* font-family: 'Oswald', sans-serif; */
     font-size: 1.2rem;
@@ -194,13 +193,14 @@ img {
     /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Oswald', sans-serif;
     font-size: 3rem;
-    color: #fff;
+    color: #f3963f;
+    background-color: #d8d4d2cc;
     font-weight: 400;
     padding: .5rem 0 .5rem 0;
     /* background-color: #ccc; */
-    padding: 1.2rem;
-    align-items: flex-end; 
-    
+    padding: .3rem;
+    align-items: baseline;
+
 }
 
 #usage_h2 {
@@ -1143,7 +1143,7 @@ h3~p {
     #box a.active {
         box-shadow: none;
     }
-    
+
     #check:checked~ul {
         left: 0;
     }
