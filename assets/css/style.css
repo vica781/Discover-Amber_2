@@ -219,9 +219,17 @@ img {
     margin-top: 1rem;
 }
 #sextant {
-    width: 30rem;
+    width: 25rem;
     height: 20rem;
     margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+#stradivarius {
+    width: 25rem;
+    height: 15rem;
+    margin-right: 1.5rem;
     margin-top: 1rem;
 }
 
