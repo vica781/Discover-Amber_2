@@ -1,108 +1,649 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome Victoria Kalenik,
+# Smiling Depression
+## Project Portfolio 1 of Diploma in Full Stack Software Development at Code Institute
+<img src="./assets/readme_images/amiresponsive.png" width="80%">
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+[View the live site](https://tomdu3.github.io/smiling-depression/)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Table of contents
+1. [Site Info](#site-info)
+2. [UX](#ux)
+    1. [Ideal User Demographic](#ideal-user-demographic)
+    2. [User Stories](#user-stories)
+    3. [Development Planes](#development-planes)
+    4. [Design](#design)
+3. [Features](#features)
+    1. [Existing Features](#existing-features)
+    2. [Features to Implement](#features-to-implement)
+4. [Technologies Used](#technologies-used)
+    1. [Main Languages Used](#main-languages-used)
+    2. [Frameworks, Libraries & Programs Used](#frameworks,-libraries-&-programs-used)
+5. [Deployment](#deployment)
+6. [Issues and Bugs](#issues-and-bugs)
+7. [Testing](#testing)
+    1. [User Stories Testing](#user-stories-testing)
+    2. [Manual Testing](#manual-testing)
+    3. [Validator Testing](#validator-testing)
+    4. [Lighthouse Testing](#lighthouse-testing)
+    5. [Browser Validation](#browser-validation)
+    6. [User Testing](#user-testing)
+8. [Credits](#credits)
+    1. [Content](#content)
+    2. [Code Features](#code-features)
+    3. [Media](#media)
+9. [Acknowledgements](#acknowledgements)
 
-## Gitpod Reminders
+## Site Info
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+This website has as a main theme the **smiling depression**, a functioning depression condition that is quite spread and many times unobserved. Here the developer wanted to give a first information about this condition and raise awareness about it. The general info is then linked to the fictious Institute of Wellbeing in Rome from which a person can require help or more info.
 
-`python3 -m http.server`
+This website was made for the first of five Milestone projects required to complete the Diploma in Software development program at The Code Institute. 
 
-A blue button should appear to click: _Make Public_,
+The main requirements of this project are to build a responsive and static front-end site to present useful information to users using all the technologies learned so far, namely HTML5 and CSS3. The site is to contain no less than three pages.
 
-Another blue button should appear to click: _Open Browser_.
+[Back to top ⇧](#smiling-depression)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## UX
+### Ideal User Demographic
+The ideal user for this website is:
+* Current user
+* New user
+* Person suffering of smiling depression
+* Person working/living with someone suffering of smiling depression
 
-A blue button should appear to click: _Make Public_,
+### User-Stories
+#### Current User Goals
+As a current user:
+1. I want to find general information about smiling depression and its symptoms.
+2. I want to easily navigate through the site and access the information I require.
+3. I want to easily navigate to content I have previously viewed within a small number of steps.
+4. As a current user, I want to easily find the info and contact form for the Institute for Wellbeing.
 
-Another blue button should appear to click: _Open Browser_.
+#### New User Goals
+As a new user:
+1. I want to easily navigate the entire site intuitively. 
+2. I want the information I seek to be easily accessible and relevant.
+3. I want attractive and relevant visuals and colour schemes that work with the content.
+4. I want to easily find the info and contact form for the Institute for Wellbeing.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+#### Goals of a Person Suffering of Smiling Depression
+As someone who suffers of smiling depression:
+1. I want to factually correct and relevant information about smiling depression and its symptoms.
+2. I want the information I seek to be easily accessible and relevant.
+3. I want to easily be able to find info about the Institute for Wellbeing and make contact.
 
-To log into the Heroku toolbelt CLI:
+#### Goals of a Person working/living with someone suffering of smiling depression
+As someone who is working/living with a depressed person:
+1. I want to factually correct and relevant information about smiling depression and its symptoms.
+2. I want the information I seek to be easily accessible and relevant.
+3. I want to easily be able to find info about the Institute for Wellbeing and make contact on behalf of the person suffering of smiling depression.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Development Planes
+In order to provide a website that responds to the above mentioned user stories with the corresponding functionalities, the developer must present the smiling depression as a serious condition, the symptoms, the testimonials of this condition and give the opportunity for the user to require more info or help in that regard.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+#### Strategy
+Strategy incorporates user needs as well as product objectives. This website will focus on the following target audience, divided into three main categories:
+* **Roles:**
+  * Current users
+  * New users
+  * Person suffering of smiling depression
+  * Person working/living with someone suffering of smiling depression
 
-------
+* **Demographic:**
+  * All ages
+  * People working in professional environment
+  * People exposed to stress at work
 
-## Release History
+* **Psychographic:**
+  * Lifestyles:
+    * Professionals working with other people
+  * Personality/Attitudes:
+    * Ingoing
+    * Focused
+    * Creative
+    * Overworking
+  * Values:
+    * Wellbeing of a person
+    * Care for someone in difficulty
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+The website needs to enable the **user** to:
+* Retrieve the desired information about:
+  * General info about smiling depression
+  * Symptoms of smiling depression
+  * Videos & Testimonials about smiling depression
+  * Contact and Form to get in touch with the Institute for Wellbeing
+    
+The website needs to enable the **site manager** to:
+* Gather the contact details of the site visitors in order to contact them.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+#### Scope
+The scope plane is about defining requirements based on the goals established on the strategy plane. Using the information in the strategy plane, the identified required features have been broken into the following two categories.
+* Content Requirements:
+  * The user will be looking for:
+    * General information about smiling depression
+    * 4 symptoms of smiling depression
+    * Testimonial about personal experience of smiling depression
+    * Short documentary about famous people who suffered from smiling depression
+    * Short film about smiling depression
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+* Functionality Requirements:
+  * The user will be able to:
+    * easily navigate the site to find the information they require.
+    * contact the Institute for Wellbeing to acquire more info or require help.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+#### Structure
+The information above was then organized in a hierarchical tree structure, a site map, showing how users can navigate through the site with ease and efficiency, with the following results:
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+<details>
+  <summary>Site Structure</summary>
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+  ![Site Structure](assets/readme_images/structure.png)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+</details>
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+#### Skeleton
+Wireframes were made as presentation of the site pages while keeping a positive user experience in mind. They were created using an online version of [Figma](https://figma.com/).
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+<details>
+  <summary>Figma Wireframes</summary>
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+  <img src="./assets/readme_images/wireframe-homepage.png" width="80%" alt="Homepage Wireframe">
+  <img src="./assets/readme_images/wireframe-symptoms.png" width="80%" alt="Symptoms of Smiling Depression Wireframe">
+  <img src="./assets/readme_images/wireframe-awareness.png" width="80%" alt="Awareness Video Wireframe">
+  <img src="./assets/readme_images/wireframe-contact-us.png" width="80%" alt="Contact Us Wireframe">
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+</details>
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Design
+#### Colour Scheme
+Colour Scheme was made by [Colourmind](http://colormind.io/template/material-dashboard/). 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+<details>
+  <summary>Colour Palette</summary>
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+  ![Colour Palette](assets/readme_images/features/palette.png)
+</details>
 
-------
+#### Typography
+The typography pairing used on the site are [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono?query=roboto+mono) and [Montserrat Alternates](https://fonts.google.com/specimen/Montserrat+Alternates?query=montserrat+alternates) imported from [Google Fonts](https://fonts.google.com/). Fonts Tahoma, Helvetica and sans-serifin are used as backup fonts in case of import failure. Montserrat Alternates is chosen for the titles, headings and copyright section, whilst Roboto Mono is used for the standard text parts, navbar and social network links.
 
-## FAQ about the uptime script
+#### Imagery
+The selected imagery has been sourced and created from various sites. The Pantheon image is taken from Wikipedia, while the other images are from [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/). More details can be find in [Credits Media](#media).
 
-**Why have you added this script?**
+[Back to top](#smiling-depression)
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+## Features 
+### Existing Features
+* **Navigation Bar**
 
-**How will this affect me?**
+  * Featured on all four pages, the full responsive navigation bar includes the Logo and links to the Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
+  * The logo (upside down smiley) appears on the left side whilst the links to Home, Symptoms, Awareness and Contact. The current page is marked by the underlined style of the link.
+  * On hover a small animation of transition appears, the font size of the link tekst increases and an elliptical shape sorrounds it.
+  * On smaller screens the logo goes up in the center above the links.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+  
+  <details>
+    <summary>Screenshot</summary>
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+    <img src="./assets/readme_images/features/navbar.png" width="80%">
+    <img src="./assets/readme_images/features/navbar2.png" width="80%">
+    <img src="./assets/readme_images/features/navbar3.png" width="50%">
+  </details>
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+  
 
-**So….?**
+* **The landing page image**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+  * The landing includes a photograph with text overlay to allow the user to see the exact topic of the web site.
+  * This section introduces the user to Smiling Depression with an image that powerfully depicts the essence of this condition - a guy's face out of focus in front of which is his smartphone with him smiling.
 
-**Can I opt out?**
+  
+  <details>
+    <summary>Screenshot</summary>
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+    <img src="./assets/readme_images/features/hero.png" width="80%">
+  </details>
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+* **Short Info Section**
 
-**Anything more?**
+  * This section allows the user to grasp the general info about the smiling depression condition.
+  * The accompanying images in a circle shaped fashion underline the info text
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+  
+  <details>
+    <summary>Screenshot</summary>
 
----
+    <img src="./assets/readme_images/features/short-info.png" width="80%">
+  </details>
 
-Happy coding!
+* **Contact Section**
+  * This section section appears every page, except the Contact page to which the Contact Us button is leading on click. 
+  * There's an encouraging message 
+
+  <details>
+    <summary>Screenshot</summary>
+
+    <img src="./assets/readme_images/features/contact-us.png" width="300px">
+  </summary>
+
+* **The Address and Map**
+
+  * This section gives the information about the location of the fictitious Institute for Wellbeing in Rome
+  * Other than the address, there's an image of the Institute (Pantheon) and below these information there's an interactive Google Map section.
+
+  
+  <details>
+    <summary>Screenshot</summary>
+
+    <img src="./assets/readme_images/features/address.png" width="80%">
+  </details>
+
+* **The Footer** 
+
+  * The footer section includes links to the relevant social media sites of the Institute (actually leading only to the hompegaes of the respective social media sites). The links will open to a new tab to allow easy navigation for the user. 
+  * The footer is valuable to the user as it encourages them to keep connected via social media.
+  * The FontAwesome icons are used on smaller and middle screens, whilst the text appears on bigger screens.
+  * There's a copyright info under the links.
+  
+  <details>
+    <summary>Screenshots</summary>
+
+    <img src="./assets/readme_images/features/footer.png" width="80%">
+    <img src="./assets/readme_images/features/footer1.png" width="40%">
+  </details>
+  
+* **Symptoms of Smiling Depression Page**
+
+  * This page main section provides articles about the most common symptoms of smiling depression. There are four articles, each represented by a title, image and a paragraph of text.
+  * On bigger screens, paragraph takes 2/3 of the row, whilst image with the title occupies 1/3. Every second article changes the position of the paragraph and image as well as colour. On smaller screens, the image is above the paragraph and both take 100% of the width.
+  
+  <details>
+    <summary>Screenshot</summary>
+      
+    <img src="./assets/readme_images/features/articles.png" width="80%">
+  </details>
+
+* **Awareness and Testimonials about Smiling Depression Page**
+
+  * This page has a distinctive video gallery that will provide the user with the YouTube videos about smiling depression. 
+  * The organization of the videos is very simple - one video per row on smaller screens in order to make user to concentrate on each story instead of the visual appearence of the gallery. On big screens - the video gallery features two videos per row.
+
+  
+  <details>
+    <summary>Screenshot</summary>
+
+    <img src="./assets/readme_images/features/awareness.png" height="500px">
+    <img src="./assets/readme_images/features/awareness1.png" height="500px">
+  </details>
+
+* **Contact Us Page**
+
+  * This page will allow the user to send his minimal details in order to get contacted by the Institute for Wellbeing. The name and email address are requested, whilest the message is optional.
+  * On bigger screens an image of a clown-like fake smile person apears to the left side of the form.
+  
+  <details>
+    <summary>Screenshot</summary>
+
+    <img src="./assets/readme_images/features/contact-form.png" width="80%">
+    <img src="./assets/readme_images/features/contact-form1.png" width="80%">
+  </details>
+ 
+### Features to Implement
+* **Short Testimonials Page**
+  * This could be a nice interactive page in where the testimonials of users who visited the page would be presented. The users would be invited to share their experiences about the smiling depression, the Institute of Wellbeing and the website content.
+
+## Technologies Used
+### Main Languages Used
+* [HTML5](https://en.wikipedia.org/wiki/HTML5 "Link to HTML in Wikipedia")
+* [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets "Link to CSS in Wikipedia")
+
+### Frameworks, Libraries & Programs Used
+* [Codepen](https://codepen.io/)
+  * Codepen website was used abundantly as a playground for the developer to experiment with the code and styles before implementing the desired code into the project.
+* [Colormind](http://colormind.io/)
+  * Colormind was used to generate the colour palette.
+* [Google Fonts](https://fonts.google.com/ "Link to Google Fonts")
+  * Google fonts was used to import the fonts *Montserrat Alternates*, *Roboto Mono*  and *Zen Antique Sof* into the style.css file. These fonts were used throughout the project.
+* [Font Awesome](https://fontawesome.com/ "Link to FontAwesome")
+  * Font Awesome was used on almost all pages throughout the website to import icons (e.g. social media icons) for UX purposes.
+* [GitPod](https://gitpod.io/ "Link to GitPod")
+  * GitPod was used for writing code, git commiting and pushing the code to GitHub.
+* [GitHub](https://github.com/ "Link to GitHub")
+  * GitHub was used to store the project online.
+* [Figma](https://www.figma.com/ "Link to Figma homepage")
+  * Figma was used to create the wireframes during the design phase of the project.
+* [Am I Responsive?](http://ami.responsivedesign.is/# "Link to Am I Responsive Homepage")
+  * Am I Responsive was used in order to see responsive design and to generate mockup imagery to be used in this README file.
+* [Webp Converter](https://developers.google.com/speed/webp)
+  * Being the GitPod based on Ubuntu, this converter was used to convert JPEG images used for the web page into WEBP format.
+* [ImageMagick](https://imagemagick.org/index.php)
+  * ImageMagick was used to easily resize images.
+
+[Back to top](#smiling-depression)
+
+## Deployment
+* The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  * In the GitHub repository, navigate to the **Settings** tab 
+  * From the left side menu select **Pages**.
+  * From the source section drop-down menu, select the **main** branch and click on **save**.
+  * Once the main branch has been selected and saved, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - https://tomdu3.github.io/smiling-depression/.
+
+*The site was previously deployed on the following address https://tomdu3.github.io/CI-project-1/, but the developer renamed the repository and subsequently the deployment live link was changed.*
+
+## Issues and Bugs 
+
+The developer ran into several issues during the development of the website, with the noteworthy ones listed below, along with solutions or ideas to implement in the future.
+
+* **Responsiveness** - In his first attempt at styling the web page, the developer started with a desktop-sized screen. He found this approach more difficult whilst the majority of the courses online (including the Code Institute Course) were suggesting and describing the mobile-first approach. The developer overcame this issue by starting anew with the suggested approach of styling.
+
+* **Side-scrolling** - That was quite visible in the navbar and sections with combined text and image elements. There were different instances of side-scrolling with extra white space. The main reason for these issues was the *overuse* of non-responsive sizing (mainly px). That was solved with the primary use of responsive size units.
+
+* **Stretching of the elements** - There were initial issues with the div with image elements overstretching because of the corresponding div with text because of the content distributing in more lines on smaller screens. The issue was solved by the use of media queries with different font sizes and element direction rules.
+
+* **An extra double quote in class Bug** - There was a bug caused by the automatic additon of the quotes in VS code with a residue of an extra double quote character after the id attribute in short-image-one. That was pointed out by an HTML validator and subsequently corrected.
+
+* **Section lacks heading Bug** - There were issues with section elements where headings were missing. Because the developer wanted the content to be only a paragraph/text without headings, the div was chosen instead of the section element.
+
+* **Wrong end tag** - There was a bug regarding the h2 element in the contact section. In the previous version of the code, the developer had an h3 element but was advised by the validator to respect the progressiveness of the heading tags. The developer then changed the h3 tag to h2, but without changing the closing tag - hence the bug. This was corrected.
+
+* **Deprecated frameborder attribute on the iframe element Bug** - When copying the embed code from a YouTube video, the code contains a deprecated attribute *frameborder*. The HTML validator pointed out this issue and the code the attribute was omitted and the valid css border rule was left. The same issue was found in the embed code from Google Maps and was corrected in the same manner.
+
+* **Character reference missing a semicolon Bug** - There was a bug in the character reference where it wasn't terminated by a semicolon (&_nbsp;).
+
+* **Icon not centered in navbar Bug** - When on smaller screens, the navbar splits from one line into two lines, where the icon which was on the left goes at the top and is supposed to be centered. It was a bit off because of the left padding that was applied on big screens. The padding was removed on smaller screens so that the icon could be perfectly centered.
+
+* **Mouse not changing to a pointer at submit button Bug** - The mentor pointed out that the submit button should cause the mouse indicator to change into a pointer when hovering over it. This bug was corrected.
+
+* **Text Area Resizible bug** - In the Contact Us form the textarea that was supposed to be of a fixed size was resizable. That was changed after the mentor pointed it out.
+
+[Back to top](#smiling-depression)
+
+## Testing 
+### User-Stories Testing
+#### Current User Goals
+1. As a current user, I want to find general information about smiling depression and its symptoms.
+* The Home Page has a few general information about the smiling depression.
+* The Symptoms Page has the information regading the general four symptoms of the smiling depression.
+* The Awareness Page has four videos related to the smiling depression. 
+2. As a current user, I want to easily navigate through the site and access the information I require.
+* The navigation bar is clearly defined and easily navigabale for users to find and use.
+* The footer menu is easy to use with recognizable icons on small screens and the text indication on bigger screens.
+3. As a current user, I want to easily navigate to content I have previously viewed within a small number of steps.
+* On all sites there's a navigation bar with links to each page.
+4. As a current user, I want to easily find the info and contact form for the Institute for Wellbeing.
+* On all pages there's a section with info about location with the accompanying image and Google Map. The first three pages have a Contact Us section and button that leads to the last Contact Us Page with a form to contact the Institute for Wellbeing.
+
+#### New User Goals
+1. As a new user, I want to easily navigate the entire site intuitively. 
+* The navigation bar is clearly defined and easily navigabale for users to find and use.
+* The footer menu is easy to use with recognizable icons on small screens and the text indication on bigger screens.
+2. As a new user, I want the information I seek to be easily accessible and relevant.
+* The navigation bar is clearly defined and easily navigabale for users to find and use.
+* The footer menu is easy to use with recognizable icons on small screens and the text indication on bigger screens.
+3. As a new user, I want attractive and relevant visuals and colour schemes that work with the content.
+* An interesting and calming palette was created by [Color Mind](http://colormind.io/).
+* The content related images were take from [Wikipedia](https://www.wikipedia.org/), while the other images are from [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/).
+4. As a new user, I want to easily find the info and contact form for the Institute for Wellbeing.
+* On all pages there's a section with info about location with the accompanying image and Google Map. The first three pages have a Contact Us section and button that leads to the last Contact Us Page with a form to contact the Institute for Wellbeing.
+
+#### Goals of a Person Suffering of Smiling Depression
+1. As someone who suffers of smiling depression, I want to factually correct and relevant information about smiling depression and its symptoms.
+* The Home Page has a few general information about the smiling depression.
+* The Symptoms Page has the information regading the general four symptoms of the smiling depression.
+* The Awareness Page has four videos related to the smiling depression. 
+2. As someone who suffers of smiling depression, I want the information I seek to be easily accessible and relevant.
+* The navigation bar is clearly defined and easily navigabale for users to find and use.
+* The footer menu is easy to use with recognizable icons on small screens and the text indication on bigger screens.
+3. As someone who suffers of smiling depression, I want to easily be able to find info about the Institute for Wellbeing and make contact.
+* On all pages there's a section with info about location with the accompanying image and Google Map. The first three pages have a Contact Us section and button that leads to the last Contact Us Page with a form to contact the Institute for Wellbeing.
+
+#### Goals of a Person working/living with someone suffering of smiling depression
+1. As someone who is working/living with a depressed person, I want to factually correct and relevant information about smiling depression and its symptoms.
+* The Home Page has a few general information about the smiling depression.
+* The Symptoms Page has the information regading the general four symptoms of the smiling depression.
+* The Awareness Page has four videos related to the smiling depression. 
+2. As someone who is working/living with a depressed person, I want the information I seek to be easily accessible and relevant.
+* The navigation bar is clearly defined and easily navigabale for users to find and use.
+* The footer menu is easy to use with recognizable icons on small screens and the text indication on bigger screens.
+3. As someone who is working/living with a depressed person, I want to easily be able to find info about the Institute for Wellbeing and make contact on behalf of the person suffering of smiling depression.
+* On all pages there's a section with info about location with the accompanying image and Google Map. The first three pages have a Contact Us section and button that leads to the last Contact Us Page with a form to contact the Institute for Wellbeing.
+
+[Back to top](#smiling-depression)
+
+### Manual Testing
+#### Common Element Testing
+Manual testing was conducted on the following elements that appear on every page:
+* Navigation Bar with a **hover** effect highlights the chosen menu item. The current page is indicated by the underlined effect on a link.
+  <details>
+    <summary>Screencast</summary>
+    <img src="./assets/readme_images/testing/navbar-hover.gif" width="80%" alt="Navigation Bar hover/unhover">
+
+    <img src="./assets/readme_images/testing/navbar-hover-small.gif" alt="Navigation Bar hover/unhover small screen">
+  </details>
+
+* Clicking on a link on Navigation bar gets a user to the chosen page.
+  <details>
+    <summary>Screencast</summary>
+      <img src="./assets/readme_images/testing/navbar-links.gif" width="80%" alt="Navigation Bar links test">
+      <img src="./assets/readme_images/testing/navbar-links-small.gif" alt="Navigation Bar hover/unhover small screen">
+  </details>
+
+* Facebook link (external, new page)
+  <details>
+    <summary>Screencast</summary>
+      <img src="./assets/readme_images/testing/facebook.gif" width="80%" alt="Facebook link test">
+  </details>
+
+* Twitter Link (external, new page)
+  <details>
+    <summary>Screencast</summary>
+      <img src="./assets/readme_images/testing/twitter.gif" width="80%" alt="Twitter link test">
+  </details>
+
+* YouTube Link (external, new page)
+  <details>
+    <summary>Screencast</summary>
+      <img src="./assets/readme_images/testing/youtube.gif" width="80%" alt="Youtube link test">
+  </details>
+
+* Instagram Link (external, new page)
+  <details>
+    <summary>Screencast</summary>
+      <img src="./assets/readme_images/testing/instagram.gif" width="80%" alt="Instagram link test">
+  </details>
+* Contact Button (internal)
+  <details>
+    <summary>Screencast</summary>
+      <img src="./assets/readme_images/testing/contact-button.gif" width="80%" alt="Contact Button link test">
+  </details>
+
+#### Homepage
+* The responsiveness of the Homepage
+  <details>
+    <summary>Screencast</summary>
+      <img src="./assets/readme_images/testing/responsiveness-homepage.gif" width="80%" alt="Responsiveness Homepage">
+  </details>
+
+#### Symptoms of Smiling Depression Page
+* The responsiveness of the Symptoms of Smiling Depression
+  <details>
+    <summary>Screencast</summary>
+      <img src="./assets/readme_images/testing/responsiveness-symptoms.gif" width="80%" alt="Responsiveness Symptoms Page">
+  </details>
+
+#### Awareness Page
+* The responsiveness of the Awareness Page
+  <details>
+    <summary>Screencast</summary>
+      <img src="./assets/readme_images/testing/responsiveness-awareness.gif" width="80%" alt="Responsiveness Awareness Page">
+  </details>
+
+#### Contact Us Page
+* The responsiveness of the Contact Us Page
+  <details>
+    <summary>Screencast</summary>
+      <img src="./assets/readme_images/testing/responsiveness-contact-us.gif" width="80%" alt="Responsiveness Contact Us Page">
+  </details>
+* Testing of the validity of input in the form
+  <details>
+    <summary>Screencast</summary>
+      <img src="./assets/readme_images/testing/validity-contact-us.gif" width="80%" alt="Validity Input Form Test">
+  </details>
+
+[Back to top](#smiling-depression)
+
+### Validator Testing 
+#### First Validator Testing 
+The issues and bugs were mentioned in [Issues and Bugs](#issues-and-bugs).
+* HTML
+  * [W3C validator](https://validator.w3.org/nu/)
+  
+  <details>
+    <summary>Homepage</summary>
+      <img src="./assets/readme_images/testing/index_test.png" width="80%" alt="Homepage Validator Test">
+  </details>
+  <details>
+    <summary>Symptoms of Smiling Depression</summary>
+      <img src="./assets/readme_images/testing/symptoms_test.png" width="80%" alt="Symptoms Page Validator Test">
+  </details>
+  <details>
+    <summary>Awareness Page</summary>
+      <img src="./assets/readme_images/testing/awareness_test.png" width="80%" alt="Awareness Page Validator Test">
+  </details>
+  <details>
+    <summary>Contact Us Page</summary>
+      <img src="./assets/readme_images/testing/contact-us_test.png" width="80%" alt="Contact Us Page Validator Test">
+  </details>
+
+* CSS
+  * [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
+
+  <details>
+    <summary>CSS Style</summary>
+      <img src="./assets/readme_images/testing/stylecss_test.png" width="80%" alt="CSS Style Validator Test">
+  </details>
+
+#### Final Validator Testing
+* HTML
+  * No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftomdu3.github.io%2Fsmiling-depression%2F)
+       
+* CSS
+  * No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ftomdu3.github.io%2Fsmiling-depression%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  <p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+  </p>
+      
+
+[Back to top](#smiling-depression)
+
+### Lighthouse Testing
+  * Performance test was made by **Lighthouse** in Chrome DevTools.
+
+    <details>
+      <summary>Homepage</summary>
+        <img src="./assets/readme_images/testing/lighthouse-homepage.png" width="400px" alt="Lighthouse Homepage">
+    </details>
+
+    <details>
+      <summary>Symptoms of Smiling Depression Page</summary>
+        <img src="./assets/readme_images/testing/lighthouse-symptoms.png" width="400px" alt="Lighthouse Symptoms Page">
+    </details>
+
+    <details>
+      <summary>Awareness Page</summary>
+        <img src="./assets/readme_images/testing/lighthouse-awareness.png" width="400px" alt="Lighthouse Awareness Page">
+    </details>
+
+    <details>
+      <summary>Contact Us Page</summary>
+        <img src="./assets/readme_images/testing/lighthouse-contact-us.png" width="400px" alt="Lighthouse Contact Us Page">
+    </details>
+
+[Back to top](#smiling-depression)
+
+### Browser Validation
+  * The site was tested on the following browsers:
+    <details>
+      <summary>Google Chrome</summary>
+        <img src="./assets/readme_images/testing/test_chrome.png" width="80%" alt="Google Chrome Validation">
+    </details>
+
+    <details>
+      <summary>Mozilla Firefox</summary>
+        <img src="./assets/readme_images/testing/test_firefox.png" width="80%" alt="Mozilla Firefox Validation">
+    </details>
+
+    <details>
+      <summary>Microsoft Edge</summary>
+        <img src="./assets/readme_images/testing/test_edge.png" width="80%" alt="Microsoft Edge Validation">
+    </details>
+
+    <details>
+      <summary>Vivaldi</summary>
+        <img src="./assets/readme_images/testing/test_vivaldi.png" width="80%" alt="Vivaldi Validation">
+    </details>
+
+    <details>
+      <summary>Brave</summary>
+        <img src="./assets/readme_images/testing/test_brave.png" width="80%" alt="Brave Validation">
+    </details>
+
+[Back to top](#smiling-depression)
+
+### User testing
+My friends, family and co-workers were asked to review the site and documentation, to test the links and to try to find any bugs and user experience issues. With their insightful comments and especially Mentor's guidance, the site went through some changes to the UX experience and some other choices of the overall function were made. 
+
+[Back to top](#smiling-depression)
+
+## Credits 
+### Content 
+* Texts are taken and adapted from the sites:
+  * [Medical News Today](https://www.medicalnewstoday.com/articles/smiling-depression)
+  * [Webmd](https://www.webmd.com/depression/smiling-depression-overview)
+  * [Davidson Institute](https://www.davidsongifted.org/gifted-blog/dabrowskis-theory-and-existential-depression-in-gifted-children-and-adults/)
+
+## Code Features
+* Fonts used are from [Google Fonts](https://fonts.google.com/)
+* The starting colour palette is *Sky Palettes* from [W3Schools](https://www.w3schools.com/colors/colors_palettes.asp)
+* The final colour palette was generated by the [Color Mind](http://colormind.io/).
+* Navbar was made by following the instructions of [Flexbox Navbar Mobile First Responsive Tutorial](https://youtu.be/yXhfUCXy2j4)
+* Google Maps were implemented with the help of [How to embed a Google Map into a web page](https://extension.umaine.edu/plugged-in/technology-marketing-communications/web/tips-for-web-managers/embed-map/)
+* Instructions on how to implement form validation on the Contact Us page was taken from the Code Institute Course.
+* The icons used on the pages were taken from [Font Awesome](https://fontawesome.com/)
+* The conversion of the JPEG images to WEBP was made with [Webp Converter](https://developers.google.com/speed/webp) by following the instructions from [Linuxways](https://linuxways.net/ubuntu/how-to-convert-png-jpeg-to-webp-in-ubuntu-also-webp-to-png-and-jpeg/).
+
+
+### Media
+* The photos used on the home and sign up page are from [Pexels](https://www.pexels.com) and [Unsplash](https://unsplash.com):
+  * [Photo by Antoine Beauvillain](https://unsplash.com/@antoinebeauvillain?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+  * [Photo by Karolina Grabowska from Pexels](https://www.pexels.com/photo/photo-of-person-crying-4472021/)
+  * [Photo by Ketut Subiyanto from Pexels](https://www.pexels.com/photo/man-in-yellow-crew-neck-t-shirt-forcing-a-smiley-look-4584534/)
+  * [Photo by Yan Krukov](https://www.pexels.com/photo/a-woman-need-help-7640764/)
+  * [Photo by Caju Gomes](https://unsplash.com/photos/QDq3YliZg48?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+  * [Photo by Nicholas Kusuma](https://unsplash.com/photos/xb2DaEeX8jk?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+  * [Photo by Khoa Võ](https://www.pexels.com/photo/ethnic-woman-looking-at-fish-in-aquarium-4958618/)
+  * [Photo by Pia Kafanke](https://www.pexels.com/photo/woman-with-white-and-red-face-paint-3807702/)
+  * [Photo by Gratisography](https://www.pexels.com/photo/man-person-people-emotions-1990/)
+* The image of Pantheon was taken from [Wikipaedia Media](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Pantheon_%28Rome%29_-_Right_side_and_front.jpg/298px-Pantheon_%28Rome%29_-_Right_side_and_front.jpg)
+* The videos on the Awareness page are taken from [Youtube](https://www.youtube.com):
+  * [What is Smiling Depression and What Makes It Dangerous?](https://youtu.be/Mgvd_fZfis0)
+  * [Smiling Through Depression?](https://youtu.be/Kx3dpO6ys5s)
+  * [This is what smiling depression looks like Slay Motivation](https://www.youtube.com/shorts/q5sSXJSVOn4)
+  * [Smiling Depression Short film](https://www.youtube.com/watch?v=mSq4NlCg3u8)
+  * [UNSPOKEN (2018) - Award Winning Short Film About Depression](https://youtu.be/k269NkuKK7Y)
+
+[Back to top](#smiling-depression)
+
+## Acknowledgements
+* I would like to thank "my inner circle", a selected few, who supported me and tested the site. They are the only ones who knew about my coding journey.
+* A special thanks to my mentor Koko (Oluwaseun Owonikoko) who patiently and wisely directed me towards the completion of this project.
+* Thanks to Lane-Sawyer Thompson and Ger Tobin, the Gandalf and Yoda of our October22 cohort. They were supporting, coaching and encouraging me the whole way. Awesome people. 
+[Back to top](#smiling-depression)
