@@ -190,14 +190,20 @@ img {
     font-weight: 400;
 }
 
-#usage_h1,
+#usage_h1 {
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.8rem;
+    font-weight: 400;
+    padding: .5rem 0 .5rem 0;
+}
+
 #usage_h2 {
     /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Oswald', sans-serif;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 400;
     padding: .5rem 0 .5rem 0;
-
 }
 
 #top_img {
@@ -207,15 +213,15 @@ img {
 }
 
 #microscop {
-    width: 20rem;
+    width: 15rem;
     height: 15rem;
     margin-right: 1.5rem;
     margin-top: 1rem;
 }
 #sextant {
-    width: 25rem;
-    height: 15rem;
-    margin-right: 1.5rem;
+    width: 30rem;
+    height: 20rem;
+    margin-left: 1.5rem;
     margin-top: 1rem;
 }
 
