@@ -21,7 +21,7 @@ body {
     max-width: 1800px;
 }
 
-body > div {
+body>div {
     flex: 1;
 }
 
@@ -148,7 +148,7 @@ span {
 }
 
 .box:hover {
-    flex: 2 2 38%;
+    flex: 2 2 50%;
 }
 
 .box:hover>img {
@@ -206,8 +206,14 @@ img {
     flex-wrap: wrap;
 }
 
-.using_amber img {
+#microscop {
     width: 20rem;
+    height: 15rem;
+    margin-right: 1.5rem;
+    margin-top: 1rem;
+}
+#sextant {
+    width: 25rem;
     height: 15rem;
     margin-right: 1.5rem;
     margin-top: 1rem;
@@ -794,7 +800,7 @@ img {
     /* margin-left: 5rem; */
 }
 
-.contact-box > div {
+.contact-box>div {
     padding: 20px;
 }
 
@@ -805,8 +811,8 @@ img {
 }
 
 #retro-phone img {
-    object-fit: cover; 
-    width: 100%; 
+    object-fit: cover;
+    width: 100%;
     height: auto;
 }
 
@@ -831,7 +837,9 @@ img {
     flex-direction: row;
     align-items: flex-start;
 }
-#send_message label, #send_message input {
+
+#send_message label,
+#send_message input {
     width: 100%;
     display: inline-block;
 }
@@ -842,6 +850,7 @@ img {
     resize: none;
     border-radius: 5px;
 }
+
 #send_message .form_wrapper {
     width: 100%;
     overflow: hidden;
@@ -857,6 +866,7 @@ img {
     box-shadow: 0px 3px 9px;
     font-size: 1.2rem;
 }
+
 #send_message button:hover {
     background: #80a33ff5;
     cursor: pointer;
@@ -1154,9 +1164,9 @@ h3~p {
         flex-direction: column;
     }
 
-    .box {
+    /* .box {
         flex: 1 1 30%;
-    }
+    } */
 
     .container img {
         flex-wrap: wrap;
@@ -1204,7 +1214,7 @@ h3~p {
     }
 
     .wide {
-        width: 100%;
+        width: 95%;
         height: 21rem;
         margin-left: auto;
     }
@@ -1214,14 +1224,15 @@ h3~p {
         align-items: center;
     }
 
-    #clear_beads {
-        width: 85%;
-        height: 22rem;
+    /* #clear_beads {
+        width: 4.5rem;
+        height: 5rem;
     }
 
     #black_beads {
-        margin-left: 3rem;
-    }
+        width: 4.5rem;
+        height: 10rem;
+    } */
 
     #expensive,
     #valuable {
