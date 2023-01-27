@@ -805,7 +805,6 @@ img {
     justify-content: top;
     width: 100%;
     align-content: center;
-    /* margin-left: 5rem; */
 }
 
 .contact-box>div {
@@ -814,8 +813,6 @@ img {
 
 #retro-phone {
     flex-basis: 50%;
-    /* margin-left: 3rem;
-    margin-top: 3rem; */
 }
 
 #retro-phone img {
@@ -1057,9 +1054,16 @@ h3~p {
     }
 
     #retro-phone {
-        width: 30%;
+        width: 60%;
         height: auto;
+        margin-top: -2.5rem;
     }
+
+    /* #retro-phone img {
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+    } */
 
 }
 
@@ -1085,6 +1089,7 @@ h3~p {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin-bottom: -.5rem;
     }
 
     label.logo {
@@ -1126,11 +1131,11 @@ h3~p {
     }
 
     #img_blue {
-       margin-top: -2rem;
+        margin-top: -2rem;
     }
 
     #img_white {
-    width: 37rem;
+        width: 37rem;
     }
 
     #par_text,
