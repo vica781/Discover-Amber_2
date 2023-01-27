@@ -216,6 +216,38 @@ img {
     flex-wrap: wrap;
 }
 
+#sextant {
+    width: 30rem;
+    height: 20rem;
+}
+
+#stradivarius {
+    width: 30rem;
+    height: 20rem;
+}
+
+#dog_collar {
+    width: 22rem;
+    height: 30rem;
+}
+
+#microscop,
+#sextant,
+#stradivarius,
+#dog_collar {
+    margin-bottom: 1rem;
+}
+
+#sextant,
+#dog_collar {
+    margin-left: 1rem;
+}
+
+#microscop {
+    margin-bottom: .5rem;
+}
+
+
 .using_amber img {
     width: 20rem;
     height: 15rem;
@@ -1173,6 +1205,19 @@ h3~p {
     #card-tea {
         margin-top: 20px;
     }
+
+    #usage_h1 {
+        font-size: 2.5rem;
+    }
+
+    #usage_h2 {
+        font-size: 1.5rem;
+    }
+
+    .using_amber {
+        font-size: 1rem;
+    }
+
 }
 
 
