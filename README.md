@@ -1,5 +1,5 @@
 <!-- ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png) -->
-/* 
+
 # DISCOVER AMBER
 ## Project Portfolio 1 of Diploma in Full Stack Software Development at Code Institute
 <img src="" width="80%">
