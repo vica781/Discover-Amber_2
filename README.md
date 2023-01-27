@@ -1,5 +1,5 @@
 <!-- ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png) -->
-
+/* 
 # DISCOVER AMBER
 ## Project Portfolio 1 of Diploma in Full Stack Software Development at Code Institute
 <img src="" width="80%">
@@ -50,25 +50,32 @@ The main requirements of this project are to build a responsive and static front
 * Current user
 * <ins>New user:</ins>
 1. People who appreciate the beauty of natural materials, specifically amber
-2. Jewelry enthusiasts who are interested in the uses of amber in art, jewellery and different industries   
+2. Jewellery enthusiasts who are interested in the uses of amber in art, jewellery and different industries   
 3. Collectors of amber or other natural fossils
 4. Someone who searching for inspirational idea for a present
 5. Students of arts and crafts, science or geology
-
+6. This site can be used by English speaking tourists visiting Kaliningrad Region of Russia located on a Baltic sea.
+   <br>The Kaliningrad Amber Combine is the only official amber mine in Russia and accounts for 65% of the global amber market. 
+   <br>Region holds 90% of the world's extractable amber. 
 
 ### User-Stories
-#### Current User Goals
+#### **CURRENT USER GOALS**
 As a current user:
-1. Learn about the history, geology, and origins of amber
-2. Understand the unique characteristics and inclusions found in amber
-3. Discover the various uses of amber in art, jewellery
-4. Gain inspiration from the beauty of amber and nature
-5. Get a source of reliable and accurate information about amber.
+1. Discover the various uses of amber in different industries, art and jewellery 
+2. Understand the unique characteristics of amber and learn about rare types
+3. Gain inspiration from the beauty of amber and nature
+4. Get ideas for amber gifts, office or home decorative and practical items
+5. Get a source of reliable and accurate information about amber
+6. I would like to experience easy and intuitive navigation through the site and access the information I require.
+7. I would like to be able easily navigate to content or retrieve my steps to information I have previously viewed within a small number of steps.
+8. Also, as a current user, I would appreciate ability of contact points in case I have queries or want to communicate for any reason.
 
-1. I want to find general information about smiling depression and its symptoms.
-2. I want to easily navigate through the site and access the information I require.
-3. I want to easily navigate to content I have previously viewed within a small number of steps.
-4. As a current user, I want to easily find the info and contact form for the Institute for Wellbeing.
+
+
+
+
+
+
 
 #### New User Goals
 As a new user:
