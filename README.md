@@ -1,10 +1,10 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<!-- ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png) -->
 
-# Smiling Depression
+# DISCOVER AMBER
 ## Project Portfolio 1 of Diploma in Full Stack Software Development at Code Institute
-<img src="./assets/readme_images/amiresponsive.png" width="80%">
+<img src="" width="80%">
 
-[View the live site](https://tomdu3.github.io/smiling-depression/)
+[View the live site](https://   /)
 
 ## Table of contents
 1. [Site Info](#site-info)
@@ -36,25 +36,35 @@
 
 ## Site Info
 
-This website has as a main theme the **smiling depression**, a functioning depression condition that is quite spread and many times unobserved. Here the developer wanted to give a first information about this condition and raise awareness about it. The general info is then linked to the fictious Institute of Wellbeing in Rome from which a person can require help or more info.
+Welcome to my website **Discover Amber** dedicated to promoting awareness about the beauty and value of amber! Amber is a natural fossilized resin that has been prized for thousands of years for its warm, golden colour and unique inclusions. My website is dedicated to providing accurate and informative information about this fascinating material, including its uses in art, jewellery and different industries; rare types. Whether you're a collector, students of arts and crafts, science or geology, or simply someone who appreciates the beauty of nature, I hope you'll find something of interest on this site. 
 
-This website was made for the first of five Milestone projects required to complete the Diploma in Software development program at The Code Institute. 
+This website is first of five Milestone Projects required to complete the Diploma of Full Stack Software Development with The Code Institute. 
 
-The main requirements of this project are to build a responsive and static front-end site to present useful information to users using all the technologies learned so far, namely HTML5 and CSS3. The site is to contain no less than three pages.
+The main requirements of this project are to build a responsive and static front-end site to present useful information to users applying all of the technologies learned so far, namely HTML5 and CSS3. The site is to contain no less than three pages.
 
 [Back to top ⇧](#smiling-depression)
 
 ## UX
 ### Ideal User Demographic
-The ideal user for this website is:
+**THE IDEAL USER FOR THIS WEBSITE IS:**
 * Current user
-* New user
-* Person suffering of smiling depression
-* Person working/living with someone suffering of smiling depression
+* <ins>New user:</ins>
+1. People who appreciate the beauty of natural materials, specifically amber
+2. Jewelry enthusiasts who are interested in the uses of amber in art, jewellery and different industries   
+3. Collectors of amber or other natural fossils
+4. Someone who searching for inspirational idea for a present
+5. Students of arts and crafts, science or geology
+
 
 ### User-Stories
 #### Current User Goals
 As a current user:
+1. Learn about the history, geology, and origins of amber
+2. Understand the unique characteristics and inclusions found in amber
+3. Discover the various uses of amber in art, jewellery
+4. Gain inspiration from the beauty of amber and nature
+5. Get a source of reliable and accurate information about amber.
+
 1. I want to find general information about smiling depression and its symptoms.
 2. I want to easily navigate through the site and access the information I require.
 3. I want to easily navigate to content I have previously viewed within a small number of steps.
