@@ -269,7 +269,7 @@ img {
 }
 
 .wide {
-    width: 40rem;
+    width: 32rem;
     height: 25rem;
 }
 
@@ -1105,7 +1105,7 @@ h3~p {
     } */
 
 }
-
+/* For medium screen sizes from 800px wide and down */
 @media (max-width:800px) {
     .list>li {
         margin: 0 10px;
@@ -1174,7 +1174,7 @@ h3~p {
     }
 
     #img_white {
-        width: 37rem;
+        width: 30rem;
     }
 
     #par_text,
@@ -1221,7 +1221,7 @@ h3~p {
 }
 
 
-/* For medium screen sizes 600px and down */
+/* For smalle screen sizes 600px and down */
 @media (max-width: 600px) {
     label.logo {
         font-size: 1.5rem;
