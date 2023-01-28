@@ -23,7 +23,7 @@ body {
     margin-right: auto;
 }
 
-body>div {
+body>section {
     flex: 1;
 }
 
