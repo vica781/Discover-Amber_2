@@ -23,7 +23,7 @@ The main requirements of this project are to build a responsive and static front
 
 -   ### User stories
 
-    -   #### A. First Time Visitor Goals
+    -   #### A First Time Visitor Goals
     
    Idealy, as a new user I want to be able to:
 1. Experience easy and intuitive navigation through the site and access the information required.
