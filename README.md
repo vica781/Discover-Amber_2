@@ -21,9 +21,9 @@ The main requirements of this project are to build a responsive and static front
 
 ## User Experience (UX)
 
--   ### User stories
+-   ### USER STORIES
 
-    -   #### A First Time Visitor Goals
+    -   #### First Time Visitor Goals
     
    Idealy, as a new user I want to be able to:
 1. Experience easy and intuitive navigation through the site and access the information required.
@@ -38,7 +38,7 @@ The main requirements of this project are to build a responsive and static front
 10. Learn about the significance of Kaliningrad Region of Russia in the global amber market.
 11. Understand the importance of amber in the fields of arts, crafts, science and geology.
       
-    -   #### B. Returning Visitor Goals
+    -   #### Returning Visitor Goals
    As a current user I want to be able to:
 1. Discover the various uses of amber in different industries, art and jewellery 
 2. Understand the unique characteristics of amber and learn about rare types
@@ -56,11 +56,36 @@ The main requirements of this project are to build a responsive and static front
 
 ### Existing Features
 
--   __F01 Navigation Bar__
+-   Navigation Bar
 
-    - The navigation bar has a consistent look and placement on all three pages of the website supporting easy navigation.  It includes a simple Logo, Home page, Menu and Contact links and is responsive on multiple screen sizes.  On small screens (e.g. mobile devices) the Home, Menu and Contact links move to under the Logo.
+    - The navigation bar has a consistent look and placement on all five pages of the website supporting easy navigation.
+    <br>
+      It includes a simple Logo, HOME, USAGE, RARE AMBER, GIFRS and CONTACT ME links and is responsive on multiple screen sizes.  
+    <br>     
+    - *On a large* screens tabs for all pages are visible;
+    <br> 
+      ![Navbar](./assets/image/readme%20page/navbar_large_screen_acrive.webp)
+    - *Active page* tab is identified as a button of orange colour;
+    <br>
+      ![Navbar](./assets/image/readme%20page/navbar_large_screen_navigating.webp)
+    - *During navigation* through the tabs user is assisted by change of tab colour on hover to green
+    - Navigation through *Medium and Small screens* assisted by a 'burger' drop-down menu with transparent colour matching background and colour distinguished tabs
+      <br>
+      (the decision about 'burger' menu has been made to avoid nav bar going into two and more lines)
+      <br>
+      ![Navbar](./assets/image/readme%20page/navbar_drop_down_menu.webp) ![Navbar](./assets/image/readme%20page/navbar_medium_screen_active.webp)
+      <br>
+      ![Navbar](./assets/image/readme%20page/navbar_medium_screen_navigating.webp)
 
-      ![Navbar](documentation/supp-images/f01-nav-bar.png)
+-   Home Page Animated panels
+
+    - Home Page has been equipped 
+
+
+
+    
+
+      
     
 
 -   __F02 Landing Page image and call to action__
