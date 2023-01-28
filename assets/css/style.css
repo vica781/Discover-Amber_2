@@ -16,8 +16,6 @@ html {
 body {
     /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Oswald', sans-serif;
-    /* display: flex;
-    flex-direction: column; */
     /* Limit how wide content grows on very large screens */
     max-width: 1800px;
     max-height: 100%;
@@ -1110,6 +1108,7 @@ h3~p {
     } */
 
 }
+
 /* For medium screen sizes from 800px wide and down */
 @media (max-width:800px) {
     .list>li {
