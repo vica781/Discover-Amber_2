@@ -63,19 +63,19 @@ The main requirements of this project are to build a responsive and static front
       It includes a simple Logo, HOME, USAGE, RARE AMBER, GIFRS and CONTACT ME links and is responsive on multiple screen sizes.  
     <br>     
     - *On a large* screens tabs for all pages are visible;
-    <br> 
-      ![Navbar](./assets/image/readme%20page/navbar_large_screen_acrive.webp)
+    
+      ![Navbar](./assets/image/readme_page/navbar_large_screen_acrive.webp)
     - *Active page* tab is identified as a button of orange colour;
-    <br>
-      ![Navbar](./assets/image/readme%20page/navbar_large_screen_navigating.webp)
+    
+      ![Navbar](./assets/image/readme_page/navbar_large_screen_navigating.webp)
     - *During navigation* through the tabs user is assisted by change of tab colour on hover to green
     - Navigation through *Medium and Small screens* assisted by a 'burger' drop-down menu with transparent colour matching background and colour distinguished tabs
       <br>
       (the decision about 'burger' menu has been made to avoid nav bar going into two and more lines)
-      <br>
-      ![Navbar](./assets/image/readme%20page/navbar_drop_down_menu.webp) ![Navbar](./assets/image/readme%20page/navbar_medium_screen_active.webp)
-      <br>
-      ![Navbar](./assets/image/readme%20page/navbar_medium_screen_navigating.webp)
+    
+      ![Navbar](./assets/image/readme_page/navbar_drop_down_menu.webp) ![Navbar](./assets/image/readme%20page/navbar_medium_screen_active.webp)
+    
+      ![Navbar](./assets/image/readme_page/navbar_medium_screen_navigating.webp)
 
 -   Home Page Animated panels
 
