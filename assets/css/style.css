@@ -207,18 +207,18 @@ img {
 }
 
 #sextant {
-    width: 30rem;
-    height: 20rem;
+    width: 20rem;
+    height: 15rem;
 }
 
 #stradivarius {
-    width: 30rem;
-    height: 20rem;
+    width: 20rem;
+    height: 15rem;
 }
 
 #dog_collar {
-    width: 22rem;
-    height: 30rem;
+    width: 20rem;
+    height: 25rem;
 }
 
 #microscop,
@@ -237,14 +237,12 @@ img {
     margin-bottom: .5rem;
 }
 
-
 .using_amber img {
     width: 20rem;
     height: 15rem;
     margin-right: 1.5rem;
     margin-top: 1rem;
 }
-
 
 /* RARE AMBER PAGE */
 .rareamber-grid {
