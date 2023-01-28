@@ -1,41 +1,279 @@
-<!-- ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png) -->
+<h1 align="center">Thrive Juices and Smoothies Website</h1>
 
-# DISCOVER AMBER
-## Project Portfolio 1 of Diploma in Full Stack Software Development at Code Institute
-<img src="" width="80%">
+[View the live project here](https://elainebroche-dev.github.io/ms1-thrive/)
 
-[View the live site](https://   /)
+THRIVE Juices and Smoothies is a site that advertises a fictional refreshment business.  The business primarily sells juices and smoothies and also a limited range of healthy snacks and hot beverages.  The site is targeted toward people who want to buy healthy refreshments "on the go" - the business also has a seating area for anyone who wants to stay and socialise but its primary USP is the appeal, taste and quality of the products.  The site will be useful for people who want to check out the range of products available, the location and opening hours of the business.
 
-## Table of contents
-1. [Site Info](#site-info)
-2. [UX](#ux)
-    1. [Ideal User Demographic](#ideal-user-demographic)
-    2. [User Stories](#user-stories)
-    3. [Development Planes](#development-planes)
-    4. [Design](#design)
-3. [Features](#features)
-    1. [Existing Features](#existing-features)
-    2. [Features to Implement](#features-to-implement)
-4. [Technologies Used](#technologies-used)
-    1. [Main Languages Used](#main-languages-used)
-    2. [Frameworks, Libraries & Programs Used](#frameworks,-libraries-&-programs-used)
-5. [Deployment](#deployment)
-6. [Issues and Bugs](#issues-and-bugs)
-7. [Testing](#testing)
-    1. [User Stories Testing](#user-stories-testing)
-    2. [Manual Testing](#manual-testing)
-    3. [Validator Testing](#validator-testing)
-    4. [Lighthouse Testing](#lighthouse-testing)
-    5. [Browser Validation](#browser-validation)
-    6. [User Testing](#user-testing)
-8. [Credits](#credits)
-    1. [Content](#content)
-    2. [Code Features](#code-features)
-    3. [Media](#media)
-9. [Acknowledgements](#acknowledgements)
+![Mockup](documentation/supp-images/resp-mockup.png)
 
+## Index – Table of Contents
+* [User Experience (UX)](#user-experience-ux) 
+* [Features](#features)
+* [Design](#design)
+* [Technologies Used](#technologies-used)
+* [Testing](#testing)
+* [Deployment](#deployment)
+* [Credits](#credits)
+
+## User Experience (UX)
+
+-   ### User stories
+
+    -   #### A. First Time Visitor Goals
+
+        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+        3. As a First Time Visitor, I want to be able to easily navigate to and view a menu of drinks and snacks.
+        4. As a First Time Visitor, I want to be able to easily find where the organisation is located.
+
+    -   #### B. Returning Visitor Goals
+
+        1. As a Returning Visitor, I want to be able to access and view the menu quickly and easily.
+        2. As a Returning Visitor, I want to be able to check opening times quickly and easily.
+        3. As a Returning Visitor, I want to be able to contact the organisation to give feedback or ask questions.
+
+    -   #### C. Frequent User Goals
+        1. As a Frequent User, I want to be able to sign-up easily for discounts.
+     
+
+## Features
+
+### Existing Features
+
+-   __F01 Navigation Bar__
+
+    - The navigation bar has a consistent look and placement on all three pages of the website supporting easy navigation.  It includes a simple Logo, Home page, Menu and Contact links and is responsive on multiple screen sizes.  On small screens (e.g. mobile devices) the Home, Menu and Contact links move to under the Logo.
+
+      ![Navbar](documentation/supp-images/f01-nav-bar.png)
+    
+
+-   __F02 Landing Page image and call to action__
+
+    - The landing area includes a photograph and a text overlay that together clearly identify the purpose of the business and the type of product it sells.  The citrus colours and 'welcome' message are intended to be appealing to the user and convey a sense of health, freshness and friendliness.
+
+    - A large bright "See Our Menu" button is placed central to the screen as an eye-catching call to action which gives the user an obvious quick route to the menu page.
+
+      ![Landing Area](documentation/supp-images/f02-landing.png)
+
+- __F03 Tagline__
+
+    - The "enjoy here or takeaway - the choice is yours" tagline appears on the main page and again on the menu page to let the user know that seating is available and to help re-inforce consistency in branding.
+
+      ![Tagline](documentation/supp-images/f03-tagline.png)
+
+- __F04 Company Ideals section__
+
+    - The company ideals are presented using 4 flip cards below the tagline on the main page.  These cards give the user more information about the organisation in relation to its strategy in the areas of quality, sourcing of ingredients, recycling and philanthropy.
+    
+      ![Company Ideals](documentation/supp-images/f04-company-ideals.png)
+
+- __F05 Footer__
+
+    - The footer is featured on all three pages and is identical on each page making it easy to use.  It contains three sections :
+
+        - Opening Times - having the opening times in the footer on each page allows the user to quickly and easily find this information, this is important for this type of business as it is information that the user needs in order to make use of the company (product is sold offline).
+
+        - Address - similar to the opening times, the address of this type of business is important to the user in order for them to use the company and so has been repeated on each page in the footer to allow the user to quickly and easily find out where the company is located 
+
+        - Stay in Touch - this area has links to social media sites associated with the organisation encouraging the user to keep connected.  The links will open in a new tab to allow easy navigation for the user. The organisation can use these sites to promote brand awareness and keep customers interested through updates, offers, chats and other marketing efforts. (As THRIVE is a ficticious company, the links currently just go to the social media main websites.)
+
+      ![Footer](documentation/supp-images/f05-footer.png)
+
+- __F06 Menu Page - 'Carte' section__
+
+    - The menu page gives a list of the products that can be purchased at THRIVE.  For ease of use and clarity for the user the products have been split into three panels, one for 'Fresh Juices', one for 'Smoothies', and the third for 'Healthy Snacks and Hot Drinks'.  Pricing and ingredients are also shown.
+    
+    - For ease of use, a consistent look and feel is maintained through the use of the same background image as is used for the landing image on the main page, and in applying the same background colour to the menu panels as is used on the overlay text area on the main page.  Text colour is kept simple for readability and to minimise distraction.
+
+       ![Menu Page](documentation/supp-images/f06-menu.png)
+
+
+- __F07 Contact Page - 'Contact Us'__
+
+    - The 'Contact Us' panel of the Contact page allows the user to send a message/give feedback to the company and if they want, sign up to the company mailing list to get discount codes and offers.  The user is asked to provide their name and email address when sending a message.  By default, the option to join the mailing list is set to 'no' - to prevent them accidentally signing up for the mailing list and getting unwanted email.  Sending the message will result in a new tab showing the results (at the moment the user is simply shown the formdump.codeinstitute.net page with the data they submitted displayed)
+
+      ![Contact Us](documentation/supp-images/f07-contact-us.png)
+
+- __F08 Contact Page - 'How to Find Us'__
+
+    - The 'How to Find Us' panel of the Contact page gives the user an interactive google map showing the location of the company along with details on full address, phone number and administration email address in large font to make it easily readable.  By clicking the 'View larger map' link the user can go to the google maps site for the address - this opens in a separate tab to allow ease of navigation.
+
+      ![Find Us](documentation/supp-images/f08-find-us.png)
+
+
+- __How these features support the User Stories__
+
+    - The User Stories in the [User Experience (UX)](#user-experience-ux) part of this document are numbered and categorised into groups A (first time visitor), B (returning visitor) and C (frequent visitor).  The existing features are listed above as F01 to F08.  Below is a traceability matrix cross-referencing the user stories with the features, illustrating which features support which stories :
+
+    ![User Story Feature Matrix](documentation/supp-images/us-feat-matrix.png)
+
+### Features which could be implemented in the future
+
+- __Company Timeline__
+    - A 'Company Timeline' page could be added to provide more information on the evolution of the business for users who would like to know more about the origins of the company, its ethos and its involvement with the community.
+
+- __Navigation bar improvements__
+    - The functionality of the navigation bar could be extended to make it "sticky" so that it would be available to the user without scrolling.
+    - A hamburger menu could be implemented to save space on smaller screens.
+
+## Design
+
+-   ### Imagery
+    -   The hero and large background images have been chosen because they are eye-catching, fresh and bright.  The citrus and light pastel colours in the images were chosen to help convey a sense of energy, health and freshness.  The images depict fruit to align with the main business goal of selling juices and smoothies and were chosen for their "simplicity" (- e.g. a single type of fruit or repeating theme) to help keep the site clear and easy to use.
+
+-   ### Colour Scheme
+    -  A citrus/pastel palette was chosen to convey a fresh, energetic mood.  The colours picked were inspired by a palette from [Lily Bug Design](https://www.lilybugdesign.co.nz/colour-wall)
+
+        ![Colour Palette](documentation/supp-images/citruspalette.png)
+
+-   ### Typography
+    -   Google Fonts were used to import Lato and Oswald fonts into styles.css.  These were chosen as they work well together and have a simple, unembellished, modern feel that is easy to read.
+
+
+-   ### Wireframes
+
+    -   #### Main Page Wireframes
+
+        ![Main](documentation/wireframes/index-page.png)
+
+    -   #### Menu Page Wireframes
+
+        ![Menu](documentation/wireframes/menu-page.png)
+
+    -   #### Contact Page Wireframes
+
+        ![Contact](documentation/wireframes/contact-page.png)
+
+## Technologies Used
+
+### Languages Used
+
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+### Frameworks, Libraries & Programs Used
+
+-   [Google Fonts:](https://fonts.google.com/) was used to import the 'Lato' and 'Oswald' fonts into the style.css file which are used on all pages of the project.
+-   [Font Awesome:](https://fontawesome.com/) was used to add icons for aesthetic and UX purposes.
+-   [Git:](https://git-scm.com/) was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
+-   [GitHub:](https://github.com/) is used as the respository for the projects code after being pushed from Git.
+-   [Microsoft Paint 3D:](https://www.microsoft.com/en-us/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab) was used for resizing images and editing photos for the website.
+-   [Balsamiq:](https://balsamiq.com/) was used to create the wireframes during the design process.
+    
+
+## Testing
+
+### Validator Testing
+
+- [HTML Validator](https://validator.w3.org/)
+
+    - result for index.html
+      ![HTML results index](documentation/validation-results/html-validation-result-1.png)
+    - result for menu.html
+      ![HTML results menu](documentation/validation-results/html-validation-result-2.png)
+    - result for contact.html
+      ![HTML results contact](documentation/validation-results/html-validation-result-3.png)
+
+    - Full validation results are available on github here :
+
+        - <a href="https://github.com/elainebroche-dev/ms1-thrive/blob/master/documentation/validation-results/html-validation-results-index.pdf" target="_blank">HTML Results - Home Page</a>
+
+        - <a href="https://github.com/elainebroche-dev/ms1-thrive/blob/master/documentation/validation-results/html-validation-results-menu.pdf" target="_blank">HTML Results - Menu Page</a>
+
+        - <a href="https://github.com/elainebroche-dev/ms1-thrive/blob/master/documentation/validation-results/html-validation-results-contact.pdf" target="_blank">HTML Results - Contact Page</a>
+
+- [CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+    - result for styles.css 
+      ![CSS results 1](documentation/validation-results/css-validation-result-1.png)
+      ![CSS results 2](documentation/validation-results/css-validation-result-2.png)
+
+      The warnings are due to 1) import of the Google fonts and 2) a webkit extension for Safari support of the flip-card effect used on the home page.
+
+    - Full validation results are available on github here :
+
+        - <a href="https://github.com/elainebroche-dev/ms1-thrive/blob/master/documentation/validation-results/css-validation-results.pdf" target="_blank">CSS Results - styles.css</a>
+
+### Browser Compatibility
+
+- Testing has been carried out on the following browsers :
+    - Chrome Version 90.0.4430.212 (Official Build) (64-bit)
+    - Firefox Version 88.0.1 (64-bit)
+    - Edge Version 90.0.818.62 (Official build) (64-bit)
+    - Safari on macOS Catalina (Safari  Version 14.0.3)
+    
+### Test Cases and Results
+
+- The below table details the test cases that were used, the results and a cross-reference to the Feature ID that each test case exercised (click to open iamge):
+
+  ![Test Results](documentation/supp-images/test-cases.png)
+
+### Known bugs
+
+- My mentor reported an issue with the "Send Message" button when viewed on an iphone during a review meeting.  Neither of us has since been able to re-create this using the browser dev tools but I am adding an image of the issue here for completeness :
+
+  ![Bug01](documentation/supp-images/bug01-send-message-issue.png)
+
+## Deployment
+
+### How this site was deployed
+
+- In the GitHub repository, navigate to the Settings tab, then choose Pages from the left hand menu 
+- From the source section drop-down menu, select the Master Branch
+- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment
+- Any changes pushed to the master branch will take effect on the live project
+
+  The live link can be found here - [THRIVE Juices and Smoothies](https://elainebroche-dev.github.io/ms1-thrive/index.html) 
+
+### How to clone the repository
+
+- Go to the https://github.com/elainebroche-dev/ms1-thrive repository on GitHub 
+- Click the "Code" button to the right of the screen, click HTTPs and copy the link there
+- Open a GitBash terminal and navigate to the directory where you want to locate the clone
+- On the command line, type "git clone" then paste in the copied url and press the Enter key to begin the clone process
+ 
+## Credits 
+
+### Content 
+- Content on the menu page was loosely based on menus on [Jump Juice Bar](https://www.jumpjuicebar.com/menu-nutrition-smoothies/)
+- All other content was written by the developer
+
+### Code
+- Code on how to do the fade-in of the hero image came from information on this page : [CSS Image fade-in tutorial](https://blog.hubspot.com/website/css-fade-in)
+- Code on how to do a rounded button as seen on the Home page was based on code on : [W3Schools Rounded button tutorial](https://www.w3schools.com/howto/howto_css_round_buttons.asp)
+- Code on how to do the flip-card effect on the Home page was based on example code on : [W3Schools Flip card tutorial](https://www.w3schools.com/howto/howto_css_flip_card.asp)
+- Code on how to include google map with marker was based on code from this site :  [How to embed Google Map](https://www.maps.ie/create-google-map/)
+- Code on how to implement flex boxes was based on instructions from [YouTube Flexbox Tutorial](https://www.youtube.com/watch?v=S0a7PEOi0do)
+
+### Media 
+- The colours used were based on a citrus/pastel palette from this website : [Lily Bug Design - Colour Wall](https://www.lilybugdesign.co.nz/colour-wall) 
+- The icons in the header, footer and on the back of the flip-cards were taken from [Font Awesome](https://fontawesome.com/)
+- The fonts used were imported from [Google Fonts](https://fonts.google.com/)
+
+- All images were downloaded from [Unsplash](https://unsplash.com) :
+
+    - <a href="https://images.unsplash.com/photo-1546548970-71785318a17b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80">Main (hero/landing) image and background image</a> photo by <a href="https://unsplash.com/@brunabranco?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Bruna Branco</a> 
+
+    - <a href="https://unsplash.com/photos/9aOswReDKPo?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink" target="_blank" rel="noopener">Avocado</a> photo by <a href="https://unsplash.com/@thoughtcatalog?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener">Thought Catalog</a>
+
+    - <a href="https://images.unsplash.com/photo-1595475207225-428b62bda831?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" target="_blank" rel="noopener">Watermelon</a> photo by <a href="https://unsplash.com/@amyshamblen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener">Amy Shamblen</a> 
+
+    - <a href="https://images.unsplash.com/photo-1564769610726-59cead6a6f8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=448&q=80" target="_blank" rel="noopener">Sliced oranges</a> photo by <a href="https://unsplash.com/@euniquedeeann?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener">Eunique Deeann</a> 
+
+    - <a href="https://images.unsplash.com/photo-1559181567-c3190ca9959b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80" target="_blank" rel="noopener">Cherries</a> photo by <a href="https://unsplash.com/@picoftasty?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener">Mae Mu</a> 
+
+
+### Acknowledgments
+
+- Thank you to my mentor Brian Macharia who gave me very good advice and feedback on how to plan and execute this project and who provided me with lots of pointers on resources to help select colours and images and well as resources to help with coding and testing.
 ## Site Info
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 Welcome to my website **Discover Amber** dedicated to promoting awareness about the beauty and value of amber! Amber is a natural fossilized resin that has been prized for thousands of years for its warm, golden colour and unique inclusions. My website is dedicated to providing accurate and informative information about this fascinating material, including its uses in art, jewellery and different industries; rare types. Whether you're a collector, students of arts and crafts, science or geology, or simply someone who appreciates the beauty of nature, I hope you'll find something of interest on this site. 
 
 This website is first of five Milestone Projects required to complete the Diploma of Full Stack Software Development with The Code Institute. 
@@ -86,598 +324,8 @@ The main requirements of this project are to build a responsive and static front
 10. Learn about the significance of Kaliningrad Region of Russia in the global amber market.
 11. Understand the importance of amber in the fields of arts, crafts, science and geology.
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-/
-/
-/
-/
 
 
 
 
 
-#### Goals of a Person Suffering of Smiling Depression
-As someone who suffers of smiling depression:
-1. I want to factually correct and relevant information about smiling depression and its symptoms.
-2. I want the information I seek to be easily accessible and relevant.
-3. I want to easily be able to find info about the Institute for Wellbeing and make contact.
-
-#### Goals of a Person working/living with someone suffering of smiling depression
-As someone who is working/living with a depressed person:
-1. I want to factually correct and relevant information about smiling depression and its symptoms.
-2. I want the information I seek to be easily accessible and relevant.
-3. I want to easily be able to find info about the Institute for Wellbeing and make contact on behalf of the person suffering of smiling depression.
-
-### Development Planes
-In order to provide a website that responds to the above mentioned user stories with the corresponding functionalities, the developer must present the smiling depression as a serious condition, the symptoms, the testimonials of this condition and give the opportunity for the user to require more info or help in that regard.
-
-#### Strategy
-Strategy incorporates user needs as well as product objectives. This website will focus on the following target audience, divided into three main categories:
-* **Roles:**
-  * Current users
-  * New users
-  * Person suffering of smiling depression
-  * Person working/living with someone suffering of smiling depression
-
-* **Demographic:**
-  * All ages
-  * People working in professional environment
-  * People exposed to stress at work
-
-* **Psychographic:**
-  * Lifestyles:
-    * Professionals working with other people
-  * Personality/Attitudes:
-    * Ingoing
-    * Focused
-    * Creative
-    * Overworking
-  * Values:
-    * Wellbeing of a person
-    * Care for someone in difficulty
-
-The website needs to enable the **user** to:
-* Retrieve the desired information about:
-  * General info about smiling depression
-  * Symptoms of smiling depression
-  * Videos & Testimonials about smiling depression
-  * Contact and Form to get in touch with the Institute for Wellbeing
-    
-The website needs to enable the **site manager** to:
-* Gather the contact details of the site visitors in order to contact them.
-
-#### Scope
-The scope plane is about defining requirements based on the goals established on the strategy plane. Using the information in the strategy plane, the identified required features have been broken into the following two categories.
-* Content Requirements:
-  * The user will be looking for:
-    * General information about smiling depression
-    * 4 symptoms of smiling depression
-    * Testimonial about personal experience of smiling depression
-    * Short documentary about famous people who suffered from smiling depression
-    * Short film about smiling depression
-
-* Functionality Requirements:
-  * The user will be able to:
-    * easily navigate the site to find the information they require.
-    * contact the Institute for Wellbeing to acquire more info or require help.
-
-#### Structure
-The information above was then organized in a hierarchical tree structure, a site map, showing how users can navigate through the site with ease and efficiency, with the following results:
-
-<details>
-  <summary>Site Structure</summary>
-
-  ![Site Structure](assets/readme_images/structure.png)
-
-</details>
-
-
-#### Skeleton
-Wireframes were made as presentation of the site pages while keeping a positive user experience in mind. They were created using an online version of [Figma](https://figma.com/).
-
-<details>
-  <summary>Figma Wireframes</summary>
-
-  <img src="./assets/readme_images/wireframe-homepage.png" width="80%" alt="Homepage Wireframe">
-  <img src="./assets/readme_images/wireframe-symptoms.png" width="80%" alt="Symptoms of Smiling Depression Wireframe">
-  <img src="./assets/readme_images/wireframe-awareness.png" width="80%" alt="Awareness Video Wireframe">
-  <img src="./assets/readme_images/wireframe-contact-us.png" width="80%" alt="Contact Us Wireframe">
-
-</details>
-
-### Design
-#### Colour Scheme
-Colour Scheme was made by [Colourmind](http://colormind.io/template/material-dashboard/). 
-
-<details>
-  <summary>Colour Palette</summary>
-
-  ![Colour Palette](assets/readme_images/features/palette.png)
-</details>
-
-#### Typography
-The typography pairing used on the site are [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono?query=roboto+mono) and [Montserrat Alternates](https://fonts.google.com/specimen/Montserrat+Alternates?query=montserrat+alternates) imported from [Google Fonts](https://fonts.google.com/). Fonts Tahoma, Helvetica and sans-serifin are used as backup fonts in case of import failure. Montserrat Alternates is chosen for the titles, headings and copyright section, whilst Roboto Mono is used for the standard text parts, navbar and social network links.
-
-#### Imagery
-The selected imagery has been sourced and created from various sites. The Pantheon image is taken from Wikipedia, while the other images are from [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/). More details can be find in [Credits Media](#media).
-
-[Back to top](#smiling-depression)
-
-## Features 
-### Existing Features
-* **Navigation Bar**
-
-  * Featured on all four pages, the full responsive navigation bar includes the Logo and links to the Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  * The logo (upside down smiley) appears on the left side whilst the links to Home, Symptoms, Awareness and Contact. The current page is marked by the underlined style of the link.
-  * On hover a small animation of transition appears, the font size of the link tekst increases and an elliptical shape sorrounds it.
-  * On smaller screens the logo goes up in the center above the links.
-
-  
-  <details>
-    <summary>Screenshot</summary>
-
-    <img src="./assets/readme_images/features/navbar.png" width="80%">
-    <img src="./assets/readme_images/features/navbar2.png" width="80%">
-    <img src="./assets/readme_images/features/navbar3.png" width="50%">
-  </details>
-
-  
-
-* **The landing page image**
-
-  * The landing includes a photograph with text overlay to allow the user to see the exact topic of the web site.
-  * This section introduces the user to Smiling Depression with an image that powerfully depicts the essence of this condition - a guy's face out of focus in front of which is his smartphone with him smiling.
-
-  
-  <details>
-    <summary>Screenshot</summary>
-
-    <img src="./assets/readme_images/features/hero.png" width="80%">
-  </details>
-
-* **Short Info Section**
-
-  * This section allows the user to grasp the general info about the smiling depression condition.
-  * The accompanying images in a circle shaped fashion underline the info text
-
-  
-  <details>
-    <summary>Screenshot</summary>
-
-    <img src="./assets/readme_images/features/short-info.png" width="80%">
-  </details>
-
-* **Contact Section**
-  * This section section appears every page, except the Contact page to which the Contact Us button is leading on click. 
-  * There's an encouraging message 
-
-  <details>
-    <summary>Screenshot</summary>
-
-    <img src="./assets/readme_images/features/contact-us.png" width="300px">
-  </summary>
-
-* **The Address and Map**
-
-  * This section gives the information about the location of the fictitious Institute for Wellbeing in Rome
-  * Other than the address, there's an image of the Institute (Pantheon) and below these information there's an interactive Google Map section.
-
-  
-  <details>
-    <summary>Screenshot</summary>
-
-    <img src="./assets/readme_images/features/address.png" width="80%">
-  </details>
-
-* **The Footer** 
-
-  * The footer section includes links to the relevant social media sites of the Institute (actually leading only to the hompegaes of the respective social media sites). The links will open to a new tab to allow easy navigation for the user. 
-  * The footer is valuable to the user as it encourages them to keep connected via social media.
-  * The FontAwesome icons are used on smaller and middle screens, whilst the text appears on bigger screens.
-  * There's a copyright info under the links.
-  
-  <details>
-    <summary>Screenshots</summary>
-
-    <img src="./assets/readme_images/features/footer.png" width="80%">
-    <img src="./assets/readme_images/features/footer1.png" width="40%">
-  </details>
-  
-* **Symptoms of Smiling Depression Page**
-
-  * This page main section provides articles about the most common symptoms of smiling depression. There are four articles, each represented by a title, image and a paragraph of text.
-  * On bigger screens, paragraph takes 2/3 of the row, whilst image with the title occupies 1/3. Every second article changes the position of the paragraph and image as well as colour. On smaller screens, the image is above the paragraph and both take 100% of the width.
-  
-  <details>
-    <summary>Screenshot</summary>
-      
-    <img src="./assets/readme_images/features/articles.png" width="80%">
-  </details>
-
-* **Awareness and Testimonials about Smiling Depression Page**
-
-  * This page has a distinctive video gallery that will provide the user with the YouTube videos about smiling depression. 
-  * The organization of the videos is very simple - one video per row on smaller screens in order to make user to concentrate on each story instead of the visual appearence of the gallery. On big screens - the video gallery features two videos per row.
-
-  
-  <details>
-    <summary>Screenshot</summary>
-
-    <img src="./assets/readme_images/features/awareness.png" height="500px">
-    <img src="./assets/readme_images/features/awareness1.png" height="500px">
-  </details>
-
-* **Contact Us Page**
-
-  * This page will allow the user to send his minimal details in order to get contacted by the Institute for Wellbeing. The name and email address are requested, whilest the message is optional.
-  * On bigger screens an image of a clown-like fake smile person apears to the left side of the form.
-  
-  <details>
-    <summary>Screenshot</summary>
-
-    <img src="./assets/readme_images/features/contact-form.png" width="80%">
-    <img src="./assets/readme_images/features/contact-form1.png" width="80%">
-  </details>
- 
-### Features to Implement
-* **Short Testimonials Page**
-  * This could be a nice interactive page in where the testimonials of users who visited the page would be presented. The users would be invited to share their experiences about the smiling depression, the Institute of Wellbeing and the website content.
-
-## Technologies Used
-### Main Languages Used
-* [HTML5](https://en.wikipedia.org/wiki/HTML5 "Link to HTML in Wikipedia")
-* [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets "Link to CSS in Wikipedia")
-
-### Frameworks, Libraries & Programs Used
-* [Codepen](https://codepen.io/)
-  * Codepen website was used abundantly as a playground for the developer to experiment with the code and styles before implementing the desired code into the project.
-* [Colormind](http://colormind.io/)
-  * Colormind was used to generate the colour palette.
-* [Google Fonts](https://fonts.google.com/ "Link to Google Fonts")
-  * Google fonts was used to import the fonts *Montserrat Alternates*, *Roboto Mono*  and *Zen Antique Sof* into the style.css file. These fonts were used throughout the project.
-* [Font Awesome](https://fontawesome.com/ "Link to FontAwesome")
-  * Font Awesome was used on almost all pages throughout the website to import icons (e.g. social media icons) for UX purposes.
-* [GitPod](https://gitpod.io/ "Link to GitPod")
-  * GitPod was used for writing code, git commiting and pushing the code to GitHub.
-* [GitHub](https://github.com/ "Link to GitHub")
-  * GitHub was used to store the project online.
-* [Figma](https://www.figma.com/ "Link to Figma homepage")
-  * Figma was used to create the wireframes during the design phase of the project.
-* [Am I Responsive?](http://ami.responsivedesign.is/# "Link to Am I Responsive Homepage")
-  * Am I Responsive was used in order to see responsive design and to generate mockup imagery to be used in this README file.
-* [Webp Converter](https://developers.google.com/speed/webp)
-  * Being the GitPod based on Ubuntu, this converter was used to convert JPEG images used for the web page into WEBP format.
-* [ImageMagick](https://imagemagick.org/index.php)
-  * ImageMagick was used to easily resize images.
-
-[Back to top](#smiling-depression)
-
-## Deployment
-* The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  * In the GitHub repository, navigate to the **Settings** tab 
-  * From the left side menu select **Pages**.
-  * From the source section drop-down menu, select the **main** branch and click on **save**.
-  * Once the main branch has been selected and saved, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
-
-The live link can be found here - https://tomdu3.github.io/smiling-depression/.
-
-*The site was previously deployed on the following address https://tomdu3.github.io/CI-project-1/, but the developer renamed the repository and subsequently the deployment live link was changed.*
-
-## Issues and Bugs 
-
-The developer ran into several issues during the development of the website, with the noteworthy ones listed below, along with solutions or ideas to implement in the future.
-
-* **Responsiveness** - In his first attempt at styling the web page, the developer started with a desktop-sized screen. He found this approach more difficult whilst the majority of the courses online (including the Code Institute Course) were suggesting and describing the mobile-first approach. The developer overcame this issue by starting anew with the suggested approach of styling.
-
-* **Side-scrolling** - That was quite visible in the navbar and sections with combined text and image elements. There were different instances of side-scrolling with extra white space. The main reason for these issues was the *overuse* of non-responsive sizing (mainly px). That was solved with the primary use of responsive size units.
-
-* **Stretching of the elements** - There were initial issues with the div with image elements overstretching because of the corresponding div with text because of the content distributing in more lines on smaller screens. The issue was solved by the use of media queries with different font sizes and element direction rules.
-
-* **An extra double quote in class Bug** - There was a bug caused by the automatic additon of the quotes in VS code with a residue of an extra double quote character after the id attribute in short-image-one. That was pointed out by an HTML validator and subsequently corrected.
-
-* **Section lacks heading Bug** - There were issues with section elements where headings were missing. Because the developer wanted the content to be only a paragraph/text without headings, the div was chosen instead of the section element.
-
-* **Wrong end tag** - There was a bug regarding the h2 element in the contact section. In the previous version of the code, the developer had an h3 element but was advised by the validator to respect the progressiveness of the heading tags. The developer then changed the h3 tag to h2, but without changing the closing tag - hence the bug. This was corrected.
-
-* **Deprecated frameborder attribute on the iframe element Bug** - When copying the embed code from a YouTube video, the code contains a deprecated attribute *frameborder*. The HTML validator pointed out this issue and the code the attribute was omitted and the valid css border rule was left. The same issue was found in the embed code from Google Maps and was corrected in the same manner.
-
-* **Character reference missing a semicolon Bug** - There was a bug in the character reference where it wasn't terminated by a semicolon (&_nbsp;).
-
-* **Icon not centered in navbar Bug** - When on smaller screens, the navbar splits from one line into two lines, where the icon which was on the left goes at the top and is supposed to be centered. It was a bit off because of the left padding that was applied on big screens. The padding was removed on smaller screens so that the icon could be perfectly centered.
-
-* **Mouse not changing to a pointer at submit button Bug** - The mentor pointed out that the submit button should cause the mouse indicator to change into a pointer when hovering over it. This bug was corrected.
-
-* **Text Area Resizible bug** - In the Contact Us form the textarea that was supposed to be of a fixed size was resizable. That was changed after the mentor pointed it out.
-
-[Back to top](#smiling-depression)
-
-## Testing 
-### User-Stories Testing
-#### Current User Goals
-1. As a current user, I want to find general information about smiling depression and its symptoms.
-* The Home Page has a few general information about the smiling depression.
-* The Symptoms Page has the information regading the general four symptoms of the smiling depression.
-* The Awareness Page has four videos related to the smiling depression. 
-2. As a current user, I want to easily navigate through the site and access the information I require.
-* The navigation bar is clearly defined and easily navigabale for users to find and use.
-* The footer menu is easy to use with recognizable icons on small screens and the text indication on bigger screens.
-3. As a current user, I want to easily navigate to content I have previously viewed within a small number of steps.
-* On all sites there's a navigation bar with links to each page.
-4. As a current user, I want to easily find the info and contact form for the Institute for Wellbeing.
-* On all pages there's a section with info about location with the accompanying image and Google Map. The first three pages have a Contact Us section and button that leads to the last Contact Us Page with a form to contact the Institute for Wellbeing.
-
-#### New User Goals
-1. As a new user, I want to easily navigate the entire site intuitively. 
-* The navigation bar is clearly defined and easily navigabale for users to find and use.
-* The footer menu is easy to use with recognizable icons on small screens and the text indication on bigger screens.
-2. As a new user, I want the information I seek to be easily accessible and relevant.
-* The navigation bar is clearly defined and easily navigabale for users to find and use.
-* The footer menu is easy to use with recognizable icons on small screens and the text indication on bigger screens.
-3. As a new user, I want attractive and relevant visuals and colour schemes that work with the content.
-* An interesting and calming palette was created by [Color Mind](http://colormind.io/).
-* The content related images were take from [Wikipedia](https://www.wikipedia.org/), while the other images are from [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/).
-4. As a new user, I want to easily find the info and contact form for the Institute for Wellbeing.
-* On all pages there's a section with info about location with the accompanying image and Google Map. The first three pages have a Contact Us section and button that leads to the last Contact Us Page with a form to contact the Institute for Wellbeing.
-
-#### Goals of a Person Suffering of Smiling Depression
-1. As someone who suffers of smiling depression, I want to factually correct and relevant information about smiling depression and its symptoms.
-* The Home Page has a few general information about the smiling depression.
-* The Symptoms Page has the information regading the general four symptoms of the smiling depression.
-* The Awareness Page has four videos related to the smiling depression. 
-2. As someone who suffers of smiling depression, I want the information I seek to be easily accessible and relevant.
-* The navigation bar is clearly defined and easily navigabale for users to find and use.
-* The footer menu is easy to use with recognizable icons on small screens and the text indication on bigger screens.
-3. As someone who suffers of smiling depression, I want to easily be able to find info about the Institute for Wellbeing and make contact.
-* On all pages there's a section with info about location with the accompanying image and Google Map. The first three pages have a Contact Us section and button that leads to the last Contact Us Page with a form to contact the Institute for Wellbeing.
-
-#### Goals of a Person working/living with someone suffering of smiling depression
-1. As someone who is working/living with a depressed person, I want to factually correct and relevant information about smiling depression and its symptoms.
-* The Home Page has a few general information about the smiling depression.
-* The Symptoms Page has the information regading the general four symptoms of the smiling depression.
-* The Awareness Page has four videos related to the smiling depression. 
-2. As someone who is working/living with a depressed person, I want the information I seek to be easily accessible and relevant.
-* The navigation bar is clearly defined and easily navigabale for users to find and use.
-* The footer menu is easy to use with recognizable icons on small screens and the text indication on bigger screens.
-3. As someone who is working/living with a depressed person, I want to easily be able to find info about the Institute for Wellbeing and make contact on behalf of the person suffering of smiling depression.
-* On all pages there's a section with info about location with the accompanying image and Google Map. The first three pages have a Contact Us section and button that leads to the last Contact Us Page with a form to contact the Institute for Wellbeing.
-
-[Back to top](#smiling-depression)
-
-### Manual Testing
-#### Common Element Testing
-Manual testing was conducted on the following elements that appear on every page:
-* Navigation Bar with a **hover** effect highlights the chosen menu item. The current page is indicated by the underlined effect on a link.
-  <details>
-    <summary>Screencast</summary>
-    <img src="./assets/readme_images/testing/navbar-hover.gif" width="80%" alt="Navigation Bar hover/unhover">
-
-    <img src="./assets/readme_images/testing/navbar-hover-small.gif" alt="Navigation Bar hover/unhover small screen">
-  </details>
-
-* Clicking on a link on Navigation bar gets a user to the chosen page.
-  <details>
-    <summary>Screencast</summary>
-      <img src="./assets/readme_images/testing/navbar-links.gif" width="80%" alt="Navigation Bar links test">
-      <img src="./assets/readme_images/testing/navbar-links-small.gif" alt="Navigation Bar hover/unhover small screen">
-  </details>
-
-* Facebook link (external, new page)
-  <details>
-    <summary>Screencast</summary>
-      <img src="./assets/readme_images/testing/facebook.gif" width="80%" alt="Facebook link test">
-  </details>
-
-* Twitter Link (external, new page)
-  <details>
-    <summary>Screencast</summary>
-      <img src="./assets/readme_images/testing/twitter.gif" width="80%" alt="Twitter link test">
-  </details>
-
-* YouTube Link (external, new page)
-  <details>
-    <summary>Screencast</summary>
-      <img src="./assets/readme_images/testing/youtube.gif" width="80%" alt="Youtube link test">
-  </details>
-
-* Instagram Link (external, new page)
-  <details>
-    <summary>Screencast</summary>
-      <img src="./assets/readme_images/testing/instagram.gif" width="80%" alt="Instagram link test">
-  </details>
-* Contact Button (internal)
-  <details>
-    <summary>Screencast</summary>
-      <img src="./assets/readme_images/testing/contact-button.gif" width="80%" alt="Contact Button link test">
-  </details>
-
-#### Homepage
-* The responsiveness of the Homepage
-  <details>
-    <summary>Screencast</summary>
-      <img src="./assets/readme_images/testing/responsiveness-homepage.gif" width="80%" alt="Responsiveness Homepage">
-  </details>
-
-#### Symptoms of Smiling Depression Page
-* The responsiveness of the Symptoms of Smiling Depression
-  <details>
-    <summary>Screencast</summary>
-      <img src="./assets/readme_images/testing/responsiveness-symptoms.gif" width="80%" alt="Responsiveness Symptoms Page">
-  </details>
-
-#### Awareness Page
-* The responsiveness of the Awareness Page
-  <details>
-    <summary>Screencast</summary>
-      <img src="./assets/readme_images/testing/responsiveness-awareness.gif" width="80%" alt="Responsiveness Awareness Page">
-  </details>
-
-#### Contact Us Page
-* The responsiveness of the Contact Us Page
-  <details>
-    <summary>Screencast</summary>
-      <img src="./assets/readme_images/testing/responsiveness-contact-us.gif" width="80%" alt="Responsiveness Contact Us Page">
-  </details>
-* Testing of the validity of input in the form
-  <details>
-    <summary>Screencast</summary>
-      <img src="./assets/readme_images/testing/validity-contact-us.gif" width="80%" alt="Validity Input Form Test">
-  </details>
-
-[Back to top](#smiling-depression)
-
-### Validator Testing 
-#### First Validator Testing 
-The issues and bugs were mentioned in [Issues and Bugs](#issues-and-bugs).
-* HTML
-  * [W3C validator](https://validator.w3.org/nu/)
-  
-  <details>
-    <summary>Homepage</summary>
-      <img src="./assets/readme_images/testing/index_test.png" width="80%" alt="Homepage Validator Test">
-  </details>
-  <details>
-    <summary>Symptoms of Smiling Depression</summary>
-      <img src="./assets/readme_images/testing/symptoms_test.png" width="80%" alt="Symptoms Page Validator Test">
-  </details>
-  <details>
-    <summary>Awareness Page</summary>
-      <img src="./assets/readme_images/testing/awareness_test.png" width="80%" alt="Awareness Page Validator Test">
-  </details>
-  <details>
-    <summary>Contact Us Page</summary>
-      <img src="./assets/readme_images/testing/contact-us_test.png" width="80%" alt="Contact Us Page Validator Test">
-  </details>
-
-* CSS
-  * [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
-
-  <details>
-    <summary>CSS Style</summary>
-      <img src="./assets/readme_images/testing/stylecss_test.png" width="80%" alt="CSS Style Validator Test">
-  </details>
-
-#### Final Validator Testing
-* HTML
-  * No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftomdu3.github.io%2Fsmiling-depression%2F)
-       
-* CSS
-  * No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ftomdu3.github.io%2Fsmiling-depression%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-  <p>
-    <a href="https://jigsaw.w3.org/css-validator/check/referer">
-        <img style="border:0;width:88px;height:31px"
-            src="https://jigsaw.w3.org/css-validator/images/vcss"
-            alt="Valid CSS!" />
-    </a>
-  </p>
-      
-
-[Back to top](#smiling-depression)
-
-### Lighthouse Testing
-  * Performance test was made by **Lighthouse** in Chrome DevTools.
-
-    <details>
-      <summary>Homepage</summary>
-        <img src="./assets/readme_images/testing/lighthouse-homepage.png" width="400px" alt="Lighthouse Homepage">
-    </details>
-
-    <details>
-      <summary>Symptoms of Smiling Depression Page</summary>
-        <img src="./assets/readme_images/testing/lighthouse-symptoms.png" width="400px" alt="Lighthouse Symptoms Page">
-    </details>
-
-    <details>
-      <summary>Awareness Page</summary>
-        <img src="./assets/readme_images/testing/lighthouse-awareness.png" width="400px" alt="Lighthouse Awareness Page">
-    </details>
-
-    <details>
-      <summary>Contact Us Page</summary>
-        <img src="./assets/readme_images/testing/lighthouse-contact-us.png" width="400px" alt="Lighthouse Contact Us Page">
-    </details>
-
-[Back to top](#smiling-depression)
-
-### Browser Validation
-  * The site was tested on the following browsers:
-    <details>
-      <summary>Google Chrome</summary>
-        <img src="./assets/readme_images/testing/test_chrome.png" width="80%" alt="Google Chrome Validation">
-    </details>
-
-    <details>
-      <summary>Mozilla Firefox</summary>
-        <img src="./assets/readme_images/testing/test_firefox.png" width="80%" alt="Mozilla Firefox Validation">
-    </details>
-
-    <details>
-      <summary>Microsoft Edge</summary>
-        <img src="./assets/readme_images/testing/test_edge.png" width="80%" alt="Microsoft Edge Validation">
-    </details>
-
-    <details>
-      <summary>Vivaldi</summary>
-        <img src="./assets/readme_images/testing/test_vivaldi.png" width="80%" alt="Vivaldi Validation">
-    </details>
-
-    <details>
-      <summary>Brave</summary>
-        <img src="./assets/readme_images/testing/test_brave.png" width="80%" alt="Brave Validation">
-    </details>
-
-[Back to top](#smiling-depression)
-
-### User testing
-My friends, family and co-workers were asked to review the site and documentation, to test the links and to try to find any bugs and user experience issues. With their insightful comments and especially Mentor's guidance, the site went through some changes to the UX experience and some other choices of the overall function were made. 
-
-[Back to top](#smiling-depression)
-
-## Credits 
-### Content 
-* Texts are taken and adapted from the sites:
-  * [Medical News Today](https://www.medicalnewstoday.com/articles/smiling-depression)
-  * [Webmd](https://www.webmd.com/depression/smiling-depression-overview)
-  * [Davidson Institute](https://www.davidsongifted.org/gifted-blog/dabrowskis-theory-and-existential-depression-in-gifted-children-and-adults/)
-
-## Code Features
-* Fonts used are from [Google Fonts](https://fonts.google.com/)
-* The starting colour palette is *Sky Palettes* from [W3Schools](https://www.w3schools.com/colors/colors_palettes.asp)
-* The final colour palette was generated by the [Color Mind](http://colormind.io/).
-* Navbar was made by following the instructions of [Flexbox Navbar Mobile First Responsive Tutorial](https://youtu.be/yXhfUCXy2j4)
-* Google Maps were implemented with the help of [How to embed a Google Map into a web page](https://extension.umaine.edu/plugged-in/technology-marketing-communications/web/tips-for-web-managers/embed-map/)
-* Instructions on how to implement form validation on the Contact Us page was taken from the Code Institute Course.
-* The icons used on the pages were taken from [Font Awesome](https://fontawesome.com/)
-* The conversion of the JPEG images to WEBP was made with [Webp Converter](https://developers.google.com/speed/webp) by following the instructions from [Linuxways](https://linuxways.net/ubuntu/how-to-convert-png-jpeg-to-webp-in-ubuntu-also-webp-to-png-and-jpeg/).
-
-
-### Media
-* The photos used on the home and sign up page are from [Pexels](https://www.pexels.com) and [Unsplash](https://unsplash.com):
-  * [Photo by Antoine Beauvillain](https://unsplash.com/@antoinebeauvillain?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-  * [Photo by Karolina Grabowska from Pexels](https://www.pexels.com/photo/photo-of-person-crying-4472021/)
-  * [Photo by Ketut Subiyanto from Pexels](https://www.pexels.com/photo/man-in-yellow-crew-neck-t-shirt-forcing-a-smiley-look-4584534/)
-  * [Photo by Yan Krukov](https://www.pexels.com/photo/a-woman-need-help-7640764/)
-  * [Photo by Caju Gomes](https://unsplash.com/photos/QDq3YliZg48?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
-  * [Photo by Nicholas Kusuma](https://unsplash.com/photos/xb2DaEeX8jk?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
-  * [Photo by Khoa Võ](https://www.pexels.com/photo/ethnic-woman-looking-at-fish-in-aquarium-4958618/)
-  * [Photo by Pia Kafanke](https://www.pexels.com/photo/woman-with-white-and-red-face-paint-3807702/)
-  * [Photo by Gratisography](https://www.pexels.com/photo/man-person-people-emotions-1990/)
-* The image of Pantheon was taken from [Wikipaedia Media](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Pantheon_%28Rome%29_-_Right_side_and_front.jpg/298px-Pantheon_%28Rome%29_-_Right_side_and_front.jpg)
-* The videos on the Awareness page are taken from [Youtube](https://www.youtube.com):
-  * [What is Smiling Depression and What Makes It Dangerous?](https://youtu.be/Mgvd_fZfis0)
-  * [Smiling Through Depression?](https://youtu.be/Kx3dpO6ys5s)
-  * [This is what smiling depression looks like Slay Motivation](https://www.youtube.com/shorts/q5sSXJSVOn4)
-  * [Smiling Depression Short film](https://www.youtube.com/watch?v=mSq4NlCg3u8)
-  * [UNSPOKEN (2018) - Award Winning Short Film About Depression](https://youtu.be/k269NkuKK7Y)
-
-[Back to top](#smiling-depression)
-
-## Acknowledgements
-* I would like to thank "my inner circle", a selected few, who supported me and tested the site. They are the only ones who knew about my coding journey.
-* A special thanks to my mentor Koko (Oluwaseun Owonikoko) who patiently and wisely directed me towards the completion of this project.
-* Thanks to Lane-Sawyer Thompson and Ger Tobin, the Gandalf and Yoda of our October22 cohort. They were supporting, coaching and encouraging me the whole way. Awesome people. 
-[Back to top](#smiling-depression)
