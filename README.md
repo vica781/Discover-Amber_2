@@ -9,7 +9,7 @@ This website is first of five Milestone Projects required to complete the Diplom
 The main requirements of this project are to build a responsive and static front-end site to present useful information to users applying all of the technologies learned so far, namely HTML5 and CSS3. The site is to contain no less than three pages.
 
 ![Mockup](./assets/image/readme_page/responsive_preview_1.webp)
-<img scr="./assets/image/readme_page/responsive_preview.webp" width="70%">
+<img scr="./assets/image/readme_page/responsive_preview.webp" width="75%">
 
 ## Index – Table of Contents
 * [User Experience (UX)](#user-experience-ux) 
@@ -50,9 +50,6 @@ The main requirements of this project are to build a responsive and static front
 7. I would like to be able easily navigate to content or retrieve my steps to information I have previously viewed within a small number of steps.
 8. Also, as a current user, I would appreciate ability of contact points in case I have queries or want to communicate for any reason.
 
-        
-     
-
 ## Features
 
 ### Existing Features
@@ -80,7 +77,10 @@ The main requirements of this project are to build a responsive and static front
 
 -   Home Page Animated panels
 
-    - Home Page has been equipped 
+    - Home Page has been equipped with three side-by-side animated (expanding on hover) panels. These panels are: USAGE, RARE AMBER and GIFTS. Panels are serving not just as a visual fixture, but thematically linked to the relevant pages and can be used as navigation points to these pages. There is cursor pointer on hover to guide a user.  
+
+    ![Home_page_panels](./assets/image/readme_page/animated_panels.webp) 
+    <img scr="./assets/image/readme_page/animated_panels.webp" width="75%">
 
 
 
