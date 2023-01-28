@@ -25,7 +25,7 @@ The main requirements of this project are to build a responsive and static front
 
     -   #### A. First Time Visitor Goals
     
-*  Idealy, as a new user I want to be able to:
+   Idealy, as a new user I want to be able to:
 1. Experience easy and intuitive navigation through the site and access the information required.
 2. Have the ability to navigate to content or retrieve previous viewed information within a small number of steps.
 3. Experiense relevant and attractive content acompanied by the colour schemes compatible the content.
@@ -37,21 +37,19 @@ The main requirements of this project are to build a responsive and static front
 9. Have access to contact points in case of any queries or to communicate for any reason.
 10. Learn about the significance of Kaliningrad Region of Russia in the global amber market.
 11. Understand the importance of amber in the fields of arts, crafts, science and geology.
-
-
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        3. As a First Time Visitor, I want to be able to easily navigate to and view a menu of drinks and snacks.
-        4. As a First Time Visitor, I want to be able to easily find where the organisation is located.
-
+      
     -   #### B. Returning Visitor Goals
+   As a current user I want to be able to:
+1. Discover the various uses of amber in different industries, art and jewellery 
+2. Understand the unique characteristics of amber and learn about rare types
+3. Gain inspiration from the beauty of amber and nature
+4. Get ideas for amber gifts, office or home decorative and practical items
+5. Get a source of reliable and accurate information about amber
+6. I would like to experience easy and intuitive navigation through the site and access the information I require.
+7. I would like to be able easily navigate to content or retrieve my steps to information I have previously viewed within a small number of steps.
+8. Also, as a current user, I would appreciate ability of contact points in case I have queries or want to communicate for any reason.
 
-        1. As a Returning Visitor, I want to be able to access and view the menu quickly and easily.
-        2. As a Returning Visitor, I want to be able to check opening times quickly and easily.
-        3. As a Returning Visitor, I want to be able to contact the organisation to give feedback or ask questions.
-
-    -   #### C. Frequent User Goals
-        1. As a Frequent User, I want to be able to sign-up easily for discounts.
+        
      
 
 ## Features
@@ -313,15 +311,7 @@ The main requirements of this project are to build a responsive and static front
 ### User-Stories
 #### **CURRENT USER GOALS**
 
-* As a current user I want to be able to:
-1. Discover the various uses of amber in different industries, art and jewellery 
-2. Understand the unique characteristics of amber and learn about rare types
-3. Gain inspiration from the beauty of amber and nature
-4. Get ideas for amber gifts, office or home decorative and practical items
-5. Get a source of reliable and accurate information about amber
-6. I would like to experience easy and intuitive navigation through the site and access the information I require.
-7. I would like to be able easily navigate to content or retrieve my steps to information I have previously viewed within a small number of steps.
-8. Also, as a current user, I would appreciate ability of contact points in case I have queries or want to communicate for any reason.
+
 
 
 
