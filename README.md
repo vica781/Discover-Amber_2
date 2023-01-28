@@ -67,21 +67,27 @@ The main requirements of this project are to build a responsive and static front
     
       ![Navbar](./assets/image/readme_page/navbar_large_screen_navigating.webp)
     - *During navigation* through the tabs user is assisted by change of tab colour on hover to green
-    - Navigation through *Medium and Small screens* assisted by a 'burger' drop-down menu with transparent colour matching background and colour distinguished tabs
+    - Navigation through *Medium and Small screens* assisted by a 'hamburger' drop-down menu with transparent colour matching background and colour distinguished tabs
       <br>
-      (the decision about 'burger' menu has been made to avoid nav bar going into two and more lines)
+      (the decision about 'hamburger' menu has been implemented to avoid nav bar going into two and more lines, and to save space on smalle screens)
     
       ![Navbar](./assets/image/readme_page/navbar_drop_down_menu.webp) ![Navbar](./assets/image/readme_page/navbar_medium_screen_active.webp)
     
       ![Navbar](./assets/image/readme_page/navbar_medium_screen_navigating.webp)
 
--   Home Page Animated panels
+-   The Landing Page Animated panels and call to action
 
-    - Home Page has been equipped with three side-by-side animated (expanding on hover) panels. These panels are: USAGE, RARE AMBER and GIFTS. Panels are serving not just as a visual fixture, but thematically linked to the relevant pages and can be used as navigation points to these pages. There is cursor pointer on hover to guide a user.  
+    - Home Page has been equipped with three side-by-side animated (expanding on hover) panels. These panels are: USAGE, RARE AMBER and GIFTS. Panels are serving not just as a visual fixture, but thematically linked to relevant pages and can be used as navigation points to these pages. There is cursor pointer on hover to guide a user.
 
-    ![Home_page_panels](./assets/image/readme_page/animated_panels.webp) 
+    - The choice of images on the Landing Page was not accidental. Images were selected to convey a sense of curiosity through an unusual (in relation to a traditional understanding of amber) objects like violin, beautiful blue stones and impressive ring with a green stone. On selection of the Landing Page images a colours chime has been taken in consideration too.  
+
+    ![Landing Area](./assets/image/readme_page/animated_panels.webp) 
     <img scr="./assets/image/readme_page/animated_panels.webp" width="75%">
 
+-   Logo
+
+    - **Discover Amber** - website Logo has been linked to home page for user convenience.   
+    - The Logo **Discover Amber** in connection with Landing Page **animated panels**, occupying the central part of the screen, together are eye-catching call to action to go ahead and explore.  
 
 
     
