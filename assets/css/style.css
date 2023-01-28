@@ -166,6 +166,7 @@ img {
     z-index: -1;
     max-width: 100% !important;
 }
+
 /* USAGE PAGE */
 .using_amber {
     display: flex;
@@ -182,13 +183,12 @@ img {
     position: absolute;
     /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Oswald', sans-serif;
-    font-size: 3rem;
+    font-size: 2.8rem;
     color: #f3963f;
     background-color: #d8d4d2cc;
     font-weight: 400;
-    padding: .5rem 0 .5rem 0;
-    /* background-color: #ccc; */
     padding: .3rem;
+    margin: 2rem 0 0 1rem;
 }
 
 #usage_h2 {
@@ -1196,7 +1196,7 @@ h3~p {
     }
 
     #usage_h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     #usage_h2 {
@@ -1206,7 +1206,6 @@ h3~p {
     .using_amber {
         font-size: 1rem;
     }
-
 }
 
 
@@ -1423,6 +1422,10 @@ h3~p {
     .using_amber {
         font-size: 1rem;
         padding: 1.8rem;
+    }
+
+    #usage_h1 {
+        font-size: 1.8rem;
     }
 }
 
