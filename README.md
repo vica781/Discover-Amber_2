@@ -24,6 +24,20 @@ The main requirements of this project are to build a responsive and static front
 -   ### User stories
 
     -   #### A. First Time Visitor Goals
+    
+*  Idealy, as a new user I want to be able to:
+1. Experience easy and intuitive navigation through the site and access the information required.
+2. Have the ability to navigate to content or retrieve previous viewed information within a small number of steps.
+3. Experiense relevant and attractive content acompanied by the colour schemes compatible the content.
+4. Get a source of reliable and accurate information about amber.
+5. Learn about the beauty and value of amber, and its unique properties and characteristics.
+6. Discover the various uses of amber in different industries, art and jewellery.
+7. Get inspired by the beauty of amber and nature.
+8. Find ideas for amber gifts, office or home decorative and practical items.
+9. Have access to contact points in case of any queries or to communicate for any reason.
+10. Learn about the significance of Kaliningrad Region of Russia in the global amber market.
+11. Understand the importance of amber in the fields of arts, crafts, science and geology.
+
 
         1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
         2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
@@ -278,11 +292,7 @@ The main requirements of this project are to build a responsive and static front
 <br>
 <br>
 <br>
-Welcome to my website **Discover Amber** dedicated to promoting awareness about the beauty and value of amber! Amber is a natural fossilized resin that has been prized for thousands of years for its warm, golden colour and unique inclusions. My website is dedicated to providing accurate and informative information about this fascinating material, including its uses in art, jewellery and different industries; rare types. Whether you're a collector, students of arts and crafts, science or geology, or simply someone who appreciates the beauty of nature, I hope you'll find something of interest on this site. 
 
-This website is first of five Milestone Projects required to complete the Diploma of Full Stack Software Development with The Code Institute. 
-
-The main requirements of this project are to build a responsive and static front-end site to present useful information to users applying all of the technologies learned so far, namely HTML5 and CSS3. The site is to contain no less than three pages.
 
 [Back to top ⇧](#smiling-depression)
 
@@ -313,20 +323,6 @@ The main requirements of this project are to build a responsive and static front
 7. I would like to be able easily navigate to content or retrieve my steps to information I have previously viewed within a small number of steps.
 8. Also, as a current user, I would appreciate ability of contact points in case I have queries or want to communicate for any reason.
 
-#### **NEW USER GOALS**
-
-*  Idealy, as a new user I want to be able to:
-1. Experience easy and intuitive navigation through the site and access the information required.
-2. Have the ability to navigate to content or retrieve previous viewed information within a small number of steps.
-3. Experiense relevant and attractive content acompanied by the colour schemes compatible the content.
-4. Get a source of reliable and accurate information about amber.
-5. Learn about the beauty and value of amber, and its unique properties and characteristics.
-6. Discover the various uses of amber in different industries, art and jewellery.
-7. Get inspired by the beauty of amber and nature.
-8. Find ideas for amber gifts, office or home decorative and practical items.
-9. Have access to contact points in case of any queries or to communicate for any reason.
-10. Learn about the significance of Kaliningrad Region of Russia in the global amber market.
-11. Understand the importance of amber in the fields of arts, crafts, science and geology.
 
 
 
