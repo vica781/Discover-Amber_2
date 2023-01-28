@@ -1,8 +1,12 @@
-<h1 align="center">Thrive Juices and Smoothies Website</h1>
+<h1 align="center">DISCOVER AMBER</h1>
 
 [View the live project here](https://elainebroche-dev.github.io/ms1-thrive/)
 
-THRIVE Juices and Smoothies is a site that advertises a fictional refreshment business.  The business primarily sells juices and smoothies and also a limited range of healthy snacks and hot beverages.  The site is targeted toward people who want to buy healthy refreshments "on the go" - the business also has a seating area for anyone who wants to stay and socialise but its primary USP is the appeal, taste and quality of the products.  The site will be useful for people who want to check out the range of products available, the location and opening hours of the business.
+Welcome to my website **Discover Amber** dedicated to promoting awareness about the beauty and value of amber! Amber is a natural fossilized resin that has been prized for thousands of years for its warm, golden colour and unique inclusions. My website is dedicated to providing accurate and informative information about this fascinating material, including its uses in art, jewellery and different industries; rare types. Whether you're a collector, students of arts and crafts, science or geology, or simply someone who appreciates the beauty of nature, I hope you'll find something of interest on this site. 
+
+This website is first of five Milestone Projects required to complete the Diploma of Full Stack Software Development with The Code Institute. 
+
+The main requirements of this project are to build a responsive and static front-end site to present useful information to users applying all of the technologies learned so far, namely HTML5 and CSS3. The site is to contain no less than three pages.
 
 ![Mockup](documentation/supp-images/resp-mockup.png)
 
