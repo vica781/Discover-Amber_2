@@ -391,7 +391,7 @@ img {
     font-size: 1.2rem;
     font-weight: bolder;
     transition: 0.5s ease-in-out;
-    margin-left: 1rem;
+    /* margin-right: 1rem; */
     width: 2.5rem;
     height: 2.5rem;
     background: rgb(179, 175, 175);
@@ -638,8 +638,8 @@ img {
 
 #card-bee {
     position: relative;
-    max-width: 28rem;
-    max-height: 28rem;
+    max-width: 26rem;
+    max-height: 26rem;
     cursor: pointer;
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
@@ -647,8 +647,8 @@ img {
 
 #card-perch {
     position: relative;
-    max-width: 28rem;
-    max-height: 28rem;
+    max-width: 26rem;
+    max-height: 26rem;
     cursor: pointer;
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
@@ -656,8 +656,8 @@ img {
 
 #card-tree {
     position: relative;
-    max-width: 28rem;
-    max-height: 28rem;
+    max-width: 26rem;
+    max-height: 26rem;
     cursor: pointer;
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
@@ -702,8 +702,8 @@ img {
 
 #card-table {
     position: relative;
-    max-width: 50rem;
-    max-height: 50rem;
+    max-width: 45rem;
+    max-height: 45rem;
     cursor: pointer;
     box-shadow: 0px 5px 10px #252525;
     border-radius: 10px;
@@ -793,7 +793,7 @@ img {
 
 #card-christmas-tree {
     position: relative;
-    max-width: 25rem;
+    max-width: 23rem;
     max-height: 35rem;
     cursor: pointer;
     box-shadow: 0px 5px 10px #252525;
@@ -802,7 +802,7 @@ img {
 
 #card-rabit {
     position: relative;
-    max-width: 25rem;
+    max-width: 23rem;
     max-height: 35rem;
     cursor: pointer;
     box-shadow: 0px 5px 10px #252525;
@@ -811,7 +811,7 @@ img {
 
 #card-photoframe {
     position: relative;
-    max-width: 25rem;
+    max-width: 23rem;
     max-height: 35rem;
     cursor: pointer;
     box-shadow: 0px 5px 10px #252525;
