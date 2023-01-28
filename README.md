@@ -73,7 +73,7 @@ The main requirements of this project are to build a responsive and static front
       <br>
       (the decision about 'burger' menu has been made to avoid nav bar going into two and more lines)
     
-      ![Navbar](./assets/image/readme_page/navbar_drop_down_menu.webp) ![Navbar](./assets/image/readme%20page/navbar_medium_screen_active.webp)
+      ![Navbar](./assets/image/readme_page/navbar_drop_down_menu.webp) ![Navbar](./assets/image/readme_page/navbar_medium_screen_active.webp)
     
       ![Navbar](./assets/image/readme_page/navbar_medium_screen_navigating.webp)
 
