@@ -8,7 +8,7 @@ This website is first of five Milestone Projects required to complete the Diplom
 
 The main requirements of this project are to build a responsive and static front-end site to present useful information to users applying all of the technologies learned so far, namely HTML5 and CSS3. The site is to contain no less than three pages.
 
-![Mockup](./assets/image/readme%20page/responsive_preview.webp)
+![Mockup](./assets/image/readme_page/responsive_preview.webp)
 
 ## Index – Table of Contents
 * [User Experience (UX)](#user-experience-ux) 
