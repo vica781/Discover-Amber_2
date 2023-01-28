@@ -60,7 +60,8 @@ The main requirements of this project are to build a responsive and static front
 
 ### User-Stories
 #### **CURRENT USER GOALS**
-As a current user:
+
+* As a current user I want to be able to:
 1. Discover the various uses of amber in different industries, art and jewellery 
 2. Understand the unique characteristics of amber and learn about rare types
 3. Gain inspiration from the beauty of amber and nature
@@ -70,19 +71,35 @@ As a current user:
 7. I would like to be able easily navigate to content or retrieve my steps to information I have previously viewed within a small number of steps.
 8. Also, as a current user, I would appreciate ability of contact points in case I have queries or want to communicate for any reason.
 
+#### **NEW USER GOALS**
+
+*  Idealy, as a new user I want to be able to:
+1. Experience easy and intuitive navigation through the site and access the information required.
+2. Have the ability to navigate to content or retrieve previous viewed information within a small number of steps.
+3. Experiense relevant and attractive content acompanied by the colour schemes compatible the content.
+4. Get a source of reliable and accurate information about amber.
+5. Learn about the beauty and value of amber, and its unique properties and characteristics.
+6. Discover the various uses of amber in different industries, art and jewellery.
+7. Get inspired by the beauty of amber and nature.
+8. Find ideas for amber gifts, office or home decorative and practical items.
+9. Have access to contact points in case of any queries or to communicate for any reason.
+10. Learn about the significance of Kaliningrad Region of Russia in the global amber market.
+11. Understand the importance of amber in the fields of arts, crafts, science and geology.
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+/
+/
+/
+/
 
 
 
 
-
-
-
-#### New User Goals
-As a new user:
-1. I want to easily navigate the entire site intuitively. 
-2. I want the information I seek to be easily accessible and relevant.
-3. I want attractive and relevant visuals and colour schemes that work with the content.
-4. I want to easily find the info and contact form for the Institute for Wellbeing.
 
 #### Goals of a Person Suffering of Smiling Depression
 As someone who suffers of smiling depression:
