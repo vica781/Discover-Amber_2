@@ -69,7 +69,7 @@ The main requirements of this project are to build a responsive and static front
 
 ##  **FEATURES**
 
-### Existing Features
+### **Existing Features**
 
 -   **Navigation Bar**
 
@@ -77,7 +77,7 @@ The main requirements of this project are to build a responsive and static front
     <br>
       It includes a simple Logo, HOME, USAGE, RARE AMBER, GIFRS and CONTACT ME links and is responsive on multiple screen sizes.  
     <br>     
-    -  *On a large* screens tabs for all pages are visible;
+    - *On a large* screens tabs for all pages are visible;
     
       ![Navbar](./assets/image/readme_page/navbar_large_screen_acrive.webp)
     - *Active page* tab is identified as a button of orange colour;
@@ -133,7 +133,7 @@ The main requirements of this project are to build a responsive and static front
 
 -   **Contact Me Page**
 
-      - The 'Send Me a messagr' from of the Contact Me page allows the user to send a message or give feedback.
+      - The 'Send Me a messagr' from of the Contact Me page allows the user to send a message, ask question or give feedback.
         - The user is asked to provide their name, email address and telephon number.
         - Sending the message will result in a new tab showing the results (at the moment the user is simply shown the formdump.codeinstitute.net page with the data they 
           submitted displayed)
@@ -141,30 +141,9 @@ The main requirements of this project are to build a responsive and static front
     ![Send me a message](./assets/image/readme_page/comtactme_form.webp)
 
 
+## **FEATURES WHICH COULD BE IMPLEMENTED IN THE FUTURE**
 
-
-
-
-- __F08 Contact Page - 'How to Find Us'__
-
-    - The 'How to Find Us' panel of the Contact page gives the user an interactive google map showing the location of the company along with details on full address, phone number and administration email address in large font to make it easily readable.  By clicking the 'View larger map' link the user can go to the google maps site for the address - this opens in a separate tab to allow ease of navigation.
-
-      ![Find Us](documentation/supp-images/f08-find-us.png)
-
-
-- __How these features support the User Stories__
-
-    - The User Stories in the [User Experience (UX)](#user-experience-ux) part of this document are numbered and categorised into groups A (first time visitor), B (returning visitor) and C (frequent visitor).  The existing features are listed above as F01 to F08.  Below is a traceability matrix cross-referencing the user stories with the features, illustrating which features support which stories :
-
-    ![User Story Feature Matrix](documentation/supp-images/us-feat-matrix.png)
-
-
-
-
-
-
-
-### Features which could be implemented in the future
+-  **Logo Image** next to Discover Amber Logo corresponding with website's favicon ![favicon](./assets/image/favicon/favicon_dragonfly.png)
 
 - __Company Timeline__
     - A 'Company Timeline' page could be added to provide more information on the evolution of the business for users who would like to know more about the origins of the company, its ethos and its involvement with the community.
@@ -172,6 +151,11 @@ The main requirements of this project are to build a responsive and static front
 - __Navigation bar improvements__
     - The functionality of the navigation bar could be extended to make it "sticky" so that it would be available to the user without scrolling.
     - A hamburger menu could be implemented to save space on smaller screens.
+
+
+
+
+
 
 ## Design
 
