@@ -74,9 +74,9 @@ The main requirements of this project are to build a responsive and static front
 -   **Navigation Bar**
 
     - The navigation bar has a consistent look and placement on all five pages of the website supporting easy navigation.
-    <br>
+    
       It includes a simple Logo, HOME, USAGE, RARE AMBER, GIFRS and CONTACT ME links and is responsive on multiple screen sizes.  
-    <br>     
+         
     - *On a large* screens tabs for all pages are visible;
     
       ![Navbar](./assets/image/readme_page/navbar_large_screen_acrive.webp)
@@ -143,7 +143,8 @@ The main requirements of this project are to build a responsive and static front
 
 ## **FEATURES WHICH COULD BE IMPLEMENTED IN THE FUTURE**
 
--  **Logo Image** next to Discover Amber Logo corresponding with website's favicon ![favicon](./assets/image/favicon/favicon_dragonfly.png)
+-  **Logo Image** next to Discover Amber Logo corresponding with website's favicon 
+    ![favicon](./assets/image/readme_page/favicon_logo_discover_amber.webp)
 
 - __Company Timeline__
     - A 'Company Timeline' page could be added to provide more information on the evolution of the business for users who would like to know more about the origins of the company, its ethos and its involvement with the community.
