@@ -47,9 +47,6 @@ nav {
     height: 100px;
     width: 100%;
 }
-#nav-links {
-    margin-left: -15rem;
-}
 
 .logo {
     cursor: pointer;
