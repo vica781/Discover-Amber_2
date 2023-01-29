@@ -92,11 +92,12 @@ The main requirements of this project are to build a responsive and static front
 -   **Gifts Page Image Gallery**
     ![Gallery](./assets/image/readme_page/gifts_page_gallery.webp)
     <img scr="./assets/image/readme_page/gifts_page_gallery" width="60%">
-
+    
+-   **Back-to-top button** on Gifts Page
     ![Gallery](./assets/image/readme_page/gifts_page_gallery_1.webp)
 
--   **Back-to-top button** on Gifts Page
-    ![Gallery](./assets/image/readme_page/gifts_gallery_top_btn.webp)
+
+    <!-- ![Gallery](./assets/image/readme_page/gifts_gallery_top_btn.webp) -->
 
 -   **Footer**
 
