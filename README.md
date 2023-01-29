@@ -71,7 +71,9 @@ The main requirements of this project are to build a responsive and static front
       <br>
       (the decision about 'hamburger' menu has been implemented to avoid nav bar going into two and more lines, and to save space on smalle screens)
     
-      ![Navbar](./assets/image/readme_page/navbar_drop_down_menu.webp) ![Navbar](./assets/image/readme_page/navbar_medium_screen_active.webp)
+      ![Navbar](./assets/image/readme_page/navbar_drop_down_menu.webp) <img scr="./assets/image/readme_page/navbar_drop_down_menu.webp" width="75%">
+
+      ![Navbar](./assets/image/readme_page/navbar_medium_screen_active.webp)
     
       ![Navbar](./assets/image/readme_page/navbar_medium_screen_navigating.webp)
 
@@ -90,10 +92,15 @@ The main requirements of this project are to build a responsive and static front
     - The Logo **Discover Amber** in connection with Landing Page **animated panels**, occupying the central part of the screen, together are eye-catching call to action to go ahead and explore.  
 
 -   **Gifts Page Image Gallery**
+
+    - Images in the gallery are accompanied by information at the back of the image to provide user with a descriptive information about the materials were used to produce it, size and colour chim.  
     ![Gallery](./assets/image/readme_page/gifts_page_gallery.webp)
     <img scr="./assets/image/readme_page/gifts_page_gallery" width="60%">
     
 -   **Back-to-top button** on Gifts Page
+
+    - **Gifts Gallery** page equiped with back-to-top button to assist user and give opportunity to return to the top of the page in one click. 
+
     ![Gallery](./assets/image/readme_page/gifts_page_gallery_1.webp)
 
 
