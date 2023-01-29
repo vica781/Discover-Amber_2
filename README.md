@@ -127,24 +127,38 @@ The main requirements of this project are to build a responsive and static front
       - Footer provides user with an oportunity to follow the website on social media platforms.
       - Also, footer displays ways to contact website owner.
       - At the very bottom part of the footer has been placed a **disclaimer** stating that the website is created strictly for educational purposes as a part of Full Stack 
-        Development Cours with Code Institute. This is to indicate that this is not a 'real' website and no materials (images, text, information, etc.) obtained from the various Internet resourses under no surcomstances are going to be used for the comersial purpouses.   
+        Development Cours with Code Institute. This is to indicate that this is not a 'real' website and no materials (images, text, information, etc.) obtained from the various Internet resources under no circumstances are going to be used for the commercial purposes.   
 
      ![Footer](./assets/image/readme_page/footer.webp)
 
 -   **Contact Me Page**
 
-      - The 'Send Me a messagr' from of the Contact Me page allows the user to send a message, ask question or give feedback.
-        - The user is asked to provide their name, email address and telephon number.
+      - The 'Send Me a message' from of the Contact Me page allows the user to send a message, ask question or give feedback.
+        - The user is asked to provide their name, email address and telephone number.
         - Sending the message will result in a new tab showing the results (at the moment the user is simply shown the formdump.codeinstitute.net page with the data they 
           submitted displayed)
         
     ![Send me a message](./assets/image/readme_page/comtactme_form.webp)
 
-
 ## **FEATURES WHICH COULD BE IMPLEMENTED IN THE FUTURE**
 
--  **Logo Image** next to Discover Amber Logo corresponding with website's favicon. This is should be an easy fix, but I was not able to find that fix despite multiple different attempts 
-    ![favicon](./assets/image/readme_page/favicon_logo_discover_amber.webp)
+-  **Logo Image** next to Discover Amber Logo corresponding with website's favicon. This is should be an easy fix, but I was not able to find that fix despite multiple  
+   different attempts 
+   ![favicon_logo](./assets/image/readme_page/favicon_logo_discover_amber.webp)
+
+   - Just, as I writing this lines, decidet to try again. Below is the results:
+     - The navigation tabs moved to the line under the nav-bar. 
+
+   ![favicon_logo](./assets/image/readme_page/issues/favicon_logo_discover_amber_issue.webp) 
+   
+     - The 'hamburger' menu background with the content displaysed on all screen sizes, for some widths worth than others. 
+       The decision has been made to return back to previous layout and work on the improvement at the later date.
+   
+   ![favicon_logo](./assets/image/readme_page/issues/favicon_logo_discover_amber_issue_1.webp) 
+   <img scr="./assets/image/readme_page/gifts_page_gallery" width="60%">
+   
+   ![favicon_logo](./assets/image/readme_page/issues/favicon_logo_discover_amber_issue_2.webp)
+
 
 
 
@@ -155,7 +169,6 @@ The main requirements of this project are to build a responsive and static front
 - __Navigation bar improvements__
     - The functionality of the navigation bar could be extended to make it "sticky" so that it would be available to the user without scrolling.
     - A hamburger menu could be implemented to save space on smaller screens.
-
 
 
 
@@ -173,7 +186,6 @@ The main requirements of this project are to build a responsive and static front
 
 -   ### Typography
     -   Google Fonts were used to import Lato and Oswald fonts into styles.css.  These were chosen as they work well together and have a simple, unembellished, modern feel that is easy to read.
-
 
 -   ### Wireframes
 
@@ -307,7 +319,6 @@ The main requirements of this project are to build a responsive and static front
 
     - <a href="https://images.unsplash.com/photo-1559181567-c3190ca9959b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80" target="_blank" rel="noopener">Cherries</a> photo by <a href="https://unsplash.com/@picoftasty?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener">Mae Mu</a> 
 
-
 ### Acknowledgments
 
 - Thank you to my mentor Brian Macharia who gave me very good advice and feedback on how to plan and execute this project and who provided me with lots of pointers on resources to help select colours and images and well as resources to help with coding and testing.
@@ -319,6 +330,8 @@ The main requirements of this project are to build a responsive and static front
 <br>
 <br>
 <br>
+
+
 
 
 
