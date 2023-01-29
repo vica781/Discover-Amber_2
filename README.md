@@ -90,11 +90,14 @@ The main requirements of this project are to build a responsive and static front
     - The Logo **Discover Amber** in connection with Landing Page **animated panels**, occupying the central part of the screen, together are eye-catching call to action to go ahead and explore.  
 
 -   **Gifts Page Image Gallery**
-![Gallery](./assets/image/readme_page/gifts_page_gallery.webp)
-<img scr="./assets/image/readme_page/gifts_page_gallery" width="60%">
-![Gallery](./assets/image/readme_page/gifts_page_gallery_1.webp)
+    ![Gallery](./assets/image/readme_page/gifts_page_gallery.webp)
+    <img scr="./assets/image/readme_page/gifts_page_gallery" width="60%">
+
+    ![Gallery](./assets/image/readme_page/gifts_page_gallery_1.webp)
+
 -   **Back-to-top button** on Gifts Page
-![Gallery](./assets/image/readme_page/gifts_gallery_top_btn.webp)
+    ![Gallery](./assets/image/readme_page/gifts_gallery_top_btn.webp)
+
 -   **Footer**
 
 
