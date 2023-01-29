@@ -28,27 +28,10 @@ body>section {
 }
 
 /* NAVIGATION BAR and LOGO */
-.logo-img {
-    width: 3rem;
-    height: 3rem;
-    position: relative;
-    z-index: +1;
-    top: -4rem;
-    left: .5rem;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-}
-
 nav {
     background: white;
     height: 100px;
     width: 100%;
-}
-#nav-links {
-    margin-left: -15rem;
 }
 
 .logo {
@@ -947,8 +930,8 @@ button:hover {
 
 input[type='number']::-webkit-inner-spin-button,
 input[type='number']::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 /* FOOTER */
