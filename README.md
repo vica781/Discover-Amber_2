@@ -143,8 +143,11 @@ The main requirements of this project are to build a responsive and static front
 
 ## **FEATURES WHICH COULD BE IMPLEMENTED IN THE FUTURE**
 
--  **Logo Image** next to Discover Amber Logo corresponding with website's favicon 
+-  **Logo Image** next to Discover Amber Logo corresponding with website's favicon. This is should be an easy fix, but I was not able to find that fix despite multiple different attempts 
     ![favicon](./assets/image/readme_page/favicon_logo_discover_amber.webp)
+
+
+
 
 - __Company Timeline__
     - A 'Company Timeline' page could be added to provide more information on the evolution of the business for users who would like to know more about the origins of the company, its ethos and its involvement with the community.
