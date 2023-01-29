@@ -93,20 +93,20 @@ The main requirements of this project are to build a responsive and static front
 
 -   **Gifts Page Image Gallery**
 
-    - Images in the gallery are accompanied by information at the back of the image to provide user with a descriptive information about the materials were used to produce it, size and colour chim.  
+    - Images in the gallery are accompanied by information at the back of the image to provide user with a descriptive information about the materials were used to produce it, size and colour scheme. As the size of the images varies as well as the amount of the content, the information cards at the back of the images equipped by a scroll bar for convenience of the user.
+
     ![Gallery](./assets/image/readme_page/gifts_page_gallery.webp)
     <img scr="./assets/image/readme_page/gifts_page_gallery" width="60%">
     
 -   **Back-to-top button** on Gifts Page
 
-    - **Gifts Gallery** page equiped with back-to-top button to assist user and give opportunity to return to the top of the page in one click. 
+    - **Gifts Gallery** page equipped with back-to-top button to assist user and give opportunity to return to the top of the page in one click. 
 
-    ![Gallery](./assets/image/readme_page/gifts_page_gallery_1.webp)
-
-
-    <!-- ![Gallery](./assets/image/readme_page/gifts_gallery_top_btn.webp) -->
+    ![Gallery](./assets/image/readme_page/gifts_page_gallery_1.webp)  
 
 -   **Footer**
+
+
 
 
 
@@ -122,18 +122,6 @@ The main requirements of this project are to build a responsive and static front
     
 
 
-
-- __F03 Tagline__
-
-    - The "enjoy here or takeaway - the choice is yours" tagline appears on the main page and again on the menu page to let the user know that seating is available and to help re-inforce consistency in branding.
-
-      ![Tagline](documentation/supp-images/f03-tagline.png)
-
-- __F04 Company Ideals section__
-
-    - The company ideals are presented using 4 flip cards below the tagline on the main page.  These cards give the user more information about the organisation in relation to its strategy in the areas of quality, sourcing of ingredients, recycling and philanthropy.
-    
-      ![Company Ideals](documentation/supp-images/f04-company-ideals.png)
 
 - __F05 Footer__
 
