@@ -54,13 +54,13 @@ The main requirements of this project are to build a responsive and static front
 
 ### Existing Features
 
--   Navigation Bar
+-   **Navigation Bar**
 
     - The navigation bar has a consistent look and placement on all five pages of the website supporting easy navigation.
     <br>
       It includes a simple Logo, HOME, USAGE, RARE AMBER, GIFRS and CONTACT ME links and is responsive on multiple screen sizes.  
     <br>     
-    - *On a large* screens tabs for all pages are visible;
+    -  *On a large* screens tabs for all pages are visible;
     
       ![Navbar](./assets/image/readme_page/navbar_large_screen_acrive.webp)
     - *Active page* tab is identified as a button of orange colour;
@@ -75,7 +75,7 @@ The main requirements of this project are to build a responsive and static front
     
       ![Navbar](./assets/image/readme_page/navbar_medium_screen_navigating.webp)
 
--   The Landing Page Animated panels and call to action
+-   **The Landing Page Animated panels and call to action**
 
     - Home Page has been equipped with three side-by-side animated (expanding on hover) panels. These panels are: USAGE, RARE AMBER and GIFTS. Panels are serving not just as a visual fixture, but thematically linked to relevant pages and can be used as navigation points to these pages. There is cursor pointer on hover to guide a user.
 
@@ -84,10 +84,22 @@ The main requirements of this project are to build a responsive and static front
     ![Landing Area](./assets/image/readme_page/animated_panels.webp) 
     <img scr="./assets/image/readme_page/animated_panels.webp" width="75%">
 
--   Logo
+-   **Logo**
 
     - **Discover Amber** - website Logo has been linked to home page for user convenience.   
     - The Logo **Discover Amber** in connection with Landing Page **animated panels**, occupying the central part of the screen, together are eye-catching call to action to go ahead and explore.  
+
+-   **Gifts Page Image Gallery**
+![Gallery](./assets/image/readme_page/gifts_page_gallery.webp)
+<img scr="./assets/image/readme_page/gifts_page_gallery" width="60%">
+![Gallery](./assets/image/readme_page/gifts_page_gallery_1.webp)
+-   **Back-to-top button** on Gifts Page
+![Gallery](./assets/image/readme_page/gifts_gallery_top_btn.webp)
+-   **Footer**
+
+
+
+
 
 <br>
 <br>
@@ -98,13 +110,7 @@ The main requirements of this project are to build a responsive and static front
       
     
 
--   __F02 Landing Page image and call to action__
 
-    - The landing area includes a photograph and a text overlay that together clearly identify the purpose of the business and the type of product it sells.  The citrus colours and 'welcome' message are intended to be appealing to the user and convey a sense of health, freshness and friendliness.
-
-    - A large bright "See Our Menu" button is placed central to the screen as an eye-catching call to action which gives the user an obvious quick route to the menu page.
-
-      ![Landing Area](documentation/supp-images/f02-landing.png)
 
 - __F03 Tagline__
 
