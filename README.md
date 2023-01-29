@@ -106,23 +106,14 @@ The main requirements of this project are to build a responsive and static front
 
 -   **Footer**
 
-
-
-
-
-
-
+    - For consistancy and intuativeness of brousing, as expected by user, **footer** has been placed at the bottom of all six pages (that including "Error" 404 page).
+      - Footer provides user with an oportunity to follow the website on social media platforms.
+      - Also, footer displays ways to contact website owner.
+      - At the very bottom part of the footer has been placed a **disclaimer** stating that the website is created strictly for educational purposes as a part of Full Stack Development Cours with Code Institute. This is to indicate that this is not a 'real' website and no materials (images, text, information, etc.) obtained from the various Internet resourses under no surcomstances are going to be used for the comersial purpouses.   
 <br>
 <br>
 <br>
-<br>
-    
-
-      
-    
-
-
-
+<br>    
 - __F05 Footer__
 
     - The footer is featured on all three pages and is identical on each page making it easy to use.  It contains three sections :
@@ -133,15 +124,9 @@ The main requirements of this project are to build a responsive and static front
 
         - Stay in Touch - this area has links to social media sites associated with the organisation encouraging the user to keep connected.  The links will open in a new tab to allow easy navigation for the user. The organisation can use these sites to promote brand awareness and keep customers interested through updates, offers, chats and other marketing efforts. (As THRIVE is a ficticious company, the links currently just go to the social media main websites.)
 
-      ![Footer](documentation/supp-images/f05-footer.png)
+      ![Footer](./assets/image/readme_page/footer.webp) 
 
-- __F06 Menu Page - 'Carte' section__
 
-    - The menu page gives a list of the products that can be purchased at THRIVE.  For ease of use and clarity for the user the products have been split into three panels, one for 'Fresh Juices', one for 'Smoothies', and the third for 'Healthy Snacks and Hot Drinks'.  Pricing and ingredients are also shown.
-    
-    - For ease of use, a consistent look and feel is maintained through the use of the same background image as is used for the landing image on the main page, and in applying the same background colour to the menu panels as is used on the overlay text area on the main page.  Text colour is kept simple for readability and to minimise distraction.
-
-       ![Menu Page](documentation/supp-images/f06-menu.png)
 
 
 - __F07 Contact Page - 'Contact Us'__
