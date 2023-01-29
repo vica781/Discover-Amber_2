@@ -20,11 +20,27 @@ The main requirements of this project are to build a responsive and static front
 * [Deployment](#deployment)
 * [Credits](#credits)
 
-## User Experience (UX)
+# User Experience (UX)
 
--   ### USER STORIES
+### Ideal User Demographic
 
-    -   #### First Time Visitor Goals
+**THE IDEAL USER FOR THIS WEBSITE IS:**
+* <ins>New user:</ins>
+1. People who appreciate the beauty of natural materials, specifically amber
+2. Jewellery enthusiasts who are interested in the uses of amber in art, jewellery and different industries   
+3. Collectors of amber or other natural fossils
+4. Someone who searching for inspirational idea for a present
+5. Students of arts and crafts, science or geology
+6. This site can be used by English speaking tourists visiting Kaliningrad Region of Russia located on a Baltic sea.
+   <br>The Kaliningrad Amber Combine is the only official amber mine in Russia and accounts for 65% of the global amber market. 
+   <br>Region holds 90% of the world's extractable amber. 
+* Current user
+* Returning user   
+
+## **USER STORIES**
+### CURRENT USER GOALS
+
+####  <ins>First Time Visitor Goals</ins>
     
    Idealy, as a new user I want to be able to:
 1. Experience easy and intuitive navigation through the site and access the information required.
@@ -39,7 +55,8 @@ The main requirements of this project are to build a responsive and static front
 10. Learn about the significance of Kaliningrad Region of Russia in the global amber market.
 11. Understand the importance of amber in the fields of arts, crafts, science and geology.
       
-    -   #### Returning Visitor Goals
+  ### <ins>Returning Visitor Goals</ins>
+
    As a current user I want to be able to:
 1. Discover the various uses of amber in different industries, art and jewellery 
 2. Understand the unique characteristics of amber and learn about rare types
@@ -50,7 +67,7 @@ The main requirements of this project are to build a responsive and static front
 7. I would like to be able easily navigate to content or retrieve my steps to information I have previously viewed within a small number of steps.
 8. Also, as a current user, I would appreciate ability of contact points in case I have queries or want to communicate for any reason.
 
-## Features
+##  **FEATURES**
 
 ### Existing Features
 
@@ -77,7 +94,7 @@ The main requirements of this project are to build a responsive and static front
     
       ![Navbar](./assets/image/readme_page/navbar_medium_screen_navigating.webp)
 
--   **The Landing Page Animated panels and call to action**
+-   **The Landing Page Animated panels, Logo and call to action**
 
     - Home Page has been equipped with three side-by-side animated (expanding on hover) panels. These panels are: USAGE, RARE AMBER and GIFTS. Panels are serving not just as a visual fixture, but thematically linked to relevant pages and can be used as navigation points to these pages. There is cursor pointer on hover to guide a user.
 
@@ -109,19 +126,24 @@ The main requirements of this project are to build a responsive and static front
     - For consistancy and intuativeness of brousing, as expected by user, **footer** has been placed at the bottom of all six pages (that including "Error" 404 page).
       - Footer provides user with an oportunity to follow the website on social media platforms.
       - Also, footer displays ways to contact website owner.
-      - At the very bottom part of the footer has been placed a **disclaimer** stating that the website is created strictly for educational purposes as a part of Full Stack Development Cours with Code Institute. This is to indicate that this is not a 'real' website and no materials (images, text, information, etc.) obtained from the various Internet resourses under no surcomstances are going to be used for the comersial purpouses.   
+      - At the very bottom part of the footer has been placed a **disclaimer** stating that the website is created strictly for educational purposes as a part of Full Stack 
+        Development Cours with Code Institute. This is to indicate that this is not a 'real' website and no materials (images, text, information, etc.) obtained from the various Internet resourses under no surcomstances are going to be used for the comersial purpouses.   
 
      ![Footer](./assets/image/readme_page/footer.webp)
-<br>
-<br>
-<br>
-<br>    
 
-- __F07 Contact Page - 'Contact Us'__
+-   **Contact Me Page**
 
-    - The 'Contact Us' panel of the Contact page allows the user to send a message/give feedback to the company and if they want, sign up to the company mailing list to get discount codes and offers.  The user is asked to provide their name and email address when sending a message.  By default, the option to join the mailing list is set to 'no' - to prevent them accidentally signing up for the mailing list and getting unwanted email.  Sending the message will result in a new tab showing the results (at the moment the user is simply shown the formdump.codeinstitute.net page with the data they submitted displayed)
+      - The 'Send Me a messagr' from of the Contact Me page allows the user to send a message or give feedback.
+        - The user is asked to provide their name, email address and telephon number.
+        - Sending the message will result in a new tab showing the results (at the moment the user is simply shown the formdump.codeinstitute.net page with the data they 
+          submitted displayed)
+        
+    ![Send me a message](./assets/image/readme_page/comtactme_form.webp)
 
-      ![Contact Us](documentation/supp-images/f07-contact-us.png)
+
+
+
+
 
 - __F08 Contact Page - 'How to Find Us'__
 
@@ -135,6 +157,12 @@ The main requirements of this project are to build a responsive and static front
     - The User Stories in the [User Experience (UX)](#user-experience-ux) part of this document are numbered and categorised into groups A (first time visitor), B (returning visitor) and C (frequent visitor).  The existing features are listed above as F01 to F08.  Below is a traceability matrix cross-referencing the user stories with the features, illustrating which features support which stories :
 
     ![User Story Feature Matrix](documentation/supp-images/us-feat-matrix.png)
+
+
+
+
+
+
 
 ### Features which could be implemented in the future
 
@@ -305,24 +333,7 @@ The main requirements of this project are to build a responsive and static front
 <br>
 
 
-[Back to top ⇧](#smiling-depression)
 
-## UX
-### Ideal User Demographic
-**THE IDEAL USER FOR THIS WEBSITE IS:**
-* Current user
-* <ins>New user:</ins>
-1. People who appreciate the beauty of natural materials, specifically amber
-2. Jewellery enthusiasts who are interested in the uses of amber in art, jewellery and different industries   
-3. Collectors of amber or other natural fossils
-4. Someone who searching for inspirational idea for a present
-5. Students of arts and crafts, science or geology
-6. This site can be used by English speaking tourists visiting Kaliningrad Region of Russia located on a Baltic sea.
-   <br>The Kaliningrad Amber Combine is the only official amber mine in Russia and accounts for 65% of the global amber market. 
-   <br>Region holds 90% of the world's extractable amber. 
-
-### User-Stories
-#### **CURRENT USER GOALS**
 
 
 
