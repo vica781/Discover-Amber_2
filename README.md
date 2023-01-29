@@ -164,16 +164,22 @@ The main requirements of this project are to build a responsive and static front
 
    ![History_Page](./assets/image/readme_page/issues/history.png)    
 
+- **Scrolling Background** - I would like to learn how to stop background to scroll behind 'hamburger' menu when the latter is in use. I have studied some resources and tried to implement few suggestions, but the issue is still remaining.
+
+   ![scrolling_background](./assets/image/readme_page/issues/scrolling_background.png) 
+
+- **Language Button** - there are few reasons I would liked to add a Language button to my website:
+  - Amber is mined in many regions of the world, but the largest deposit is in the Baltic Sea, in the Kaliningrad region. The Kaliningrad Amber Combine is the only official amber mine in Russia and accounts for 65% of the global amber market. Region holds 90% of the world's extractable amber. It is also a popula tourist region and widely visited by tourists from many countries, the local users can find the website useful and interisting. 
+  
+  - Perhaps, it would be benefisual to the users from other non-English speaking countries to be able to have choice of a language.
+  
+  - As a bilingual speaker, I am proud of my roots and love my first languageand. English is not my first language and I would like to share my progress in this Course with my 
+  family and freinds, but not all of them are fluent in English.
+
+    
+         
 
 
-
-
-- __Company Timeline__
-    - A 'Company Timeline' page could be added to provide more information on the evolution of the business for users who would like to know more about the origins of the company, its ethos and its involvement with the community.
-
-- __Navigation bar improvements__
-    - The functionality of the navigation bar could be extended to make it "sticky" so that it would be available to the user without scrolling.
-    - A hamburger menu could be implemented to save space on smaller screens.
 
 
 
