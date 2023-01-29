@@ -159,6 +159,11 @@ The main requirements of this project are to build a responsive and static front
    
    ![favicon_logo](./assets/image/readme_page/issues/favicon_logo_discover_amber_issue_2.webp)
 
+- **History Page** - the original design of the website, till last few days before the Project dead line, contained four animated panels on the Landing Page. Realising that I over estimated my abilities, experience and personal circumstances, I had to take note of advice and 'cut down' on the volume of the website. As the History Page was not quite finished, I made a decision to save it for the later development. The page originally meant to contain natural history of the amber, physical and chemical properties; information about amber inclusions and value they present to the modern scientist.
+   ![Histori_Page](./assets/image/readme_page/issues/history_home.png)
+
+   ![History_Page](./assets/image/readme_page/issues/history.png)    
+
 
 
 
