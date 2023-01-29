@@ -89,7 +89,10 @@ The main requirements of this project are to build a responsive and static front
     - **Discover Amber** - website Logo has been linked to home page for user convenience.   
     - The Logo **Discover Amber** in connection with Landing Page **animated panels**, occupying the central part of the screen, together are eye-catching call to action to go ahead and explore.  
 
-
+<br>
+<br>
+<br>
+<br>
     
 
       
