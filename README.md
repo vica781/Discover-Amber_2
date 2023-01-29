@@ -169,7 +169,7 @@ The main requirements of this project are to build a responsive and static front
    ![scrolling_background](./assets/image/readme_page/issues/scrolling_background.png) 
 
 - **Language Button** - there are few reasons I would liked to add a Language button to my website:
-  - Amber is mined in many regions of the world, but the largest deposit is in the Baltic Sea, in the Kaliningrad region. The Kaliningrad Amber Combine is the only official amber mine in Russia and accounts for 65% of the global amber market. Region holds 90% of the world's extractable amber. It is also a popula tourist region and widely visited by tourists from many countries, the local users can find the website useful and interisting. 
+  - Amber is mined in many regions of the world, but the largest deposit is on the Baltic Sea, in the Kaliningrad region. The Kaliningrad Amber Combine is the only official amber mine in Russia and accounts for 65% of the global amber market. Region holds 90% of the world's extractable amber. Also, it is a popula tourist region and widely visited by tourists from many countries, the local users can find the website useful and interisting too. 
   
   - Perhaps, it would be benefisual to the users from other non-English speaking countries to be able to have choice of a language.
   
