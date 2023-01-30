@@ -308,7 +308,7 @@ img {
     padding: .5rem 0 .5rem 0;
 }
 
-#rare_h2 {
+.rare_h2 {
     /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Oswald', sans-serif;
     font-size: 2rem;
@@ -1148,7 +1148,7 @@ h3~p {
         font-weight: 400;
     }
 
-    #rare_h2 {
+    .rare_h2 {
         /* font-family: 'Montserrat', sans-serif; */
         font-family: 'Oswald', sans-serif;
         font-size: 1.5rem;
@@ -1404,7 +1404,7 @@ h3~p {
         font-weight: 400;
     }
 
-    #rare_h2 {
+    .rare_h2 {
         font-size: 1.2rem;
         font-weight: 400;
     }
