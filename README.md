@@ -40,7 +40,7 @@ The main requirements of this project are to build a responsive and static front
 ## **USER STORIES**
 ### CURRENT USER GOALS
 
-####  <ins>First Time Visitor Goals</ins>
+###  <ins>First Time Visitor Goals</ins>
     
    Idealy, as a new user I want to be able to:
 1. Experience easy and intuitive navigation through the site and access the information required.
@@ -176,23 +176,15 @@ The main requirements of this project are to build a responsive and static front
 - **Usage Page** - taking in concideration the aim of this project and the time given, I have only mentioned a tiny fraction of the areas where humans found aplication for amber. There is still so much I would like to share with the user. Amber has been used by humans since ancient times. It is studied by geologists, palaeontologists and geochemists. The use of amber in medicine, cosmetology, pharmacology and perfume industry deserves a separate website! Also, there are many legends and folks’ stories about the amber.
 
 - **Gifts Page** - perhaps, can be improved as well be providing user with the links to the websites where they can find products displayed in the gallery.
-
-
-
-
-    
-         
-
-
-
-
-
-
-
-## Design
+      
+## **DESIGN**
 
 -   ### Imagery
-    -   The hero and large background images have been chosen because they are eye-catching, fresh and bright.  The citrus and light pastel colours in the images were chosen to help convey a sense of energy, health and freshness.  The images depict fruit to align with the main business goal of selling juices and smoothies and were chosen for their "simplicity" (- e.g. a single type of fruit or repeating theme) to help keep the site clear and easy to use.
+
+    -  The images for the *Landing Page* 
+    
+    
+    The hero and large background images have been chosen because they are eye-catching, fresh and bright.  The citrus and light pastel colours in the images were chosen to help convey a sense of energy, health and freshness.  The images depict fruit to align with the main business goal of selling juices and smoothies and were chosen for their "simplicity" (- e.g. a single type of fruit or repeating theme) to help keep the site clear and easy to use.
 
 -   ### Colour Scheme
     -  A citrus/pastel palette was chosen to convey a fresh, energetic mood.  The colours picked were inspired by a palette from [Lily Bug Design](https://www.lilybugdesign.co.nz/colour-wall)
