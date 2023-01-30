@@ -1,6 +1,6 @@
 <h1 align="center">DISCOVER AMBER</h1>
 
-[View the live project here](https://elainebroche-dev.github.io/ms1-thrive/)
+[View the live project here](https://vica781.github.io/Discover-Amber_2/)
 
 Welcome to my website **Discover Amber** dedicated to promoting awareness about the beauty and value of amber! Amber is a natural fossilized resin that has been prized for thousands of years for its warm, golden colour and unique inclusions. My website is dedicated to providing accurate and informative information about this fascinating material, including its uses in art, jewellery and different industries; rare types. Whether you're a collector, students of arts and crafts, science or geology, or simply someone who appreciates the beauty of nature, I hope you'll find something of interest on this site. 
 
@@ -328,7 +328,7 @@ Also, I would like to address the following:
 - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment
 - Any changes pushed to the master branch will take effect on the live project
 
-  The live link can be found here - [THRIVE Juices and Smoothies](https://elainebroche-dev.github.io/ms1-thrive/index.html) 
+  The live link can be found here - [DISCOVER AMBER](https://vica781.github.io/Discover-Amber_2/) 
 
 ### How to clone the repository
 
