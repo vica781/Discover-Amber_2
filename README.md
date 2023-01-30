@@ -233,7 +233,7 @@ Also, I would like to address the following:
     ![Wireframe_Contact Me](./assets/image/readme_page/wareframe_contact%20me%20page.png) 
 
     - I have researched most popular wireframe building platforms available (Balsamiq, Axure, Sketch, Adobe XD, Figma, InVision Studio, Moqups, UXPin, Marvel App and
-      Justinmind) and spent hours in an attempt to build my website mock-up, wireframes and website logo. In the end, I have just abundant the idea promising myself that I will master it in less stressful and time pushing environment.
+      Justinmind) and spent hours in an attempt to build my website mock-up, wireframes and website logo. In the end, I have just abundant the idea promising myself that I will master it in a less stressful and time pushing environment.
     
     ![Fifma_attempt](./assets/image/readme_page/wareframe_front%20page_figma.webp)
 
