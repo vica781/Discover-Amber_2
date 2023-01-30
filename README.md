@@ -256,7 +256,6 @@ Also, I would like to address the following:
 -   [WebP Converter:](https://www.freeconvert.com/webp-converter) was used to convert images to webp.
 -   [Figma:](https://www.figma.com/login) was used in unsuccessful attempt to creat wireframes and website logo
     
-
 ## Testing
 
 ### Validator Testing
@@ -264,12 +263,18 @@ Also, I would like to address the following:
 - [HTML Validator](https://validator.w3.org/)
 
     - result for index.html
-      ![HTML results index](documentation/validation-results/html-validation-result-1.png)
-    - result for menu.html
-      ![HTML results menu](documentation/validation-results/html-validation-result-2.png)
+      ![HTML results index](./assets/image/readme_page/validation/validation_index.webp)
+    - result for usage.html
+      ![HTML results usage](./assets/image/readme_page/validation/validation_usage_1.webp)
+      ![HTML results usage](./assets/image/readme_page/validation/validation_usage_2.webp)       
+    - result for rare.html
+      ![HTML results rare](./assets/image/readme_page/validation/validation_rare.webp)
+    - result for gifts.html
+      ![HTML results gifts](./assets/image/readme_page/validation/validation_gifts.webp)
     - result for contact.html
-      ![HTML results contact](documentation/validation-results/html-validation-result-3.png)
-
+      ![HTML results contact](./assets/image/readme_page/validation/validation_contact_1.webp)  
+      ![HTML results contact](./assets/image/readme_page/validation/validation_contact_2.webp)
+       
     - Full validation results are available on github here :
 
         - <a href="https://github.com/elainebroche-dev/ms1-thrive/blob/master/documentation/validation-results/html-validation-results-index.pdf" target="_blank">HTML Results - Home Page</a>
