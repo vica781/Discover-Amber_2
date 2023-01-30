@@ -214,7 +214,7 @@ The main requirements of this project are to build a responsive and static front
     -   At the start of the design I tried to choose fonts Google Fonts manually, but found this approach impractical and time consuming. I can recall that whilst working on Love Running project in one of the videos Google Font had feature of paring fonts. Unfortunately, this function is not available now (as a least, I have not been able to find it); and users have to pick fonts manually. 
     -   My student son did not approve choice of the fonts I made. Therefore, I and my son tried to research the topic of good font choices. Reading through several resources, I liked information provided at Sergei Davidov on Web Design [The_30_Best_Font_Combinations_for_Web_Design_(2022)](https://elementor.com/blog/font-pairing/)
 
-    ![fonts_choice](./assets/image/readme_page/fonts.webp)   
+    ![fonts_choice](./assets/image/readme_page/fonts.webp) <img scr="./assets/image/readme_page/fonts.webp" width="60%">   
 
 
 
