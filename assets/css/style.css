@@ -47,7 +47,7 @@ a #logo-link {
     box-shadow: none;
 }
 
-label.logo {
+.logo {
     color: #252525;
     font-size: 3rem;
     text-transform: uppercase;
@@ -1126,7 +1126,7 @@ h3~p {
         margin-bottom: -.5rem;
     }
 
-    label.logo {
+    .logo {
         font-size: 2.5rem;
         line-height: 75px;
         padding: 0;
@@ -1217,7 +1217,7 @@ h3~p {
 
 /* For smalle screen sizes 600px and down */
 @media (max-width: 600px) {
-    label.logo {
+    .logo {
         font-size: 1.5rem;
         line-height: 75px;
         padding: 0;
@@ -1448,7 +1448,7 @@ h3~p {
         font-family: 'Oswald', sans-serif;
     }
 
-    label.logo {
+    .logo {
         font-size: 2.3em;
         line-height: 75px;
         padding: 0;
