@@ -191,7 +191,7 @@ img {
     margin: 2rem 0 0 1rem;
 }
 
-#usage_h2 {
+.usage_h2 {
     /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Oswald', sans-serif;
     font-size: 2rem;
@@ -1202,7 +1202,7 @@ h3~p {
         font-size: 2rem;
     }
 
-    #usage_h2 {
+    .usage_h2 {
         font-size: 1.5rem;
     }
 
