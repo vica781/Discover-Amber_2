@@ -173,6 +173,12 @@ The main requirements of this project are to build a responsive and static front
   -	Perhaps, it would be beneficial to the users from other non-English speaking countries to be able to have choice of a language.
   -	As a bilingual speaker, I am proud of my roots and love my first language. English is not my first language and I would like to share my progress in this Course with my family and friends, but not all of them are fluent in English.
 
+- **Usage Page** - taking in concideration the aim of this project and the time given, I have only mentioned a tiny fraction of the areas where humans found aplication for amber. There is still so much I would like to share with the user. Amber has been used by humans since ancient times. It is studied by geologists, palaeontologists and geochemists. The use of amber in medicine, cosmetology, pharmacology and perfume industry deserves a separate website! Also, there are many legends and folks’ stories about the amber.
+
+- **Gifts Page** - perhaps, can be improved as well be providing user with the links to the websites where they can find products displayed in the gallery.
+
+
+
 
     
          
