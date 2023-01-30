@@ -228,14 +228,14 @@ Also, I would like to address the following:
 
     - Unfortunately, I don't have a dissent Wireframe to produce on this occasion. This is the best I have got at the moment:
 
-    ![Wireframe_Home](./assets/image/readme_page/wareframe_front%20page.png)
+    ![Wireframe_Home](./assets/image/readme_page/wareframe_front_page.png)
 
-    ![Wireframe_Contact Me](./assets/image/readme_page/wareframe_contact%20me%20page.png) 
+    ![Wireframe_Contact Me](./assets/image/readme_page/wareframe_contact_me_page.png) 
 
     - I have researched most popular wireframe building platforms available (Balsamiq, Axure, Sketch, Adobe XD, Figma, InVision Studio, Moqups, UXPin, Marvel App and
       Justinmind) and spent hours in an attempt to build my website mock-up, wireframes and website logo. In the end, I have just abundant the idea promising myself that I will master it in a less stressful and time pushing environment.
     
-    ![Fifma_attempt](./assets/image/readme_page/wareframe_front%20page_figma.webp)
+    ![Figma_attempt](./assets/image/readme_page/wareframe_front_page_figma.webp)
 
     ![Figma_attempt](./assets/image/readme_page/logo_figma.webp)  
 
