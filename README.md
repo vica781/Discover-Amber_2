@@ -224,21 +224,22 @@ Also, I would like to address the following:
 
     - Though, wireframes are not mandatory in web design but they are widely used as a best practice to help clarify design goals and requirements, improve collaboration between designers and stakeholders, and streamline the design and development process.
     
-    - I fully support and aunderstand that wireframes are important for web design as they provide a visual representation of the layout and structure of a website before it is built, helping to ensure that the end product meets the design goals and requirements.
+    - I fully support and understand that wireframes are important for web design as they provide a visual representation of the layout and structure of a website before it is built, helping to ensure that the end product meets the design goals and requirements.
 
-    - Unfortunatelly, I don't have a dissent Wireframe to produce on this occasion. This is the best I have got at the moment:
+    - Unfortunately, I don't have a dissent Wireframe to produce on this occasion. This is the best I have got at the moment:
 
     ![Wireframe_Home](./assets/image/readme_page/wareframe_front%20page.png)
 
     ![Wireframe_Contact Me](./assets/image/readme_page/wareframe_contact%20me%20page.png) 
 
+    - I have researched most popular wireframe building platforms available (Balsamiq, Axure, Sketch, Adobe XD, Figma, InVision Studio, Moqups, UXPin, Marvel App and
+      Justinmind) and spent hours in an attempt to build my website mock-up, wireframes and website logo. In the end, I have just abundant the idea promising myself that I will master it in less stressful and time pushing environment.
+    
+    ![Fifma_attempt](./assets/image/readme_page/wareframe_front%20page_figma.webp)
 
+    ![Figma_attempt](./assets/image/readme_page/logo_figma.webp)  
 
-
-
-
-
-## Technologies Used
+## **Technologies Used**
 
 ### Languages Used
 
@@ -247,12 +248,13 @@ Also, I would like to address the following:
 
 ### Frameworks, Libraries & Programs Used
 
--   [Google Fonts:](https://fonts.google.com/) was used to import the 'Lato' and 'Oswald' fonts into the style.css file which are used on all pages of the project.
+-   [Google Fonts:](https://fonts.google.com/) was used to import the 'Oswald' and 'Monserrat' fonts into the style.css file which are used on all pages of the project.
 -   [Font Awesome:](https://fontawesome.com/) was used to add icons for aesthetic and UX purposes.
 -   [Git:](https://git-scm.com/) was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
 -   [GitHub:](https://github.com/) is used as the respository for the projects code after being pushed from Git.
 -   [Microsoft Paint 3D:](https://www.microsoft.com/en-us/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab) was used for resizing images and editing photos for the website.
--   [Balsamiq:](https://balsamiq.com/) was used to create the wireframes during the design process.
+-   [WebP Converter:](https://www.freeconvert.com/webp-converter) was used to convert images to webp.
+-   [Figma:](https://www.figma.com/login) was used in unsuccessful attempt to creat wireframes and website logo
     
 
 ## Testing
