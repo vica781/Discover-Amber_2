@@ -181,12 +181,10 @@ The main requirements of this project are to build a responsive and static front
 
 -   ### Imagery
 
-    -  The images for the *Landing Page* 
+    -  The images for the *Landing Page* have been chosen as they are eye-catching, sutable thematically, perfect colour vise and intriguing/inviting to discover what connecting them to amber. These images help to keep page simple, slick and inviting to explore. 
     
-    
-    The hero and large background images have been chosen because they are eye-catching, fresh and bright.  The citrus and light pastel colours in the images were chosen to help convey a sense of energy, health and freshness.  The images depict fruit to align with the main business goal of selling juices and smoothies and were chosen for their "simplicity" (- e.g. a single type of fruit or repeating theme) to help keep the site clear and easy to use.
-
 -   ### Colour Scheme
+
     -  A citrus/pastel palette was chosen to convey a fresh, energetic mood.  The colours picked were inspired by a palette from [Lily Bug Design](https://www.lilybugdesign.co.nz/colour-wall)
 
         ![Colour Palette](documentation/supp-images/citruspalette.png)
