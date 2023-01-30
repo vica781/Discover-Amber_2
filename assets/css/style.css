@@ -207,7 +207,7 @@ img {
 }
 
 #sextant {
-    width: 20rem;
+    width: 21rem;
     height: 15rem;
 }
 
@@ -221,20 +221,17 @@ img {
     height: 25rem;
 }
 
-#microscop,
 #sextant,
-#stradivarius,
 #dog_collar {
+    float: right;
+    margin-left: 1rem;
     margin-bottom: 1rem;
 }
 
-#sextant,
-#dog_collar {
-    margin-left: 1rem;
-}
-
-#microscop {
-    margin-bottom: .5rem;
+#microscop,
+#stradivarius {
+    float:left;
+    margin-bottom: 1rem;    
 }
 
 .using_amber img {
