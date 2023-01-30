@@ -187,11 +187,17 @@ The main requirements of this project are to build a responsive and static front
    
 -   ### Colour Scheme
 
-    -  Amber is a fossilized resin that can vary in colour, ranging from yellow to brown to reddish orange. The colour of amber is influenced by the type of tree it came from and the location where it was formed, as well as other factors such as the presence of impurities and the amount of time it has been exposed to sunlight. Rare amber colours include green, blue, and violet. These colours are caused by the presence of different impurities in the resin, such as iron, copper, or chlorine. Blue and green amber are highly prized for their rarity and beauty. These colours are often found in smaller pieces and are therefore more expensive than the more common yellow to brown ambers.
+    -  Amber is a fossilized resin that can vary in colour, ranging from yellow to brown to reddish orange. The colour of amber is influenced by the type of tree it came from and the location where it was formed, as well as other factors such as the presence of impurities and the amount of time it has been exposed to sunlight. 
+    
+    -  Rare amber colours include green, blue, and violet. These colours are caused by the presence of different impurities in the resin, such as iron, copper, or chlorine. Blue and green amber are highly prized for their rarity and beauty. These colours are often found in smaller pieces and are therefore more expensive than the more common yellow to brown ambers.
 
-    Above facts had influence on my desisions when I was selecting images, spesifically Landing Page onece, desiding on the coloures of navigation bar buttons and 'hamburger' menu background. 
+    Above facts had influence on my decisions when I was selecting images, specifically Landing Page once, deciding on the colours of navigation bar buttons and 'hamburger' menu background.
 
-    Inisially, I have chosen coloures intuitevly. Then, I have used ColorPick Eyedropper and Color Picker from Chrome, and one of the multicoloured amber image to check if my choice was a good one. 
+    ![Colour_Scheme](./assets/image/readme_page/colours_choice_2.webp) 
+
+    ![Colour_Scheme](./assets/image/readme_page/colours_choice_3.webp)
+
+    Initially, I have chosen colours intuitively. Then, I have used ColorPick Eyedropper and Color Picker from Chrome, and image with multicoloured amber to check if my choice was a good one. 
 
     Also, I have used to check my colour palette inspiration by using [ColorSpace-Color_Palettes_Generator_and_Color_Gradient_Tool](https://mycolor.space/?hex=%23E4782B&sub=1)
 
@@ -206,7 +212,7 @@ The main requirements of this project are to build a responsive and static front
 
 
 
-      
+
 -   ### Typography
     -   Google Fonts were used to import Lato and Oswald fonts into styles.css.  These were chosen as they work well together and have a simple, unembellished, modern feel that is easy to read.
 
