@@ -330,13 +330,6 @@ Also, I would like to address the following:
 
   The live link can be found here - [DISCOVER AMBER](https://vica781.github.io/Discover-Amber_2/) 
 
-### How to clone the repository
-
-- Go to the https://github.com/elainebroche-dev/ms1-thrive repository on GitHub 
-- Click the "Code" button to the right of the screen, click HTTPs and copy the link there
-- Open a GitBash terminal and navigate to the directory where you want to locate the clone
-- On the command line, type "git clone" then paste in the copied url and press the Enter key to begin the clone process
- 
 ## Credits 
 
 ### Content 
@@ -355,18 +348,7 @@ Also, I would like to address the following:
 - The icons in the header, footer and on the back of the flip-cards were taken from [Font Awesome](https://fontawesome.com/)
 - The fonts used were imported from [Google Fonts](https://fonts.google.com/)
 
-- All images were downloaded from [Unsplash](https://unsplash.com) :
-
-    - <a href="https://images.unsplash.com/photo-1546548970-71785318a17b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80">Main (hero/landing) image and background image</a> photo by <a href="https://unsplash.com/@brunabranco?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Bruna Branco</a> 
-
-    - <a href="https://unsplash.com/photos/9aOswReDKPo?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink" target="_blank" rel="noopener">Avocado</a> photo by <a href="https://unsplash.com/@thoughtcatalog?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener">Thought Catalog</a>
-
-    - <a href="https://images.unsplash.com/photo-1595475207225-428b62bda831?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" target="_blank" rel="noopener">Watermelon</a> photo by <a href="https://unsplash.com/@amyshamblen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener">Amy Shamblen</a> 
-
-    - <a href="https://images.unsplash.com/photo-1564769610726-59cead6a6f8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=448&q=80" target="_blank" rel="noopener">Sliced oranges</a> photo by <a href="https://unsplash.com/@euniquedeeann?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener">Eunique Deeann</a> 
-
-    - <a href="https://images.unsplash.com/photo-1559181567-c3190ca9959b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80" target="_blank" rel="noopener">Cherries</a> photo by <a href="https://unsplash.com/@picoftasty?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener">Mae Mu</a> 
-
+- All images were downloaded from 
 ### Acknowledgments
 
 - Thank you to my mentor Brian Macharia who gave me very good advice and feedback on how to plan and execute this project and who provided me with lots of pointers on resources to help select colours and images and well as resources to help with coding and testing.

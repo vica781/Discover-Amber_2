@@ -137,9 +137,9 @@ a.active {
 	font-size: 2.8rem;
 	display: block;
 	text-align: center;
-	height: 7rem;
-	line-height: 2.5rem;
-	margin-top: 1rem;
+	height: 6rem;
+	line-height: 2.8rem;
+	margin-top: 2rem;
 	font-family: 'Oswald', sans-serif;
 }
 
@@ -1216,12 +1216,6 @@ h3~p {
 		font-size: 20px;
 	}
 
-	a.active,
-	a:hover {
-		background: none;
-		background: #ee9454;
-	}
-
 	#box a.active {
 		box-shadow: none;
 	}
@@ -1285,9 +1279,10 @@ h3~p {
 		font-size: 1.5rem;
 		display: block;
 		text-align: center;
-		height: 5rem;
-		line-height: 2.5;
-		font-family: 'Oswald', sans-serif;
+		height: 4rem;
+		line-height: 2.3;
+		font-family: 'Oswald', sans-serif;    
+    	margin-top: .7rem;
 	}
 
 	.rareamber-grid {
@@ -1399,11 +1394,12 @@ h3~p {
 /* For medium screen sizes 600px and up */
 @media (min-width: 600px) and (max-width: 800px) {
 	.box>span {
-		font-size: 1.8rem;
+		font-size: 2.2rem;
 		display: block;
 		text-align: center;
 		height: 5rem;
-		line-height: 2.3;
+		line-height: 2.2rem;
+        margin-top: 1.2rem;
 		font-family: 'Oswald', sans-serif;
 	}
 
