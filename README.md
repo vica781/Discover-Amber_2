@@ -182,6 +182,11 @@ The main requirements of this project are to build a responsive and static front
 -   ### Imagery
 
     -  The images for the *Landing Page* have been chosen as they are eye-catching, sutable thematically, perfect colour vise and intriguing/inviting to discover what connecting them to amber. These images help to keep page simple, slick and inviting to explore. 
+
+    -  *Gifts Page* - a special consideration has been given to the images on this page. To follow the general style of the website and continuity, images were chosen on a white background. On it's turn that dictated some styling difficulties. After adding appropriately selected background colour and creating masonry gallery, I have realised that the page looks like ordinary Google search page. The aim was to provide user with unusual, original, exciting (even for the familiar with amber user) and useful information. That is how the idea of the gallery of the images with descriptive information at the back was born.  
+
+
+    
     
 -   ### Colour Scheme
 
