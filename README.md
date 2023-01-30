@@ -199,7 +199,7 @@ The main requirements of this project are to build a responsive and static front
 
     Initially, I have chosen colours intuitively. Then, I have used ColorPick Eyedropper and Color Picker from Chrome, and image with multicoloured amber to check if my choice was a good one. 
 
-    Also, I have used to check my colour palette inspiration by using [ColorSpace-Color_Palettes_Generator_and_Color_Gradient_Tool](https://mycolor.space/?hex=%23E4782B&sub=1)
+    Also, I have used to check my colour palette inspiration by using ColorSpace - Color Palettes [Generator_and_Color_Gradient_Tool](https://mycolor.space/?hex=%23E4782B&sub=1)
 
     ![Colour_Scheme](./assets/image/readme_page/colours_choice.webp)
 
