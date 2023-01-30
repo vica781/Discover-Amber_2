@@ -175,7 +175,7 @@ The main requirements of this project are to build a responsive and static front
 
 - **Usage Page** - taking in concideration the aim of this project and the time given, I have only mentioned a tiny fraction of the areas where humans found aplication for amber. There is still so much I would like to share with the user. Amber has been used by humans since ancient times. It is studied by geologists, palaeontologists and geochemists. The use of amber in medicine, cosmetology, pharmacology and perfume industry deserves a separate website! Also, there are many legends and folks’ stories about the amber.
 
-- **Gifts Page** - perhaps, can be improved as well be providing user with the links to the websites where they can find products displayed in the gallery.
+- **Gifts Page** - perhaps, can be improved as well be providing user with the links to the websites where they can find products displayed in the gallery. Also, due to the many reasons, I was not able to provide every image with the description. Hence, that can be added at a later stage.
       
 ## **DESIGN**
 
@@ -184,16 +184,29 @@ The main requirements of this project are to build a responsive and static front
     -  The images for the *Landing Page* have been chosen as they are eye-catching, sutable thematically, perfect colour vise and intriguing/inviting to discover what connecting them to amber. These images help to keep page simple, slick and inviting to explore. 
 
     -  *Gifts Page* - a special consideration has been given to the images on this page. To follow the general style of the website and continuity, images were chosen on a white background. On it's turn that dictated some styling difficulties. After adding appropriately selected background colour and creating masonry gallery, I have realised that the page looks like ordinary Google search page. The aim was to provide user with unusual, original, exciting (even for the familiar with amber user) and useful information. That is how the idea of the gallery of the images with descriptive information at the back was born.  
-
-
-    
-    
+   
 -   ### Colour Scheme
 
-    -  A citrus/pastel palette was chosen to convey a fresh, energetic mood.  The colours picked were inspired by a palette from [Lily Bug Design](https://www.lilybugdesign.co.nz/colour-wall)
+    -  Amber is a fossilized resin that can vary in colour, ranging from yellow to brown to reddish orange. The colour of amber is influenced by the type of tree it came from and the location where it was formed, as well as other factors such as the presence of impurities and the amount of time it has been exposed to sunlight. Rare amber colours include green, blue, and violet. These colours are caused by the presence of different impurities in the resin, such as iron, copper, or chlorine. Blue and green amber are highly prized for their rarity and beauty. These colours are often found in smaller pieces and are therefore more expensive than the more common yellow to brown ambers.
 
-        ![Colour Palette](documentation/supp-images/citruspalette.png)
+    Above facts had influence on my desisions when I was selecting images, spesifically Landing Page onece, desiding on the coloures of navigation bar buttons and 'hamburger' menu background. 
 
+    Inisially, I have chosen coloures intuitevly. Then, I have used ColorPick Eyedropper and Color Picker from Chrome, and one of the multicoloured amber image to check if my choice was a good one. 
+
+    Also, I have used to check my colour palette inspiration by using [ColorSpace-Color_Palettes_Generator_and_Color_Gradient_Tool](https://mycolor.space/?hex=%23E4782B&sub=1)
+
+    ![Colour_Scheme](./assets/image/readme_page/colours_choice.webp)
+
+    ![Colour_Scheme](./assets/image/readme_page/amber_2.jpg) 
+
+    ![Colour_Scheme](./assets/image/readme_page/colours_choice_1.webp)
+    
+      
+
+
+
+
+      
 -   ### Typography
     -   Google Fonts were used to import Lato and Oswald fonts into styles.css.  These were chosen as they work well together and have a simple, unembellished, modern feel that is easy to read.
 
