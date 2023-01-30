@@ -176,7 +176,11 @@ The main requirements of this project are to build a responsive and static front
 - **Usage Page** - taking in concideration the aim of this project and the time given, I have only mentioned a tiny fraction of the areas where humans found aplication for amber. There is still so much I would like to share with the user. Amber has been used by humans since ancient times. It is studied by geologists, palaeontologists and geochemists. The use of amber in medicine, cosmetology, pharmacology and perfume industry deserves a separate website! Also, there are many legends and folks’ stories about the amber.
 
 - **Gifts Page** - perhaps, can be improved as well be providing user with the links to the websites where they can find products displayed in the gallery. Also, due to the many reasons, I was not able to provide every image with the description. Hence, that can be added at a later stage.
-      
+
+Also, I would like to address following: 
+   - There is corsoure pointer abailable on a screen when using Gifts' Page gallery. That aid user intuitevelly know that there is something to check/click.
+   - Unfortunatelly, when exploring Gifts' Page gallery on a mobile device, there are no obveouse clues that there is the content at the back of some images. 
+         
 ## **DESIGN**
 
 -   ### Imagery
