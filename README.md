@@ -206,15 +206,23 @@ The main requirements of this project are to build a responsive and static front
     ![Colour_Scheme](./assets/image/readme_page/amber_2.jpg) 
 
     ![Colour_Scheme](./assets/image/readme_page/colours_choice_1.webp)
-    
-      
-
-
-
-
-
+   
 -   ### Typography
-    -   Google Fonts were used to import Lato and Oswald fonts into styles.css.  These were chosen as they work well together and have a simple, unembellished, modern feel that is easy to read.
+
+    -   Google Fonts were used to import Oswald and Montserrat fonts into styles.css.  
+    -   These were chosen as they work well together and have a simple, unembellished, modern feel that is easy to read.
+    -   At the start of the design I tried to choose fonts Google Fonts manually, but found this approach impractical and time consuming. I can recall that whilst working on Love Running project in one of the videos Google Font had feature of paring fonts. Unfortunately, this function is not available now (as a least, I have not been able to find it); and users have to pick fonts manually. 
+    -   My student son did not approve choice of the fonts I made. Therefore, I and my son tried to research the topic of good font choices. Reading through several resources, I liked information provided at Sergei Davidov on Web Design [The_30_Best_Font_Combinations_for_Web_Design_(2022)](https://elementor.com/blog/font-pairing/)
+
+    ![fonts_choice](./assets/image/readme_page/fonts.webp)   
+
+
+
+
+
+
+
+
 
 -   ### Wireframes
 
@@ -351,25 +359,3 @@ The main requirements of this project are to build a responsive and static front
 ### Acknowledgments
 
 - Thank you to my mentor Brian Macharia who gave me very good advice and feedback on how to plan and execute this project and who provided me with lots of pointers on resources to help select colours and images and well as resources to help with coding and testing.
-## Site Info
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
