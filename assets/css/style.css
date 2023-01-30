@@ -230,8 +230,8 @@ img {
 
 #microscop,
 #stradivarius {
-    float:left;
-    margin-bottom: 1rem;    
+    float: left;
+    margin-bottom: 1rem;
 }
 
 .using_amber img {
@@ -821,7 +821,6 @@ img {
     min-height: 80vh;
     display: flex;
     flex-wrap: wrap;
-    justify-content: top;
     width: 100%;
     align-content: center;
 }
@@ -927,8 +926,8 @@ button:hover {
 
 input[type='number']::-webkit-inner-spin-button,
 input[type='number']::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 /* FOOTER */
