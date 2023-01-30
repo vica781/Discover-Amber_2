@@ -274,6 +274,10 @@ Also, I would like to address the following:
     - result for contact.html
       ![HTML results contact](./assets/image/readme_page/validation/validation_contact_1.webp)  
       ![HTML results contact](./assets/image/readme_page/validation/validation_contact_2.webp)
+
+
+
+      
        
     - Full validation results are available on github here :
 
