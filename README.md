@@ -32,8 +32,8 @@ The main requirements of this project are to build a responsive and static front
 4. Someone who searching for inspirational idea for a present
 5. Students of arts and crafts, science or geology
 6. This site can be used by English speaking tourists visiting Kaliningrad Region of Russia located on a Baltic sea.
-   <br>The Kaliningrad Amber Combine is the only official amber mine in Russia and accounts for 65% of the global amber market. 
-   <br>Region holds 90% of the world's extractable amber. 
+   The Kaliningrad Amber Combine is the only official amber mine in Russia and accounts for 65% of the global amber market. 
+   Region holds 90% of the world's extractable amber. 
 * Current user
 * Returning user   
 
@@ -220,27 +220,23 @@ Also, I would like to address the following:
 
     ![fonts_choice](./assets/image/readme_page/fonts.webp) <img scr="./assets/image/readme_page/fonts.webp" width="60%">   
 
-
-
-
-
-
-
-
-
 -   ### Wireframes
 
-    -   #### Main Page Wireframes
+    - Though, wireframes are not mandatory in web design but they are widely used as a best practice to help clarify design goals and requirements, improve collaboration between designers and stakeholders, and streamline the design and development process.
+    
+    - I fully support and aunderstand that wireframes are important for web design as they provide a visual representation of the layout and structure of a website before it is built, helping to ensure that the end product meets the design goals and requirements.
 
-        ![Main](documentation/wireframes/index-page.png)
+    - Unfortunatelly, I don't have a dissent Wireframe to produce on this occasion. This is the best I have got at the moment:
 
-    -   #### Menu Page Wireframes
+    ![Wireframe_Home](./assets/image/readme_page/wareframe_front%20page.png)
 
-        ![Menu](documentation/wireframes/menu-page.png)
+    ![Wireframe_Contact Me](./assets/image/readme_page/wareframe_contact%20me%20page.png) 
 
-    -   #### Contact Page Wireframes
 
-        ![Contact](documentation/wireframes/contact-page.png)
+
+
+
+
 
 ## Technologies Used
 
