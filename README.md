@@ -280,7 +280,7 @@ Also, I would like to address the following:
       ![HTML results contact](./assets/image/readme_page/validation/validation_contact_1.webp)  
       ![HTML results contact](./assets/image/readme_page/validation/validation_contact_2.webp)
 
-### Results after highlighted errors were addressed
+### Results after the bugs fixing
    - result for index.html  
      ![HTML results index](./assets/image/readme_page/validation/final_validation/final_validation_index.webp)
      
@@ -316,27 +316,27 @@ Also, I would like to address the following:
     ![Lighthouse results 404](./assets/image/readme_page/validation/lighthouse_testing/lighthouse_404_.webp)
     
     ### Browser Compatibility
-- Testing has been carried out on the following browsers :
+  Testing has been carried out on the following browsers :
     - Chrome ![Browser testing](./assets/image/readme_page/validation/browser_testing/chrome.webp)    
     - Firefox ![Browser testing](./assets/image/readme_page/validation/browser_testing/firefox.webp)
     - Edge ![Browser testing](./assets/image/readme_page/validation/browser_testing/edge.webp)
     - Vivaldi ![Browser testing](./assets/image/readme_page/validation/browser_testing/vivaldi.webp)
     - Brave ![Browser testing](./assets/image/readme_page/validation/browser_testing/brave.webp)
 
-    ### Contact Form testing
-- Testing has been carried out on all input fields of the Contact Form to make sure that all areas marked as 'required' are functioning properly.  
-     ![Contact Form testing](./assets/image/readme_page/validation/contact_form_testing/send_form_2.webp)        
-     ![Contact Form testing](./assets/image/readme_page/validation/contact_form_testing/send_form.webp)
-     ![Contact Form testing](./assets/image/readme_page/validation/contact_form_testing/send_form_1.webp)        
-     ![Contact Form testing](./assets/image/readme_page/validation/contact_form_testing/send_form_3.webp)
-     ![Contact Form testing](./assets/image/readme_page/validation/contact_form_testing/send_form_4.webp)
+    ### Navigation Bar links, Contact Form and Footer icons validation
 
-### Known bugs
+  - Testing has been carried out on all tabs of the menu bar to make sure that active pages displayed correctly, tabs are changing colour on hover during navigation, and links 
+    from the nav tabs are functioning.
+    ![Nav testing](./assets/image/readme_page/validation/validation_gifs/menu_links_test.gif)
 
-- My mentor reported an issue with the "Send Message" button when viewed on an iphone during a review meeting.  Neither of us has since been able to re-create this using the browser dev tools but I am adding an image of the issue here for completeness :
-
-  ![Bug01](documentation/supp-images/bug01-send-message-issue.png)
-
+  - Testing has been carried out on all input fields of the Contact Form to make sure that all areas marked as 'required' are functioning properly.  
+    ![Contact Form testing](./assets/image/readme_page/validation/validation_gifs/form_validation.gif)        
+  
+  - Testing has been carried out on all social media icons of the footer to make sure that all icons are functioning properly and open in a corresponding to the media web site 
+    in a new window.  
+    ![Footer testing](./assets/image/readme_page/validation/validation_gifs/social_media_links_test.gif)
+ 
+     
 ## Deployment
 
 ### How this site was deployed
@@ -351,10 +351,11 @@ Also, I would like to address the following:
 ## CREDITS 
 
 ### Content 
-- Content on the menu page was loosely based on menus on [Jump Juice Bar](https://www.jumpjuicebar.com/menu-nutrition-smoothies/)
-- All other content was written by the developer
+    Most of the content has been researched and put together from the multiple web sites dedicated to amber. All of the information obtained has been translated from Russian language to English and presented by the developer.  
 
 ### Code
+  - The inspiration for the 'hamburder' menu and navigation bar came after warching this video on the YouTube:  
+
 
 
 - Code on how to do the fade-in of the hero image came from information on this page : [CSS Image fade-in tutorial](https://blog.hubspot.com/website/css-fade-in)
