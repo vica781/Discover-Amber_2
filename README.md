@@ -316,11 +316,11 @@ Also, I would like to address the following:
     
     ### Browser Compatibility
 - Testing has been carried out on the following browsers :
-    - Chrome ![Browser testing]()    
-    - Firefox ![Browser testing]()
-    - Edge ![Browser testing]()
-    - Vivaldi ![Browser testing]()
-    - Brave ![Browser testing]()
+    - Chrome ![Browser testing](./assets/image/readme_page/validation/browser_testing/chrome.webp)    
+    - Firefox ![Browser testing](./assets/image/readme_page/validation/browser_testing/firefox.webp)
+    - Edge ![Browser testing](./assets/image/readme_page/validation/browser_testing/edge.webp)
+    - Vivaldi ![Browser testing](./assets/image/readme_page/validation/browser_testing/vivaldi.webp)
+    - Brave ![Browser testing](./assets/image/readme_page/validation/browser_testing/brave.webp)
 
 ### Known bugs
 
