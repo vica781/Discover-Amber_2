@@ -1019,9 +1019,10 @@ h3~p {
 	font-size: 15rem;
 	text-align: center;
 	color: #e77e1b;
+	margin-right: 20rem;
 }
 
-#error_heading>p {
+#error_heading p {
 	position: absolute;
 	font-family: 'Oswald', sans-serif;
 	font-size: 5rem;
@@ -1036,10 +1037,6 @@ h3~p {
 	font-size: 5rem;
 	text-align: center;
 	margin-left: 50rem;
-}
-
-#error_heading>a:hover {
-	text-decoration: underline;
 }
 
 /* MEDIA QUERIES */
