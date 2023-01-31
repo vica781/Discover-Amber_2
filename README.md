@@ -315,13 +315,13 @@ Also, I would like to address the following:
     ![Lighthouse results 404](./assets/image/readme_page/validation/lighthouse_testing/lighthouse_404_.webp)
     
     ### Browser Compatibility
-
 - Testing has been carried out on the following browsers :
-    - Chrome Version 90.0.4430.212 (Official Build) (64-bit)
-    - Firefox Version 88.0.1 (64-bit)
-    - Edge Version 90.0.818.62 (Official build) (64-bit)
-    - Safari on macOS Catalina (Safari  Version 14.0.3)
-    
+    - Chrome ![Browser testing]()    
+    - Firefox ![Browser testing]()
+    - Edge ![Browser testing]()
+    - Vivaldi ![Browser testing]()
+    - Brave ![Browser testing]()
+
 ### Known bugs
 
 - My mentor reported an issue with the "Send Message" button when viewed on an iphone during a review meeting.  Neither of us has since been able to re-create this using the browser dev tools but I am adding an image of the issue here for completeness :
