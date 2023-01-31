@@ -1014,51 +1014,24 @@ h3~p {
 }
 
 /* ERROR PAGE */
-#holding_box {
-	position: relative;
-	height: 35rem;
-	width: 35rem;
-}
-
-#error {
-	position: absolute;
-	color: #e77e1b;
+#error_heading {
 	font-family: 'Oswald', sans-serif;
-	font-size: 11rem;
-	left: 20%;
-	top: 8%;
-}
-
-#far {
-	position: absolute;
-	font-size: 8.5rem;
-	top: 15%;
-	left: 42%;
-	color: #e77e1b;
-}
-
-#error_2 {
-	position: absolute;
-	color: #e77e1b;
-	font-family: 'Oswald', sans-serif;
-	font-size: 11rem;
-	left: 68%;
-	top: 8%;
-}
-
-#error_message {
-	position: absolute;
-	font-family: 'Oswald', sans-serif;
+	font-size: 15rem;
 	text-align: center;
-	font-size: 1.6rem;
-	left: 16%;
-	top: 45%;
-	width: 75%;
+	color: #e77e1b;
 }
 
-#holding_box~a {
-	text-decoration: none;
-	color: #50341a;
+#error_text {
+	font-family: 'Oswald', sans-serif;
+	font-size: 3rem;
+	color: #e77e1b;
+	text-align: center;
+}
+
+#error_heading > a:hover {
+	text-decoration: underline;
+	color: #d8d4d2;
+	font-size: 3rem;
 }
 
 #holding_box a:hover {
