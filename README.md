@@ -255,6 +255,10 @@ Also, I would like to address the following:
 -   [Microsoft Paint 3D:](https://www.microsoft.com/en-us/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab) was used for resizing images and editing photos for the website.
 -   [WebP Converter:](https://www.freeconvert.com/webp-converter) was used to convert images to webp.
 -   [Figma:](https://www.figma.com/login) was used in unsuccessful attempt to creat wireframes and website logo
+-   [Image to WEBP Converter:](https://converter.11zon.com/en/image-to-webp/) was used to convert images to webp.
+-   [CSS Beautifier:](https://www.freeformatter.com/css-beautifier.html#before-output) was used to format (beautify) style.css.
+-   [Image to WEBP Converter:](https://www.freeformatter.com/html-formatter.html#before-output) was used to format (beautify) index.html, usage.html, rare.html, gifts.html, 
+    contact.html and 404.html  
     
 ## Testing
 
@@ -275,17 +279,30 @@ Also, I would like to address the following:
       ![HTML results contact](./assets/image/readme_page/validation/validation_contact_1.webp)  
       ![HTML results contact](./assets/image/readme_page/validation/validation_contact_2.webp)
 
+### Results after highlighted errors were addressed
+   - result for index.html  
+     ![HTML results index](./assets/image/readme_page/validation/final_validation/final_validation_index.webp)
+     
+     - there is still a warning remaining on index.html after the final validation. I was given an instruction by my mentor to change *div* to *section*.
+       I don't have reason to disrespect that instruction/advice.
+ 
+     ![HTML results index](./assets/image/readme_page/validation/final_validation/section_div_instruction.webp)
+     ![HTML results index](./assets/image/readme_page/validation/final_validation/section_div_warning.webp)
 
+   - result for usage.html
+     ![HTML results usage](./assets/image/readme_page/validation/final_validation/final_validation_usage.webp)
+   - result for rare.html  
+     ![HTML results rare](./assets/image/readme_page/validation/final_validation/final_validation_rare.webp)
+   - result for gifts.html 
+     ![HTML results gifts](./assets/image/readme_page/validation/final_validation/final_validation_gifts.webp)
+   - result for contact.html
+     ![HTML results contact](./assets/image/readme_page/validation/final_validation/final_validation_contact_page.webp)  
+   
+    
 
       
        
-    - Full validation results are available on github here :
-
-        - <a href="https://github.com/elainebroche-dev/ms1-thrive/blob/master/documentation/validation-results/html-validation-results-index.pdf" target="_blank">HTML Results - Home Page</a>
-
-        - <a href="https://github.com/elainebroche-dev/ms1-thrive/blob/master/documentation/validation-results/html-validation-results-menu.pdf" target="_blank">HTML Results - Menu Page</a>
-
-        - <a href="https://github.com/elainebroche-dev/ms1-thrive/blob/master/documentation/validation-results/html-validation-results-contact.pdf" target="_blank">HTML Results - Contact Page</a>
+    
 
 - [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
