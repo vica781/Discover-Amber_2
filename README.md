@@ -357,32 +357,21 @@ Also, I would like to address the following:
     Most of the content has been researched and put together from the multiple web sites dedicated to amber. All of the information obtained has been translated from Russian language to English and presented by the developer.  
    
 ### Code
-  - The inspiration for the 'hamburder' menu and navigation bar came after warching this video on the YouTube:
-  ![Nav_Bar_Hamburger](https://www.youtube.com/watch?v=oLgtucwjVII&t=400s)  
+  - The inspiration for the 'hamburger' menu and navigation bar came after warching this video on the YouTube:
+  [Nav_Bar_Hamburger](https://www.youtube.com/watch?v=oLgtucwjVII&t=400s)  
   
-  - The idea of animated panels on the Landing page has been taken from FreeFrontEnd website ![Panels_Landing_Page_Image_Hover_Over_Effect](https://freefrontend.com/css-image-effects/#image-shadow-effects). Crtedits go to Mert Cukuren.
+  - The idea of animated panels on the Landing page has been taken from FreeFrontEnd website [Panels_Landing_Page_Image_Hover_Over_Effect](https://freefrontend.com/css-image-effects/#image-shadow-effects). Crtedits go to Mert Cukuren.
 
-  - The solution for the Gifts Gallery images, also, came from FreeFrontEnd website ![Image_Cards_Hover](https://freefrontend.com/css-cards/). Crtedits go to Luan Manara.
+  - The solution for the Gifts Gallery images, also, came from FreeFrontEnd website [Image_Cards_Hover](https://freefrontend.com/css-cards/). Crtedits go to Luan Manara.
 
-
-
-
-
+  - The images were downloaded from different sources, mainly from the dedicated amber websites, because there are so many, it would be too tedious to list all of them. Though, 
+    I appreciate the rightful ownership of all of them.   
 
 
+###  ACKNOWLEDGEMENTS 
 
+- I would like to thank my mentor Brian Macharia who guided me for his dedication, calmness and useful advices. I believe, that without his help and support I wouldn't be able 
+  to finish this project.
 
-### Media 
-
-
-- The colours used were based on a citrus/pastel palette from this website : [Lily Bug Design - Colour Wall](https://www.lilybugdesign.co.nz/colour-wall) 
-- The icons in the header, footer and on the back of the flip-cards were taken from [Font Awesome](https://fontawesome.com/)
-- The fonts used were imported from [Google Fonts](https://fonts.google.com/)
-
-- All images were downloaded from 
-
-
-### Acknowledgments
-
-- Thank you to my mentor Brian Macharia who gave me very good advice and feedback on how to plan and execute this project and who provided me with lots of pointers on resources to help select colours and images and well as resources to help with coding and testing.
+- I would also like to thank my son Timothy and his friend Sam for usefull tips and testing. 
 
