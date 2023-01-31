@@ -1,3 +1,4 @@
+![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 <h1 align="center">DISCOVER AMBER</h1>
 
 [View the live project here](https://vica781.github.io/Discover-Amber_2/)
@@ -340,20 +341,22 @@ Also, I would like to address the following:
 
 ### How this site was deployed
 
-- In the GitHub repository, navigate to the Settings tab, then choose Pages from the left hand menu 
-- From the source section drop-down menu, select the Master Branch
-- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment
-- Any changes pushed to the master branch will take effect on the live project
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+   - In the GitHub repository, navigate to the Settings tab
+   - From the left side menu select Pages.
+   - From the source section drop-down menu, select the main branch and click on save.
+   - Once the main branch has been selected and saved, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+   - The live link can be found here [DISCOVER AMBER](https://vica781.github.io/Discover-Amber_2/) 
 
-  The live link can be found here - [DISCOVER AMBER](https://vica781.github.io/Discover-Amber_2/) 
-
-## Credits 
+## CREDITS 
 
 ### Content 
 - Content on the menu page was loosely based on menus on [Jump Juice Bar](https://www.jumpjuicebar.com/menu-nutrition-smoothies/)
 - All other content was written by the developer
 
 ### Code
+
+
 - Code on how to do the fade-in of the hero image came from information on this page : [CSS Image fade-in tutorial](https://blog.hubspot.com/website/css-fade-in)
 - Code on how to do a rounded button as seen on the Home page was based on code on : [W3Schools Rounded button tutorial](https://www.w3schools.com/howto/howto_css_round_buttons.asp)
 - Code on how to do the flip-card effect on the Home page was based on example code on : [W3Schools Flip card tutorial](https://www.w3schools.com/howto/howto_css_flip_card.asp)
@@ -361,11 +364,16 @@ Also, I would like to address the following:
 - Code on how to implement flex boxes was based on instructions from [YouTube Flexbox Tutorial](https://www.youtube.com/watch?v=S0a7PEOi0do)
 
 ### Media 
+
+
 - The colours used were based on a citrus/pastel palette from this website : [Lily Bug Design - Colour Wall](https://www.lilybugdesign.co.nz/colour-wall) 
 - The icons in the header, footer and on the back of the flip-cards were taken from [Font Awesome](https://fontawesome.com/)
 - The fonts used were imported from [Google Fonts](https://fonts.google.com/)
 
 - All images were downloaded from 
+
+
 ### Acknowledgments
 
 - Thank you to my mentor Brian Macharia who gave me very good advice and feedback on how to plan and execute this project and who provided me with lots of pointers on resources to help select colours and images and well as resources to help with coding and testing.
+
