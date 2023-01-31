@@ -1037,8 +1037,8 @@ h3~p {
 	margin-left: 50rem;
 }
 
-p {
-	margin-bottom: 30rem;
+#error_text {
+	margin-bottom: 20rem;
 }
 
 /* MEDIA QUERIES */
