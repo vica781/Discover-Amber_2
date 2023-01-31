@@ -327,13 +327,16 @@ Also, I would like to address the following:
 
   - Testing has been carried out on all tabs of the menu bar to make sure that active pages displayed correctly, tabs are changing colour on hover during navigation, and links 
     from the nav tabs are functioning.
+    <br>
     ![Nav testing](./assets/image/readme_page/validation/validation_gifs/menu_links_test.gif)
 
   - Testing has been carried out on all input fields of the Contact Form to make sure that all areas marked as 'required' are functioning properly.  
+    <br> 
     ![Contact Form testing](./assets/image/readme_page/validation/validation_gifs/form_validation.gif)        
   
   - Testing has been carried out on all social media icons of the footer to make sure that all icons are functioning properly and open in a corresponding to the media web site 
     in a new window.  
+    <br>
     ![Footer testing](./assets/image/readme_page/validation/validation_gifs/social_media_links_test.gif)
  
      
@@ -352,9 +355,18 @@ Also, I would like to address the following:
 
 ### Content 
     Most of the content has been researched and put together from the multiple web sites dedicated to amber. All of the information obtained has been translated from Russian language to English and presented by the developer.  
-
+   
 ### Code
-  - The inspiration for the 'hamburder' menu and navigation bar came after warching this video on the YouTube:  
+  - The inspiration for the 'hamburder' menu and navigation bar came after warching this video on the YouTube:
+  ![Nav_Bar_Hamburger](https://www.youtube.com/watch?v=oLgtucwjVII&t=400s)  
+  
+  - The idea of animated panels on the Landing page has been taken from FreeFrontEnd website ![Panels_Landing_Page_Image_Hover_Over_Effect](https://freefrontend.com/css-image-effects/#image-shadow-effects). Crtedits go to Mert Cukuren.
+
+  - The solution for the Gifts Gallery images, also, came from FreeFrontEnd website ![Image_Cards_Hover](https://freefrontend.com/css-cards/). Crtedits go to Luan Manara.
+
+
+
+
 
 
 
