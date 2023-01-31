@@ -1019,19 +1019,24 @@ h3~p {
 	font-size: 15rem;
 	text-align: center;
 	color: #e77e1b;
+	margin-left: 100rem;
 }
 
-#error_text {
+#error_heading > p {
+	position: absolute;
 	font-family: 'Oswald', sans-serif;
 	font-size: 3rem;
 	color: #e77e1b;
 	text-align: center;
+	margin-left: 100rem;
 }
 
 #error_heading > a:hover {
 	text-decoration: underline;
 	color: #d8d4d2;
 	font-size: 3rem;
+	text-align: center;
+	margin-left: 100rem;
 }
 
 #holding_box a:hover {
