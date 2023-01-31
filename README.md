@@ -296,27 +296,17 @@ Also, I would like to address the following:
    - result for gifts.html 
      ![HTML results gifts](./assets/image/readme_page/validation/final_validation/final_validation_gifts.webp)
    - result for contact.html
-     ![HTML results contact](./assets/image/readme_page/validation/final_validation/final_validation_contact_page.webp)  
-   
+     ![HTML results contact](./assets/image/readme_page/validation/final_validation/final_validation_contact_page.webp)       
     
-
-      
-       
-    
-
 - [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
     - result for styles.css 
-      ![CSS results 1](documentation/validation-results/css-validation-result-1.png)
-      ![CSS results 2](documentation/validation-results/css-validation-result-2.png)
+      ![CSS results 1](./assets/image/readme_page/validation/final_validation/final_css_validation.webp)
+      ![CSS results 2](./assets/image/readme_page/validation/final_validation/final_css_validation_warnings.webp)
 
-      The warnings are due to 1) import of the Google fonts and 2) a webkit extension for Safari support of the flip-card effect used on the home page.
+      I used the code shown in the warning to remove up-wards and down-wards pointing arrows in the telephone input field of the form. As these arrows were allowing to increase and decrease values in the input field, which is not appropreate for the telephone numbers. I have obtained the code as a result of extensive research and tried various methods to resolve the issue beforehand.
 
-    - Full validation results are available on github here :
-
-        - <a href="https://github.com/elainebroche-dev/ms1-thrive/blob/master/documentation/validation-results/css-validation-results.pdf" target="_blank">CSS Results - styles.css</a>
-
-### Browser Compatibility
+    ### Browser Compatibility
 
 - Testing has been carried out on the following browsers :
     - Chrome Version 90.0.4430.212 (Official Build) (64-bit)
