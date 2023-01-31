@@ -1037,10 +1037,6 @@ h3~p {
 	margin-left: 50rem;
 }
 
-#error_text {
-	margin-bottom: 20rem;
-}
-
 /* MEDIA QUERIES */
 /* For large screen sizes from 1350px wide and down */
 @media (max-width: 1350px) {
