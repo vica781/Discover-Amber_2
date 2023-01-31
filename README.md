@@ -260,7 +260,7 @@ Also, I would like to address the following:
 -   [Image to WEBP Converter:](https://www.freeformatter.com/html-formatter.html#before-output) was used to format (beautify) index.html, usage.html, rare.html, gifts.html, 
     contact.html and 404.html  
     
-## Testing
+## TESTING
 
 ### Validator Testing
 
@@ -321,6 +321,14 @@ Also, I would like to address the following:
     - Edge ![Browser testing](./assets/image/readme_page/validation/browser_testing/edge.webp)
     - Vivaldi ![Browser testing](./assets/image/readme_page/validation/browser_testing/vivaldi.webp)
     - Brave ![Browser testing](./assets/image/readme_page/validation/browser_testing/brave.webp)
+
+    ### Contact Form testing
+- Testing has been carried out on all input fields of the Contact Form to make sure that all areas marked as 'required' are functioning properly.  
+     ![Contact Form testing](./assets/image/readme_page/validation/contact_form_testing/send_form.webp)    
+     ![Contact Form testing](./assets/image/readme_page/validation/contact_form_testing/send_form_1.webp)
+     ![Contact Form testing](./assets/image/readme_page/validation/contact_form_testing/send_form_2.webp)
+     ![Contact Form testing](./assets/image/readme_page/validation/contact_form_testing/send_form_3.webp)
+     ![Contact Form testing](./assets/image/readme_page/validation/contact_form_testing/send_form_$.webp)
 
 ### Known bugs
 
