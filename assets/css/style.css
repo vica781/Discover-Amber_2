@@ -1019,19 +1019,17 @@ h3~p {
 	font-size: 15rem;
 	text-align: center;
 	color: #e77e1b;
-	margin-left: 50rem;
 }
 
-#error_heading > p {
+#error_heading>p {
 	position: absolute;
 	font-family: 'Oswald', sans-serif;
 	font-size: 5rem;
 	color: #e77e1b;
 	text-align: center;
-	margin-left: 100rem;
 }
 
-#error_heading > a:hover {
+#error_heading>a:hover {
 	position: relative;
 	text-decoration: underline;
 	color: #d8d4d2;
@@ -1040,9 +1038,10 @@ h3~p {
 	margin-left: 50rem;
 }
 
-p a:hover {
+#error_heading>a:hover {
 	text-decoration: underline;
 }
+
 /* MEDIA QUERIES */
 /* For large screen sizes from 1350px wide and down */
 @media (max-width: 1350px) {
